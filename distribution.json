@@ -513,26 +513,6 @@
           }
         },
         {
-          "id": "generated.forgemod:connector:1.0.0-beta.48+1.20.1@jar",
-          "name": "Connector",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 5043870,
-            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/Connector-1.0.0-beta.48+1.20.1.jar",
-            "MD5": "3abc5720b82e8d9f8986f65776b8cfe0"
-          }
-        },
-        {
-          "id": "generated.forgemod:continuity:3.0.0+1.20.1.forge@jar",
-          "name": "Continuity",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 1016666,
-            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/continuity-3.0.0+1.20.1.forge.jar",
-            "MD5": "d14cdccb4b6c161d9846cc8cdf03068e"
-          }
-        },
-        {
           "id": "com.copycatsplus:copycats:3.0.7+mc.1.20.1-forge@jar",
           "name": "Create: Copycats+",
           "type": "ForgeMod",
@@ -720,16 +700,6 @@
             "size": 174387,
             "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/ExplorersCompass-1.20.1-1.4.0-forge.jar",
             "MD5": "6854d97e15c740f8c97740b628ce519e"
-          }
-        },
-        {
-          "id": "net.fabricmc.fabric.impl.sinytra:fabric_api:0.92.6+1.11.14+1.20.1@jar",
-          "name": "Forgified Fabric API",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 3065813,
-            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/fabric-api-0.92.6+1.11.14+1.20.1.jar",
-            "MD5": "2859d401e221e94acf0b48c5f7efa50b"
           }
         },
         {
