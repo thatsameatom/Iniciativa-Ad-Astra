@@ -1,0 +1,29 @@
+{
+	empty_weight: 0
+	filename: "iniciativa_3"
+	hide_tooltip: false
+	icon: "ad_astra:ostrum_ingot"
+	id: "7A00000000000003"
+	loot_crate: {
+		color: 9387335
+		glow: false
+		item_name: "Caja de suministros · III"
+		string_id: "iniciativa_3"
+	}
+	loot_size: 4
+	order_index: 0
+	rewards: [
+		{ count: 4, item: "ad_astra:ostrum_ingot", type: "item", weight: 12 }
+		{ count: 2, item: "ad_astra:desh_block", type: "item", weight: 10 }
+		{ count: 4, item: "ad_astra:desh_plate", type: "item", weight: 9 }
+		{ count: 3, item: "ad_astra:fuel_bucket", type: "item", weight: 9 }
+		{ count: 2, item: "ad_astra:ostrum_plate", type: "item", weight: 7 }
+		{ type: "xp", xp: 200, weight: 8 }
+		{ count: 4, item: "minecraft:redstone_block", type: "item", weight: 6 }
+		{ count: 1, item: "ad_astra:desh_engine", type: "item", weight: 4 }
+		{ count: 4, item: "minecraft:diamond", type: "item", weight: 4 }
+		{ count: 1, item: "ad_astra:ostrum_tank", type: "item", weight: 3 }
+	]
+	title: "Suministros de la Iniciativa · III"
+	use_title: true
+}

@@ -1,0 +1,188 @@
+{
+	default_hide_dependency_lines: false
+	filename: "luna"
+	group: "6A00000000000001"
+	icon: "ad_astra:tier_1_rocket"
+	subtitle: ["384.000 km de silencio. Y una baliza que no calla."]
+	id: "72000000000000C0"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Bitácora 021. Fuera de la atmósfera no hay segundas oportunidades. El traje presurizado es la única frontera entre un operario y el vacío."
+				"Conseguirlo es la primera regla. La única que no admite excepciones."
+			]
+			dependencies: [ "710000000000000B" ]
+			id: "7200000000000001"
+			rewards: [
+				{ id: "7200000000000201", type: "item", item: "ad_astra:oxygen_gear", count: 2 }
+				{ id: "7200000000000202", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ id: "7200000000000101", type: "item", item: "ad_astra:space_suit", count: 1L, consume_items: false }
+			]
+			title: "Presión y vacío"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"El petróleo crudo no levanta nada. La refinería lo convierte en combustible de cohete: el primer aliento real del programa."
+				"El crudo brota de pozos en el fondo de los océanos de la Tierra: bombéalo con cubos y refínalo aquí."
+			]
+			dependencies: [ "7200000000000001" ]
+			id: "7200000000000002"
+			rewards: [
+				{ id: "7200000000000203", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ id: "7200000000000102", type: "item", item: "ad_astra:fuel_refinery", count: 1L, consume_items: false }
+				{ id: "7200000000000103", type: "item", item: "ad_astra:fuel_bucket", count: 1L, consume_items: false }
+			]
+			title: "Refinar combustible"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"La aerodinámica de un cohete se reduce a dos certezas: una punta que corte el aire y aletas que no lo dejen torcerse."
+			]
+			dependencies: [ "7200000000000001" ]
+			id: "7200000000000003"
+			rewards: [
+				{ id: "7200000000000204", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ id: "7200000000000104", type: "item", item: "ad_astra:rocket_nose_cone", count: 1L, consume_items: false }
+				{ id: "7200000000000105", type: "item", item: "ad_astra:rocket_fin", count: 4L, consume_items: false }
+			]
+			title: "Cono y aletas"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Un motor de acero y dos depósitos. Rudimentario, pero suficiente para arañar la órbita baja."
+			]
+			dependencies: [ "7200000000000001" ]
+			id: "7200000000000004"
+			rewards: [
+				{ id: "7200000000000205", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ id: "7200000000000106", type: "item", item: "ad_astra:steel_engine", count: 1L, consume_items: false }
+				{ id: "7200000000000107", type: "item", item: "ad_astra:steel_tank", count: 2L, consume_items: false }
+			]
+			title: "Motor y depósitos"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Bitácora 026. Seis bloques de acero, cuatro aletas, un motor. No es bello. Pero es nuestro, y vuela."
+				"La Iniciativa vuelve a tener un cohete."
+			]
+			dependencies: [ "7200000000000002", "7200000000000003", "7200000000000004" ]
+			id: "7200000000000005"
+			rewards: [
+				{ id: "7200000000000206", type: "item", item: "ad_astra:fuel_bucket", count: 3 }
+				{ id: "7200000000000207", type: "xp", xp: 250 }
+			]
+			tasks: [
+				{ id: "7200000000000108", type: "item", item: "ad_astra:tier_1_rocket", count: 1L, consume_items: false }
+			]
+			title: "Cohete Tier 1"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Un cohete sin plataforma es una bomba. La plataforma es lo que convierte el lanzamiento en una decisión, no en un accidente."
+			]
+			dependencies: [ "7200000000000005" ]
+			id: "7200000000000006"
+			rewards: [
+				{ id: "7200000000000208", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ id: "7200000000000109", type: "item", item: "ad_astra:launch_pad", count: 1L, consume_items: false }
+			]
+			title: "Plataforma de lanzamiento"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Bitácora 030. Coordenadas fijadas. 384.000 kilómetros de nada por delante."
+				"Que conste en el registro: hoy la Iniciativa vuelve al espacio."
+			]
+			dependencies: [ "7200000000000006" ]
+			id: "7200000000000007"
+			rewards: [
+				{ id: "7200000000000209", type: "item", item: "ad_astra:steel_block", count: 4 }
+				{ id: "720000000000020A", type: "xp", xp: 300 }
+			]
+			tasks: [
+				{ id: "720000000000010A", type: "dimension", dimension: "ad_astra:moon" }
+			]
+			title: "Hacia la Luna"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"El regolito esconde desh: más ligero y resistente que el acero. Sin él, no hay un segundo salto."
+			]
+			dependencies: [ "7200000000000007" ]
+			id: "7200000000000008"
+			rewards: [
+				{ id: "720000000000020B", type: "xp", xp: 200 }
+			]
+			tasks: [
+				{ id: "720000000000010B", type: "item", item: "ad_astra:desh_ingot", count: 8L, consume_items: false }
+			]
+			title: "Desh lunar"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Un distribuidor de oxígeno convierte una roca muerta en un lugar donde quedarse. La primera base lunar empieza con una bocanada de aire."
+			]
+			dependencies: [ "7200000000000007" ]
+			id: "7200000000000009"
+			rewards: [
+				{ id: "720000000000020C", type: "xp", xp: 200 }
+			]
+			tasks: [
+				{ id: "720000000000010C", type: "item", item: "ad_astra:oxygen_distributor", count: 1L, consume_items: false }
+			]
+			title: "Aire prestado"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Bitácora 034. Hay una baliza de la Iniciativa en la cara oculta. La dábamos por muerta. No lo está."
+				"Emite. Débil, intermitente — y no hacia la Tierra. Apunta a algo mucho más lejos. Nadie programó eso."
+				"Anota las coordenadas. Sigamos. Por ahora."
+			]
+			dependencies: [ "7200000000000008", "7200000000000009" ]
+			id: "720000000000000B"
+			rewards: [
+				{ id: "72000000000002A0", type: "loot", table_id: 8791026472627208194L }
+				{ id: "720000000000020D", type: "item", item: "ad_astra:desh_plate", count: 4 }
+				{ id: "720000000000020E", type: "xp", xp: 300 }
+			]
+			tasks: [
+				{ id: "720000000000010D", type: "checkmark" }
+			]
+			title: "La baliza que no calla"
+			x: 4.5d
+			y: 0.0d
+		}
+	]
+	title: "II · Luna — La primera baliza"
+}

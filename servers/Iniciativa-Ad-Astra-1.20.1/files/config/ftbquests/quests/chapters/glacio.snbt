@@ -1,0 +1,160 @@
+{
+	default_hide_dependency_lines: false
+	filename: "glacio"
+	group: "6A00000000000001"
+	icon: "ad_astra:tier_4_rocket"
+	subtitle: ["Proxima Centauri. Lo que dejó de responder."]
+	id: "76000000000000C0"
+	images: [ ]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Bitácora 078. El calorite al compresor. El último blindaje, para el último salto."
+			]
+			dependencies: [ "750000000000000B" ]
+			id: "7600000000000001"
+			rewards: [
+				{ id: "7600000000000201", type: "xp", xp: 350 }
+			]
+			tasks: [
+				{ id: "7600000000000101", type: "item", item: "ad_astra:calorite_plate", count: 6L, consume_items: false }
+			]
+			title: "Chapas de Calorite"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Casco, motor y depósitos de calorite. El cuarto cohete está hecho para cruzar entre estrellas."
+			]
+			dependencies: [ "7600000000000001" ]
+			id: "7600000000000002"
+			rewards: [
+				{ id: "7600000000000202", type: "xp", xp: 400 }
+			]
+			tasks: [
+				{ id: "7600000000000102", type: "item", item: "ad_astra:calorite_block", count: 6L, consume_items: false }
+				{ id: "7600000000000103", type: "item", item: "ad_astra:calorite_engine", count: 1L, consume_items: false }
+				{ id: "7600000000000104", type: "item", item: "ad_astra:calorite_tank", count: 2L, consume_items: false }
+			]
+			title: "Estructura de Calorite"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Bitácora 082. El cohete interestelar está completo. Capaz de salir del sistema solar."
+				"Lo que ningún humano ha hecho desde que Glacio calló."
+			]
+			dependencies: [ "7600000000000002" ]
+			id: "7600000000000003"
+			rewards: [
+				{ id: "7600000000000203", type: "item", item: "ad_astra:fuel_bucket", count: 8 }
+				{ id: "7600000000000204", type: "xp", xp: 500 }
+			]
+			tasks: [
+				{ id: "7600000000000105", type: "item", item: "ad_astra:tier_4_rocket", count: 1L, consume_items: false }
+			]
+			title: "Cohete Tier 4"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Bitácora 085. Coordenadas de la transmisión venusiana, fijadas. Motores al máximo."
+				"Proxima Centauri. Glacio. Vamos a saber qué pasó."
+			]
+			dependencies: [ "7600000000000003" ]
+			id: "7600000000000004"
+			rewards: [
+				{ id: "7600000000000205", type: "item", item: "ad_astra:calorite_block", count: 6 }
+				{ id: "7600000000000206", type: "xp", xp: 600 }
+			]
+			tasks: [
+				{ id: "7600000000000106", type: "dimension", dimension: "ad_astra:glacio" }
+			]
+			title: "Salto a Proxima"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Bitácora 086. Glacio existe. Hielo, tundra, una atmósfera que se puede respirar."
+				"La Iniciativa estuvo aquí. Hay estructuras. Hay caminos. Y no hay nadie."
+			]
+			dependencies: [ "7600000000000004" ]
+			id: "7600000000000005"
+			rewards: [
+				{ id: "7600000000000207", type: "xp", xp: 400 }
+			]
+			tasks: [
+				{ id: "7600000000000107", type: "checkmark" }
+			]
+			title: "Mundo helado"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Bitácora 088. Llegamos a la fuente de la señal. La misma frecuencia que oímos en la Luna, ahora ensordecedora."
+				"Y bajo ella, una voz. La misma que se cortó en aquella grabación de Venus — aquí no se corta. Repite, sin descanso, una sola palabra: regresad."
+			]
+			dependencies: [ "7600000000000005" ]
+			id: "7600000000000006"
+			rewards: [
+				{ id: "7600000000000208", type: "xp", xp: 500 }
+			]
+			tasks: [
+				{ id: "7600000000000108", type: "checkmark" }
+			]
+			title: "La baliza, de cerca"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Bitácora final. La prisión no guardaba un arma ni una reliquia: guardaba algo que nunca dejó de estar vivo."
+				"Lo que la Iniciativa selló en el hielo llevaba aquí desde antes que las estrellas de este sistema. Por eso borraron las misiones. Por eso la baliza solo sabía decir 'regresad'. No fue un accidente: fue una contención."
+				"Rompimos el sello. Ya no queda informe que escribir — solo una cosa que hacer."
+				"— Que conste, para quien venga después: lo enfrentamos nosotros dos. Iniciativa Ad Astra."
+			]
+			dependencies: [ "7600000000000007" ]
+			id: "760000000000000B"
+			rewards: [
+				{ id: "76000000000002A0", type: "loot", table_id: 8791026472627208198L }
+				{ id: "7600000000000209", type: "item", item: "minecraft:nether_star", count: 1 }
+				{ id: "760000000000020B", type: "item", item: "cataclysm:ancient_metal_ingot", count: 4 }
+				{ id: "760000000000020C", type: "item", item: "cataclysm:music_disc_ancient_remnant", count: 1 }
+				{ id: "760000000000020A", type: "xp", xp: 1000 }
+			]
+			tasks: [
+				{ id: "7600000000000109", type: "advancement", advancement: "cataclysm:kill_remnant", criterion: "ignis" }
+			]
+			title: "Lo que dejó de responder"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Bitácora 090. La señal no venía de una baliza: venía de una prisión. Hielo y metal antiguo, con el sello de la Iniciativa fundido en la puerta."
+				"Lo que dejó de responder no se marchó. Lo encerraron. Y el viejo equipo de reconocimiento de la Iniciativa todavía sirve para hallar lo que se quiso perder."
+			]
+			dependencies: [ "7600000000000006" ]
+			id: "7600000000000007"
+			rewards: [
+				{ id: "7600000000000210", type: "item", item: "explorerscompass:explorerscompass", count: 1 }
+				{ id: "7600000000000211", type: "item", item: "naturescompass:naturescompass", count: 1 }
+				{ id: "7600000000000212", type: "xp", xp: 400 }
+			]
+			tasks: [
+				{ id: "760000000000010A", type: "checkmark" }
+			]
+			title: "La prisión helada"
+			x: 3.0d
+			y: 0.0d
+		}
+	]
+	title: "VI · Glacio — Lo que dejó de responder"
+}

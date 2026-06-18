@@ -1,0 +1,98 @@
+{
+	default_hide_dependency_lines: false
+	filename: "corriente"
+	group: "6B00000000000001"
+	icon: "createaddition:electric_motor"
+	subtitle: ["La rotación movía la planta. La corriente la despierta de verdad."]
+	id: "63000000000000C0"
+	images: [ ]
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Bitácora 12. La rotación movía la planta. La corriente la despierta de verdad."
+				"El alternador convierte giro en electricidad."
+			]
+			dependencies: [ "620000000000000B" ]
+			id: "6300000000000001"
+			rewards: [
+				{ id: "6300000000000201", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ id: "6300000000000101", type: "item", item: "createaddition:alternator", count: 1L, consume_items: false }
+			]
+			title: "Generar"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Conectores y carrete: la primera línea eléctrica de la Iniciativa."
+			]
+			dependencies: [ "6300000000000001" ]
+			id: "6300000000000002"
+			rewards: [
+				{ id: "6300000000000202", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ id: "6300000000000102", type: "item", item: "createaddition:connector", count: 2L, consume_items: false }
+				{ id: "6300000000000103", type: "item", item: "createaddition:copper_spool", count: 1L, consume_items: false }
+			]
+			title: "Tender el cable"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"El acumulador guarda lo que el alternador genera. Energía para cuando el agua no baste."
+			]
+			dependencies: [ "6300000000000002" ]
+			id: "6300000000000003"
+			rewards: [
+				{ id: "6300000000000204", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ id: "6300000000000104", type: "item", item: "createaddition:modular_accumulator", count: 1L, consume_items: false }
+			]
+			title: "Almacenar la carga"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"El motor eléctrico cierra el círculo: electricidad de vuelta a rotación, donde y cuando quieras."
+			]
+			dependencies: [ "6300000000000002" ]
+			id: "6300000000000005"
+			rewards: [
+				{ id: "6300000000000205", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ id: "6300000000000105", type: "item", item: "createaddition:electric_motor", count: 1L, consume_items: false }
+			]
+			title: "Devolver el giro"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Bitácora 16. La misma corriente que mueve la planta alimenta el Energizador de la Iniciativa."
+				"El suelo y las estrellas, por fin, en el mismo circuito."
+			]
+			dependencies: [ "6300000000000003", "6300000000000005" ]
+			id: "630000000000000B"
+			rewards: [
+				{ id: "6300000000000206", type: "xp", xp: 300 }
+				{ id: "6300000000000207", type: "loot", table_id: 8863084066665136131L }
+			]
+			tasks: [
+				{ id: "6300000000000106", type: "item", item: "ad_astra:energizer", count: 1L, consume_items: false }
+			]
+			title: "La red despierta"
+			x: -1.5d
+			y: 0.0d
+		}
+	]
+	title: "El Suelo · III — Corriente"
+}

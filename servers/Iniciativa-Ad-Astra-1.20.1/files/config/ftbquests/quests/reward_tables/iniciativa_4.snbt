@@ -1,0 +1,29 @@
+{
+	empty_weight: 0
+	filename: "iniciativa_4"
+	hide_tooltip: false
+	icon: "ad_astra:calorite_ingot"
+	id: "7A00000000000004"
+	loot_crate: {
+		color: 15171072
+		glow: false
+		item_name: "Caja de suministros · IV"
+		string_id: "iniciativa_4"
+	}
+	loot_size: 5
+	order_index: 0
+	rewards: [
+		{ count: 4, item: "ad_astra:calorite_ingot", type: "item", weight: 12 }
+		{ count: 2, item: "ad_astra:ostrum_block", type: "item", weight: 10 }
+		{ count: 4, item: "ad_astra:ostrum_plate", type: "item", weight: 9 }
+		{ count: 4, item: "ad_astra:fuel_bucket", type: "item", weight: 9 }
+		{ count: 2, item: "ad_astra:calorite_plate", type: "item", weight: 7 }
+		{ type: "xp", xp: 250, weight: 8 }
+		{ count: 2, item: "minecraft:netherite_scrap", type: "item", weight: 5 }
+		{ count: 1, item: "ad_astra:ostrum_engine", type: "item", weight: 4 }
+		{ count: 6, item: "minecraft:diamond", type: "item", weight: 4 }
+		{ count: 1, item: "ad_astra:calorite_tank", type: "item", weight: 3 }
+	]
+	title: "Suministros de la Iniciativa · IV"
+	use_title: true
+}

@@ -1,0 +1,167 @@
+{
+	default_hide_dependency_lines: false
+	filename: "anomalias"
+	group: "6C00000000000001"
+	icon: "cataclysm:ancient_metal_ingot"
+	id: "65000000000000C0"
+	images: [ ]
+	order_index: 10
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Registro clasificado de la Iniciativa, recuperado de un servidor en ruinas."
+				"No es un inventario de recursos: es una lista de cosas que decidieron no tocar. Anomalías. Demasiado peligrosas para industrializar o contener."
+				"Verificar el registro significa una sola cosa: ir a buscarlas."
+			]
+			dependencies: [ "710000000000000B" ]
+			id: "6500000000000001"
+			rewards: [
+				{ id: "6500000000000201", type: "xp", xp: 200 }
+			]
+			tasks: [
+				{ id: "6500000000000101", type: "checkmark" }
+			]
+			title: "El registro"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Anomalía AN-01. Una bestia que duerme bajo la nieve y despierta de muy mal humor. La Iniciativa la marcó como 'fauna hostil singular'."
+				"Confírmala."
+			]
+			dependencies: [ "6500000000000001" ]
+			icon: "mowziesmobs:frostmaw_spawn_egg"
+			id: "6500000000000002"
+			rewards: [
+				{ id: "6500000000000202", type: "item", item: "cataclysm:witherite_ingot", count: 2 }
+				{ id: "6500000000000203", type: "xp", xp: 300 }
+			]
+			tasks: [
+				{ id: "6500000000000102", type: "advancement", advancement: "mowziesmobs:kill_frostmaw", criterion: "frostmaw" }
+			]
+			title: "AN-01 · Coloso de Hielo"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"Anomalía AN-02. Vive en las ciudades hundidas. La Iniciativa perdió tres equipos de buceo antes de cerrar el expediente."
+				"Confírmala."
+			]
+			dependencies: [ "6500000000000001" ]
+			icon: "cataclysm:the_leviathan_spawn_egg"
+			id: "6500000000000003"
+			rewards: [
+				{ id: "6500000000000204", type: "item", item: "cataclysm:black_steel_ingot", count: 2 }
+				{ id: "6500000000000205", type: "xp", xp: 350 }
+			]
+			tasks: [
+				{ id: "6500000000000103", type: "advancement", advancement: "cataclysm:kill_leviathan", criterion: "ignis" }
+			]
+			title: "AN-02 · Leviatán"
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Anomalía AN-03. Sellada en una pirámide del desierto, junto a todo lo que quiso llevarse a la tumba."
+				"Confírmala."
+			]
+			dependencies: [ "6500000000000001" ]
+			icon: "cataclysm:maledictus_spawn_egg"
+			id: "6500000000000004"
+			rewards: [
+				{ id: "6500000000000206", type: "item", item: "cataclysm:cursium_ingot", count: 2 }
+				{ id: "6500000000000207", type: "xp", xp: 350 }
+			]
+			tasks: [
+				{ id: "6500000000000104", type: "advancement", advancement: "cataclysm:kill_maledictus", criterion: "ignis" }
+			]
+			title: "AN-03 · Faraón Maldito"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			description: [
+				"Anomalía AN-04. Arde en el Nether, en una arena construida para contenerla. No funcionó."
+				"Confírmala."
+			]
+			dependencies: [ "6500000000000001" ]
+			icon: "cataclysm:ignis_spawn_egg"
+			id: "6500000000000005"
+			rewards: [
+				{ id: "6500000000000208", type: "item", item: "cataclysm:ignitium_ingot", count: 2 }
+				{ id: "6500000000000209", type: "xp", xp: 400 }
+			]
+			tasks: [
+				{ id: "6500000000000105", type: "advancement", advancement: "cataclysm:kill_ignis", criterion: "ignis" }
+			]
+			title: "AN-04 · Forja Viva"
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Anomalía AN-05. Una ciudadela del Nether colapsada sobre algo que no debería moverse — y se mueve."
+				"Confírmala."
+			]
+			dependencies: [ "6500000000000001" ]
+			icon: "cataclysm:netherite_monstrosity_spawn_egg"
+			id: "6500000000000006"
+			rewards: [
+				{ id: "650000000000020A", type: "item", item: "cataclysm:black_steel_ingot", count: 3 }
+				{ id: "650000000000020B", type: "xp", xp: 450 }
+			]
+			tasks: [
+				{ id: "6500000000000106", type: "advancement", advancement: "cataclysm:kill_monstrosity", criterion: "netheritemonstrosity" }
+			]
+			title: "AN-05 · Masa de Netherita"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Anomalía AN-06. La Iniciativa llegó hasta el End persiguiendo una señal. Encontró un guardián que no deja pasar."
+				"Confírmala."
+			]
+			dependencies: [ "6500000000000001" ]
+			icon: "cataclysm:ender_guardian_spawn_egg"
+			id: "6500000000000007"
+			rewards: [
+				{ id: "650000000000020C", type: "item", item: "cataclysm:enderite_ingot", count: 2 }
+				{ id: "650000000000020D", type: "xp", xp: 500 }
+			]
+			tasks: [
+				{ id: "6500000000000107", type: "advancement", advancement: "cataclysm:kill_ender_guardian", criterion: "enderguardian" }
+			]
+			title: "AN-06 · Guardián del Confín"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Registro verificado. Seis anomalías confirmadas, seis expedientes cerrados por segunda vez."
+				"Queda una entrada. La séptima está tachada y solo conserva tres palabras: 'contenida en Glacio'."
+				"La Iniciativa cazó monstruos por todo el sistema. A uno solo decidió no matar — solo encerrar. Ya sabes cuál."
+				"Por el trabajo: equipo de vuelo de la Iniciativa. Para llegar antes a la próxima."
+			]
+			dependencies: [ "6500000000000002" "6500000000000003" "6500000000000004" "6500000000000005" "6500000000000006" "6500000000000007" ]
+			icon: "ad_astra:jet_suit"
+			id: "650000000000000B"
+			rewards: [
+				{ id: "65000000000020A0", type: "loot", table_id: 8863084066665136133L }
+				{ id: "650000000000020E", type: "item", item: "ad_astra:jet_suit", count: 1 }
+				{ id: "650000000000020F", type: "xp", xp: 1000 }
+			]
+			tasks: [
+				{ id: "6500000000000108", type: "checkmark" }
+			]
+			title: "El registro completo"
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: "El Registro — Anomalías catalogadas"
+}

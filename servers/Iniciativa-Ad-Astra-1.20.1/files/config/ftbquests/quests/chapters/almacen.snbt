@@ -1,0 +1,114 @@
+{
+	default_hide_dependency_lines: false
+	filename: "almacen"
+	group: "6B00000000000001"
+	icon: "toms_storage:ts.storage_terminal"
+	subtitle: ["Una bodega sin inventario es un agujero negro."]
+	id: "62000000000000C0"
+	images: [ ]
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Bitácora 07. Una bodega sin inventario es un agujero negro."
+				"El conector ata todos los cofres en una sola lista."
+			]
+			dependencies: [ "610000000000000B" ]
+			id: "6200000000000001"
+			rewards: [
+				{ id: "6200000000000201", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ id: "6200000000000101", type: "item", item: "toms_storage:ts.inventory_connector", count: 1L, consume_items: false }
+			]
+			title: "Inventario"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Una pantalla, todo el almacén. Buscar deja de ser excavar."
+			]
+			dependencies: [ "6200000000000001" ]
+			id: "6200000000000002"
+			rewards: [
+				{ id: "6200000000000202", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ id: "6200000000000102", type: "item", item: "toms_storage:ts.storage_terminal", count: 1L, consume_items: false }
+			]
+			title: "La terminal"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Cables para extender la red más allá de una sola pared."
+			]
+			dependencies: [ "6200000000000001" ]
+			id: "6200000000000003"
+			rewards: [
+				{ id: "6200000000000203", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ id: "6200000000000103", type: "item", item: "toms_storage:ts.inventory_cable", count: 8L, consume_items: false }
+				{ id: "6200000000000104", type: "item", item: "toms_storage:ts.inventory_cable_connector", count: 1L, consume_items: false }
+			]
+			title: "Cableado"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Craftear desde el almacén entero. La Iniciativa no repite tareas."
+			]
+			dependencies: [ "6200000000000002" ]
+			id: "6200000000000004"
+			rewards: [
+				{ id: "6200000000000205", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ id: "6200000000000105", type: "item", item: "toms_storage:ts.crafting_terminal", count: 1L, consume_items: false }
+			]
+			title: "Fabricación remota"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"El emisor de nivel mantiene las existencias sin que nadie mire."
+			]
+			dependencies: [ "6200000000000002" ]
+			id: "6200000000000005"
+			rewards: [
+				{ id: "6200000000000206", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ id: "6200000000000106", type: "item", item: "toms_storage:ts.level_emitter", count: 1L, consume_items: false }
+			]
+			title: "Automatismo"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Bitácora 11. El almacén ya no tiene paredes: lo llevas en el bolsillo."
+				"La base respira sola."
+			]
+			dependencies: [ "6200000000000004", "6200000000000005" ]
+			id: "620000000000000B"
+			rewards: [
+				{ id: "6200000000000207", type: "xp", xp: 250 }
+				{ id: "6200000000000208", type: "loot", table_id: 8863084066665136130L }
+			]
+			tasks: [
+				{ id: "6200000000000107", type: "item", item: "toms_storage:ts.wireless_terminal", count: 1L, consume_items: false }
+			]
+			title: "Bodega central"
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "El Suelo · II — El almacén"
+}

@@ -1,0 +1,28 @@
+{
+	empty_weight: 0
+	filename: "iniciativa_6"
+	hide_tooltip: false
+	icon: "minecraft:nether_star"
+	id: "7A00000000000006"
+	loot_crate: {
+		color: 11141375
+		glow: true
+		item_name: "Caja de suministros · VI"
+		string_id: "iniciativa_6"
+	}
+	loot_size: 5
+	order_index: 0
+	rewards: [
+		{ count: 3, item: "ad_astra:calorite_block", type: "item", weight: 10 }
+		{ count: 6, item: "ad_astra:calorite_plate", type: "item", weight: 9 }
+		{ count: 8, item: "ad_astra:fuel_bucket", type: "item", weight: 9 }
+		{ count: 2, item: "ad_astra:calorite_tank", type: "item", weight: 7 }
+		{ type: "xp", xp: 500, weight: 8 }
+		{ count: 2, item: "minecraft:netherite_ingot", type: "item", weight: 5 }
+		{ count: 2, item: "ad_astra:calorite_engine", type: "item", weight: 5 }
+		{ count: 2, item: "minecraft:diamond_block", type: "item", weight: 4 }
+		{ count: 1, item: "minecraft:nether_star", type: "item", weight: 2 }
+	]
+	title: "Suministros de la Iniciativa · VI"
+	use_title: true
+}

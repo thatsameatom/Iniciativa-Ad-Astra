@@ -1,0 +1,97 @@
+{
+	default_hide_dependency_lines: false
+	filename: "conexion"
+	group: "6B00000000000001"
+	icon: "create:track_station"
+	subtitle: ["Riel a riel, el yacimiento vuelve a tocar la base."]
+	id: "64000000000000C0"
+	images: [ ]
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Bitácora 17. Riel a riel, el yacimiento vuelve a tocar la base."
+			]
+			dependencies: [ "630000000000000B" ]
+			id: "6400000000000001"
+			rewards: [
+				{ id: "6400000000000201", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ id: "6400000000000101", type: "item", item: "create:track", count: 16L, consume_items: false }
+			]
+			title: "Tender vía"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Una estación es una promesa: aquí siempre llega y sale algo."
+			]
+			dependencies: [ "6400000000000001" ]
+			id: "6400000000000002"
+			rewards: [
+				{ id: "6400000000000202", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ id: "6400000000000102", type: "item", item: "create:track_station", count: 1L, consume_items: false }
+			]
+			title: "Estación"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"El esqueleto de un tren. Los bogies se forman directamente sobre la vía al ensamblar el convoy."
+			]
+			dependencies: [ "6400000000000001" ]
+			id: "6400000000000003"
+			rewards: [
+				{ id: "6400000000000203", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ id: "6400000000000103", type: "item", item: "create:railway_casing", count: 2L, consume_items: false }
+			]
+			title: "Carcasa de tren"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"El silbato del conductor: la Iniciativa vuelve a tener trenes con dueño."
+			]
+			dependencies: [ "6400000000000002", "6400000000000003" ]
+			id: "6400000000000005"
+			rewards: [
+				{ id: "6400000000000204", type: "xp", xp: 200 }
+			]
+			tasks: [
+				{ id: "6400000000000105", type: "item", item: "railways:conductor_whistle", count: 1L, consume_items: false }
+			]
+			title: "El maquinista"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Bitácora 21. Reactivamos los viejos relés de la Iniciativa. Saltan a la primera... pero hay algo más en la señal."
+				"Una frecuencia de fondo que no pusimos nosotros. La misma que, dicen, llega desde muy lejos."
+				"Apuntamos el dato y seguimos. Hay vías que tender."
+			]
+			dependencies: [ "6400000000000005" ]
+			id: "640000000000000B"
+			rewards: [
+				{ id: "6400000000000205", type: "xp", xp: 350 }
+				{ id: "6400000000000206", type: "loot", table_id: 8863084066665136132L }
+			]
+			tasks: [
+				{ id: "6400000000000106", type: "item", item: "waystones:waystone", count: 2L, consume_items: false }
+			]
+			title: "Red de balizas"
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "El Suelo · IV — Conexión"
+}

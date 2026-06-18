@@ -1,0 +1,130 @@
+{
+	default_hide_dependency_lines: false
+	filename: "equipo"
+	group: "6B00000000000001"
+	icon: "sophisticatedbackpacks:iron_backpack"
+	subtitle: ["Un operario carga su propio mundo a la espalda."]
+	id: "61000000000000C0"
+	images: [ ]
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Bitácora de superficie 01. Un operario carga su propio mundo a la espalda."
+				"Empieza por lo básico: una mochila que aguante más de un turno."
+			]
+			dependencies: [ "7100000000000001" ]
+			id: "6100000000000001"
+			rewards: [
+				{ id: "6100000000000201", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ id: "6100000000000101", type: "item", item: "sophisticatedbackpacks:backpack", count: 1L, consume_items: false }
+			]
+			title: "La mochila"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Más capacidad, mismo peso. El cobre de la planta da para la primera mejora."
+			]
+			dependencies: [ "6100000000000001" ]
+			id: "6100000000000002"
+			rewards: [
+				{ id: "6100000000000202", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ id: "6100000000000102", type: "item", item: "sophisticatedbackpacks:copper_backpack", count: 1L, consume_items: false }
+			]
+			title: "Forro de cobre"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Un operario no se agacha a por cada tornillo. La mochila lo recoge sola."
+			]
+			dependencies: [ "6100000000000002" ]
+			id: "6100000000000003"
+			rewards: [
+				{ id: "6100000000000203", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ id: "6100000000000103", type: "item", item: "sophisticatedbackpacks:pickup_upgrade", count: 1L, consume_items: false }
+			]
+			title: "Recolección"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Lo que cae al suelo, vuelve. Nada se queda atrás en una mina."
+			]
+			dependencies: [ "6100000000000002" ]
+			id: "6100000000000004"
+			rewards: [
+				{ id: "6100000000000204", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ id: "6100000000000104", type: "item", item: "sophisticatedbackpacks:magnet_upgrade", count: 1L, consume_items: false }
+			]
+			title: "Imán de campo"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Hierro en las costuras: la mochila de un operario serio."
+			]
+			dependencies: [ "6100000000000002" ]
+			id: "6100000000000005"
+			rewards: [
+				{ id: "6100000000000205", type: "item", item: "sophisticatedbackpacks:upgrade_base", count: 2 }
+				{ id: "6100000000000206", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ id: "6100000000000105", type: "item", item: "sophisticatedbackpacks:iron_backpack", count: 1L, consume_items: false }
+			]
+			title: "Acero a la espalda"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Comer es perder tiempo. La mochila te alimenta mientras trabajas."
+			]
+			dependencies: [ "6100000000000005" ]
+			id: "6100000000000006"
+			rewards: [
+				{ id: "6100000000000207", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ id: "6100000000000106", type: "item", item: "sophisticatedbackpacks:feeding_upgrade", count: 1L, consume_items: false }
+			]
+			title: "Raciones"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Bitácora 06. La mochila de un veterano es su historia: cada compartimento, una costumbre."
+				"Ya estás listo para el campo de verdad."
+			]
+			dependencies: [ "6100000000000005", "6100000000000003", "6100000000000004" ]
+			id: "610000000000000B"
+			rewards: [
+				{ id: "6100000000000209", type: "xp", xp: 200 }
+				{ id: "610000000000020A", type: "loot", table_id: 8863084066665136129L }
+			]
+			tasks: [
+				{ id: "6100000000000107", type: "item", item: "sophisticatedbackpacks:diamond_backpack", count: 1L, consume_items: false }
+			]
+			title: "Equipo de operario"
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+	title: "El Suelo · I — Equipo de campo"
+}

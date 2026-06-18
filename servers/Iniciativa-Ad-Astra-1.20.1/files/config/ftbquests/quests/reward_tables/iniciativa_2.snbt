@@ -1,0 +1,29 @@
+{
+	empty_weight: 0
+	filename: "iniciativa_2"
+	hide_tooltip: false
+	icon: "ad_astra:desh_ingot"
+	id: "7A00000000000002"
+	loot_crate: {
+		color: 12961221
+		glow: false
+		item_name: "Caja de suministros · II"
+		string_id: "iniciativa_2"
+	}
+	loot_size: 4
+	order_index: 0
+	rewards: [
+		{ count: 4, item: "ad_astra:desh_ingot", type: "item", weight: 12 }
+		{ count: 2, item: "ad_astra:steel_block", type: "item", weight: 10 }
+		{ count: 2, item: "ad_astra:fuel_bucket", type: "item", weight: 10 }
+		{ count: 2, item: "ad_astra:oxygen_gear", type: "item", weight: 8 }
+		{ count: 2, item: "ad_astra:desh_plate", type: "item", weight: 7 }
+		{ type: "xp", xp: 150, weight: 8 }
+		{ count: 4, item: "ad_astra:steel_plate", type: "item", weight: 8 }
+		{ count: 8, item: "minecraft:glowstone", type: "item", weight: 6 }
+		{ count: 1, item: "ad_astra:desh_tank", type: "item", weight: 3 }
+		{ count: 3, item: "minecraft:diamond", type: "item", weight: 4 }
+	]
+	title: "Suministros de la Iniciativa · II"
+	use_title: true
+}

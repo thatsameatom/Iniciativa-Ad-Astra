@@ -1,0 +1,3830 @@
+{
+  "version": "1.0.0",
+  "rss": "",
+  "servers": [
+    {
+      "id": "Iniciativa-Ad-Astra-1.20.1",
+      "name": "Iniciativa Ad Astra",
+      "description": "Reconstruir la cadena. Reabrir la ruta a las estrellas.",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "localhost:25565",
+      "minecraftVersion": "1.20.1",
+      "mainServer": true,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.10",
+          "name": "Minecraft Forge (lowcodelanguage)",
+          "type": "ForgeHosted",
+          "classpath": true,
+          "artifact": {
+            "size": 7398,
+            "MD5": "39c68f8be018557068512f16cf3f97fa",
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/repo/lib/net/minecraftforge/lowcodelanguage/1.20.1-47.4.10/lowcodelanguage-1.20.1-47.4.10.jar"
+          },
+          "subModules": [
+            {
+              "id": "1.20.1-47.4.10",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 16554,
+                "MD5": "eede38b0c090f69c7789cd35e753853d",
+                "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/repo/versions/1.20.1-forge-47.4.10/1.20.1-forge-47.4.10.json"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlcore:1.20.1-47.4.10",
+              "name": "Minecraft Forge (fmlcore)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 118913,
+                "MD5": "340eb6124a32dab3bfaea8f1b2f3dd02",
+                "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/repo/lib/net/minecraftforge/fmlcore/1.20.1-47.4.10/fmlcore-1.20.1-47.4.10.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:javafmllanguage:1.20.1-47.4.10",
+              "name": "Minecraft Forge (javafmllanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 16854,
+                "MD5": "1193446859d078e83d9fcc4d8a39f44d",
+                "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/repo/lib/net/minecraftforge/javafmllanguage/1.20.1-47.4.10/javafmllanguage-1.20.1-47.4.10.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:mclanguage:1.20.1-47.4.10",
+              "name": "Minecraft Forge (mclanguage)",
+              "type": "Library",
+              "classpath": true,
+              "artifact": {
+                "size": 4999,
+                "MD5": "13e469f44fc6fff975688c6b18f8e9a1",
+                "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/repo/lib/net/minecraftforge/mclanguage/1.20.1-47.4.10/mclanguage-1.20.1-47.4.10.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.10:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 2777708,
+                "MD5": "f202df135ad32fef7e7c42e957c142af",
+                "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/repo/lib/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.20.1-47.4.10:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 4848366,
+                "MD5": "5c4d8867f3152f9c397859436a06321c",
+                "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/repo/lib/net/minecraftforge/forge/1.20.1-47.4.10/forge-1.20.1-47.4.10-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 18842082,
+                "MD5": "8bfacfba4f54cda741019756165c5ecf",
+                "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 12592249,
+                "MD5": "28edebec7b5a007bc9961ee9bab4d764",
+                "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.20.1-20230612.114412:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 10436626,
+                "MD5": "da6bb1a2c23108392fd6c103da40867c",
+                "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/repo/lib/net/minecraft/client/1.20.1-20230612.114412/client-1.20.1-20230612.114412-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "cpw.mods:securejarhandler:2.1.10",
+              "name": "Minecraft Forge (securejarhandler)",
+              "type": "Library",
+              "artifact": {
+                "size": 88749,
+                "MD5": "d9ff48d1c68388270388b803fa42611e",
+                "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/repo/lib/cpw/mods/securejarhandler/2.1.10/securejarhandler-2.1.10.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm:9.8",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 126113,
+                "MD5": "f5adf3bfc54fb3d2cd8e3a1f275084bc",
+                "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/repo/lib/org/ow2/asm/asm/9.8/asm-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.8",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 73498,
+                "MD5": "c8c3d9ccf240144e74d94ff658b024c9",
+                "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/repo/lib/org/ow2/asm/asm-commons/9.8/asm-commons-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.8",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 51934,
+                "MD5": "4ab1aaec43c77a2d9b56e6d6d496f705",
+                "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/repo/lib/org/ow2/asm/asm-tree/9.8/asm-tree-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.8",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 94559,
+                "MD5": "62498ef324bdab15f407d703f7d78d19",
+                "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/repo/lib/org/ow2/asm/asm-util/9.8/asm-util-9.8.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.8",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 35151,
+                "MD5": "3d63508405f5610fc2ea673ff5471553",
+                "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/repo/lib/org/ow2/asm/asm-analysis/9.8/asm-analysis-9.8.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:8.0.4",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 77756,
+                "MD5": "f0d3533f9437ba4428eaee9f28f7ecd9",
+                "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/repo/lib/net/minecraftforge/accesstransformers/8.0.4/accesstransformers-8.0.4.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:6.0.5",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 53985,
+                "MD5": "2a6245210b446b2144071e71ca13432b",
+                "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/repo/lib/net/minecraftforge/eventbus/6.0.5/eventbus-6.0.5.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:7.0.1",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 29831,
+                "MD5": "bd34d20287dc95201fe9475a8bbc2540",
+                "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/repo/lib/net/minecraftforge/forgespi/7.0.1/forgespi-7.0.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:5.2.4",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 31872,
+                "MD5": "5295505357ba9b98450c5e3121f82191",
+                "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/repo/lib/net/minecraftforge/coremods/5.2.4/coremods-5.2.4.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:10.0.9",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 130343,
+                "MD5": "07507d18d72661f8ae6a5da75bbf35be",
+                "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/repo/lib/cpw/mods/modlauncher/10.0.9/modlauncher-10.0.9.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:mergetool:1.1.5:api",
+              "name": "Minecraft Forge (mergetool)",
+              "type": "Library",
+              "artifact": {
+                "size": 2572,
+                "MD5": "8df9c5bf87d004ddb884eca99bc2a4b1",
+                "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/repo/lib/net/minecraftforge/mergetool/1.1.5/mergetool-1.1.5-api.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.4",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199834,
+                "MD5": "d83ab07267e402131fb93d899a57f5cd",
+                "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/repo/lib/com/electronwill/night-config/core/3.6.4/core-3.6.4.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.4",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31816,
+                "MD5": "bc95d0709fff2164b01fd09fbc988be8",
+                "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/repo/lib/com/electronwill/night-config/toml/3.6.4/toml-3.6.4.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.8.5",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 58077,
+                "MD5": "ce473b0d9fbfd10fe147f03fe8707d67",
+                "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/repo/lib/org/apache/maven/maven-artifact/3.8.5/maven-artifact-3.8.5.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.6.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 18281,
+                "MD5": "d4a375bf382f726cf1a650ccb38a736c",
+                "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/repo/lib/net/jodah/typetools/0.6.3/typetools-0.6.3.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-reader:3.12.1",
+              "name": "Minecraft Forge (jline-reader)",
+              "type": "Library",
+              "artifact": {
+                "size": 150765,
+                "MD5": "a2e7b012cd9802f83321187409174a94",
+                "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/repo/lib/org/jline/jline-reader/3.12.1/jline-reader-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline-terminal:3.12.1",
+              "name": "Minecraft Forge (jline-terminal)",
+              "type": "Library",
+              "artifact": {
+                "size": 211712,
+                "MD5": "3c52be5ab5e3847be6e62269de924cb0",
+                "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/repo/lib/org/jline/jline-terminal/3.12.1/jline-terminal-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.5",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 1089277,
+                "MD5": "19b3a2ae9e445a6e626fd7d1648cfcb8",
+                "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/repo/lib/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar"
+              }
+            },
+            {
+              "id": "org.openjdk.nashorn:nashorn-core:15.4",
+              "name": "Minecraft Forge (nashorn-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 2167292,
+                "MD5": "a9b3360e6a486cf62c1952c7816b7d97",
+                "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/repo/lib/org/openjdk/nashorn/nashorn-core/15.4/nashorn-core-15.4.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarSelector:0.3.19",
+              "name": "Minecraft Forge (JarJarSelector)",
+              "type": "Library",
+              "artifact": {
+                "size": 17374,
+                "MD5": "2bb6cbe0e6c6fbcd8f92d2e6b1ea678e",
+                "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/repo/lib/net/minecraftforge/JarJarSelector/0.3.19/JarJarSelector-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarMetadata:0.3.19",
+              "name": "Minecraft Forge (JarJarMetadata)",
+              "type": "Library",
+              "artifact": {
+                "size": 15895,
+                "MD5": "9633546d299d4282ca68d10582be1c8f",
+                "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/repo/lib/net/minecraftforge/JarJarMetadata/0.3.19/JarJarMetadata-0.3.19.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:bootstraplauncher:1.1.2",
+              "name": "Minecraft Forge (bootstraplauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 8284,
+                "MD5": "48f5255aa337344c467c0150d347813d",
+                "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/repo/lib/cpw/mods/bootstraplauncher/1.1.2/bootstraplauncher-1.1.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:JarJarFileSystems:0.3.19",
+              "name": "Minecraft Forge (JarJarFileSystems)",
+              "type": "Library",
+              "artifact": {
+                "size": 32195,
+                "MD5": "c2be1a88b63eb1b58b00ab6e498cd97d",
+                "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/repo/lib/net/minecraftforge/JarJarFileSystems/0.3.19/JarJarFileSystems-0.3.19.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlloader:1.20.1-47.4.10",
+              "name": "Minecraft Forge (fmlloader)",
+              "type": "Library",
+              "artifact": {
+                "size": 267079,
+                "MD5": "9446521da84ab53aa7a81af82d4e854a",
+                "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/repo/lib/net/minecraftforge/fmlloader/1.20.1-47.4.10/fmlloader-1.20.1-47.4.10.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:fmlearlydisplay:1.20.1-47.4.10",
+              "name": "Minecraft Forge (fmlearlydisplay)",
+              "type": "Library",
+              "artifact": {
+                "size": 170518,
+                "MD5": "828cdcc361baffcdd38d7b7d05c62e35",
+                "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/repo/lib/net/minecraftforge/fmlearlydisplay/1.20.1-47.4.10/fmlearlydisplay-1.20.1-47.4.10.jar"
+              }
+            }
+          ]
+        },
+        {
+          "id": "earth.terrarium.adastra:ad_astra:1.15.20@jar",
+          "name": "Ad Astra",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7508861,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/ad_astra-forge-1.20.1-1.15.20.jar",
+            "MD5": "1ce3f9859fce6a4eac9b7f17e375dfd2"
+          }
+        },
+        {
+          "id": "ad_astra_giselle_addon:ad_astra_giselle_addon:6.21@jar",
+          "name": "Ad Astra: Giselle Addon",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 495315,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/Ad-Astra-Giselle-Addon-forge-1.20.1-6.21.jar",
+            "MD5": "35dbe6c522ed082f5646ff53ca513f9c"
+          }
+        },
+        {
+          "id": "team.creative:ambientsounds:6.3.8@jar",
+          "name": "AmbientSounds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 53429226,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/AmbientSounds_FORGE_v6.3.8_mc1.20.1.jar",
+            "MD5": "dec1c8595667b063e9274d32b32efa5d"
+          }
+        },
+        {
+          "id": "squeek.appleskin:appleskin:2.5.1+mc1.20.1@jar",
+          "name": "AppleSkin",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 47428,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/appleskin-forge-mc1.20.1-2.5.1.jar",
+            "MD5": "dae63cea9c951dda542a4005ceef3953"
+          }
+        },
+        {
+          "id": "dev.architectury:architectury:9.2.14@jar",
+          "name": "Architectury",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 580602,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/architectury-9.2.14-forge.jar",
+            "MD5": "76b40d407b6bf0257dd1dab6d3d395d5"
+          }
+        },
+        {
+          "id": "net.blay09.mods:balm:7.3.38@jar",
+          "name": "Balm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 591397,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/balm-forge-1.20.1-7.3.38-all.jar",
+            "MD5": "499467bc8050be8893b08995438cc026"
+          }
+        },
+        {
+          "id": "earth.terrarium:botarium:2.3.4@jar",
+          "name": "Botarium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 157633,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/botarium-forge-1.20.1-2.3.4.jar",
+            "MD5": "c204f9d834da78a3972fc98da96730aa"
+          }
+        },
+        {
+          "id": "com.abdelaziz:canary:0.3.3@jar",
+          "name": "Canary",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 594191,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/canary-mc1.20.1-0.3.3.jar",
+            "MD5": "1bd8bdb43c190ddc671c5ea0bf3b8cb1"
+          }
+        },
+        {
+          "id": "com.blamejared:clumps:12.0.0.4@jar",
+          "name": "Clumps",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 20299,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/Clumps-forge-1.20.1-12.0.0.4.jar",
+            "MD5": "c9efc71827df6ab51e8dd0e40c3d4975"
+          }
+        },
+        {
+          "id": "generated.forgemod:connector:1.0.0-beta.48+1.20.1@jar",
+          "name": "Connector",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5043870,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/Connector-1.0.0-beta.48+1.20.1.jar",
+            "MD5": "3abc5720b82e8d9f8986f65776b8cfe0"
+          }
+        },
+        {
+          "id": "generated.forgemod:continuity:3.0.0+1.20.1.forge@jar",
+          "name": "Continuity",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1016666,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/continuity-3.0.0+1.20.1.forge.jar",
+            "MD5": "d14cdccb4b6c161d9846cc8cdf03068e"
+          }
+        },
+        {
+          "id": "com.copycatsplus:copycats:3.0.7+mc.1.20.1-forge@jar",
+          "name": "Create: Copycats+",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1996097,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/copycats-3.0.7+mc.1.20.1-forge.jar",
+            "MD5": "47e13c8058d400e4a6316d00f451b29c"
+          }
+        },
+        {
+          "id": "de.maxhenkel:corpse:1.20.1-1.0.23@jar",
+          "name": "Corpse",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 245644,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/corpse-forge-1.20.1-1.0.23.jar",
+            "MD5": "a486f676f5e47e5846e31cb66cb5c16d"
+          }
+        },
+        {
+          "id": "com.hlysine:create_connected:1.2.2-mc1.20.1@jar",
+          "name": "Create: Connected",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6781957,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/create_connected-1.2.2-mc1.20.1-all.jar",
+            "MD5": "36559fc212358f062951691c78550b1a"
+          }
+        },
+        {
+          "id": "plus.dragons.createenchantmentindustry:create_enchantment_industry:1.4.0-for-create-6.0.8@jar",
+          "name": "Create Enchantment Industry",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 494161,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/create_enchantment_industry-1.4.0-for-create-6.0.8.jar",
+            "MD5": "97a32c262007a3c93aba33762df9faba"
+          }
+        },
+        {
+          "id": "com.simibubi:create:6.0.8@jar",
+          "name": "Create",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 19170905,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/create-1.20.1-6.0.8.jar",
+            "MD5": "6ebc5c57638c1678359eac65b924c310"
+          }
+        },
+        {
+          "id": "com.mrh0:createaddition:1.20.1-1.3.3@jar",
+          "name": "Create Crafts & Additions",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1577313,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/createaddition-1.20.1-1.3.3.jar",
+            "MD5": "1c0d2275ead3e4756d77ac5a86f135ab"
+          }
+        },
+        {
+          "id": "com.github.talrey:createdeco:2.0.3-1.20.1-forge@jar",
+          "name": "Create Deco",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3509013,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/createdeco-2.0.3-1.20.1-forge.jar",
+            "MD5": "3e0976b862fd087493c7356f623f5cd7"
+          }
+        },
+        {
+          "id": "dev.mayaqq:createestrogen:1.0.1+1.20.1@jar",
+          "name": "Create: Estrogen",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 270812,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/createestrogen-1.0.1+1.20.1-forge.jar",
+            "MD5": "ff7762092a205c6ab32009cc2a125ac3"
+          }
+        },
+        {
+          "id": "team.creative:creativecore:2.12.38@jar",
+          "name": "CreativeCore",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1144069,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/CreativeCore_FORGE_v2.12.38_mc1.20.1.jar",
+            "MD5": "2dcd30a9a9c1f0cd468915dad15d6401"
+          }
+        },
+        {
+          "id": "net.cristellib:cristellib:1.1.6@jar",
+          "name": "Cristel Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 431318,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/cristellib-1.1.6-forge.jar",
+            "MD5": "b52e8b225a34abab9300049c85f6855a"
+          }
+        },
+        {
+          "id": "top.theillusivec4:curios:5.14.1+1.20.1@jar",
+          "name": "Curios API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 398066,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/curios-forge-5.14.1+1.20.1.jar",
+            "MD5": "2fdcc97cbc66c4b2492b407c792e7159"
+          }
+        },
+        {
+          "id": "dev.mayaqq:cynosure:0.1.16@jar",
+          "name": "Cynosure",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2939970,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/cynosure-0.1.16-forge.jar",
+            "MD5": "314101c4b94796ccbd572ffb4a851341"
+          }
+        },
+        {
+          "id": "net.blay09.mods:defaultoptions:18.0.4@jar",
+          "name": "Default Options",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 94684,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/defaultoptions-forge-1.20.1-18.0.4.jar",
+            "MD5": "2a453bba939907b55d4d7e0c31e6d8ad"
+          }
+        },
+        {
+          "id": "net.lostluma.dynamic_fps.impl:dynamic_fps:3.11.4@jar",
+          "name": "Dynamic FPS",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 402345,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/dynamic-fps-3.11.4+minecraft-1.20.0-forge.jar",
+            "MD5": "f8df69d0af455b6f47acb88ab747d1a3"
+          }
+        },
+        {
+          "id": "me.jellysquid.mods.sodium.client:embeddium:0.3.31+mc1.20.1@jar",
+          "name": "Embeddium",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1320675,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/embeddium-0.3.31+mc1.20.1.jar",
+            "MD5": "1dfb2ee49ce9ad5d484ff3eea0d628b7"
+          }
+        },
+        {
+          "id": "traben.entity_model_features:entity_model_features:3.2.4@jar",
+          "name": "Entity Model Features",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 752458,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/entity_model_features-3.2.4-1.20.1-forge.jar",
+            "MD5": "23e5601dd7e6e2ffab26179e4f5cabeb"
+          }
+        },
+        {
+          "id": "traben.entity_texture_features:entity_texture_features:7.1@jar",
+          "name": "Entity Texture Features",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 944851,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/entity_texture_features_1.20.1-forge-7.1.jar",
+            "MD5": "bb8a57f4e9965654c344854fb45dd540"
+          }
+        },
+        {
+          "id": "dev.mayaqq:estrogen:5.0.8+1.20.1@jar",
+          "name": "Estrogen",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 30221758,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/estrogen-5.0.8+1.20.1-forge.jar",
+            "MD5": "384b47c900b1a4540dd5934adee9e957"
+          }
+        },
+        {
+          "id": "com.chaosthedude:explorerscompass:1.20.1-1.4.0-forge@jar",
+          "name": "Explorer's Compass",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 174387,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/ExplorersCompass-1.20.1-1.4.0-forge.jar",
+            "MD5": "6854d97e15c740f8c97740b628ce519e"
+          }
+        },
+        {
+          "id": "net.fabricmc.fabric.impl.sinytra:fabric_api:0.92.6+1.11.14+1.20.1@jar",
+          "name": "Forgified Fabric API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3065813,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/fabric-api-0.92.6+1.11.14+1.20.1.jar",
+            "MD5": "2859d401e221e94acf0b48c5f7efa50b"
+          }
+        },
+        {
+          "id": "de.keksuccino:fancymenu:3.9.3@jar",
+          "name": "FancyMenu",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 25625609,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/fancymenu_forge_3.9.3_MC_1.20.1.jar",
+            "MD5": "20623d87b19964a6224bc25b740e7e64"
+          }
+        },
+        {
+          "id": "dev.shadowsoffire:fastsuite:5.1.2@jar",
+          "name": "Fast Suite",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 26600,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/FastSuite-1.20.1-5.1.2.jar",
+            "MD5": "efca8ff65bbf93e3a0f776998ee181e9"
+          }
+        },
+        {
+          "id": "malte0811.ferritecore:ferritecore:6.0.1@jar",
+          "name": "Ferrite Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 123034,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/ferritecore-6.0.1-forge.jar",
+            "MD5": "f52f538207a4829d7060550092ce2383"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftblibrary:2001.2.13@jar",
+          "name": "FTB Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 780558,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/ftb-library-forge-2001.2.13.jar",
+            "MD5": "9de2c76938392445e735a98b352da9d4"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftbquests:2001.4.22@jar",
+          "name": "FTB Quests",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1255469,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/ftb-quests-forge-2001.4.22.jar",
+            "MD5": "a05a49243da4a2505413d74e13102b16"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftbteams:2001.3.2@jar",
+          "name": "FTB Teams",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 252579,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/ftb-teams-forge-2001.3.2.jar",
+            "MD5": "1c547d6f1b22f461f84c5fb79067b0ec"
+          }
+        },
+        {
+          "id": "dev.ftb.mods:ftbxmodcompat:2.1.3@jar",
+          "name": "FTB XMod Compat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 129725,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/ftb-xmod-compat-forge-2.1.3.jar",
+            "MD5": "6d01bd4bc73c6ce36d0d91c56bb27772"
+          }
+        },
+        {
+          "id": "software.bernie.example:geckolib:4.8.3@jar",
+          "name": "GeckoLib 4",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1039047,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/geckolib-forge-1.20.1-4.8.3.jar",
+            "MD5": "60b7bce466abc60377785bf3dc84974c"
+          }
+        },
+        {
+          "id": "net.raphimc:immediatelyfast:1.5.4+1.20.4@jar",
+          "name": "ImmediatelyFast",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 538992,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/ImmediatelyFast-Forge-1.5.4+1.20.4.jar",
+            "MD5": "8fb21bb328cc322c6d9749eff087509f"
+          }
+        },
+        {
+          "id": "snownee.jade:jade:11.13.2+forge@jar",
+          "name": "Jade",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 552486,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/Jade-1.20.1-Forge-11.13.2.jar",
+            "MD5": "7c349670f77fd64b9e9854c4a8d82fcc"
+          }
+        },
+        {
+          "id": "mezz.jei:jei:15.20.0.130@jar",
+          "name": "Just Enough Items",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1409705,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/jei-1.20.1-forge-15.20.0.130.jar",
+            "MD5": "a47e80ce79ecbb6c60e28880ab997d1d"
+          }
+        },
+        {
+          "id": "de.keksuccino:konkrete:1.8.0@jar",
+          "name": "Konkrete",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 625185,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+            "MD5": "d69107c593e361e1b7b96733250bd098"
+          }
+        },
+        {
+          "id": "generated.forgemod:kotlinforforge:4.12.0-all@jar",
+          "name": "Kotlinforforge",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7442998,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/kotlinforforge-4.12.0-all.jar",
+            "MD5": "d6a40dede74edbe646b34a1bafd53b4d"
+          }
+        },
+        {
+          "id": "dev.latvian.mods:kubejs:2001.6.5-build.26@jar",
+          "name": "KubeJS",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1658792,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/kubejs-forge-2001.6.5-build.26.jar",
+            "MD5": "64ee6615f19fb9b2b11fee8b7385eaaf"
+          }
+        },
+        {
+          "id": "com.github.l_ender:cataclysm:3.31@jar",
+          "name": "Cataclysm",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 73916104,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/L_Enders_Cataclysm-3.31.jar",
+            "MD5": "a296c93419f679f0da7100da6e6e35af"
+          }
+        },
+        {
+          "id": "com.github.l_ender:lionfishapi:3.0@jar",
+          "name": "LionfishAPI",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 101931,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/lionfishapi-3.0.jar",
+            "MD5": "76af08dd2f58d5557d13162d855f4cc9"
+          }
+        },
+        {
+          "id": "dev.worldgen:lithostitched:1.4.11@jar",
+          "name": "Lithostitched",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 476347,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/lithostitched-forge-1.20.1-1.4.11.jar",
+            "MD5": "3c596bbc1b5f769f22be751e9c21a6c8"
+          }
+        },
+        {
+          "id": "de.keksuccino:melody:1.0.2@jar",
+          "name": "Melody",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 37178,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+            "MD5": "6b528d368f7fcbf737df28f2457cdec6"
+          }
+        },
+        {
+          "id": "ca.fxco:memoryleakfix:1.1.5@jar",
+          "name": "Memory Leak Fix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 227925,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/memoryleakfix-forge-1.17+-1.1.5.jar",
+            "MD5": "5dd9149414ca375ceab146242c6e84ab"
+          }
+        },
+        {
+          "id": "org.embeddedt.modernfix.forge.init:modernfix:5.27.51+mc1.20.1@jar",
+          "name": "ModernFix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 982465,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/modernfix-forge-5.27.51+mc1.20.1.jar",
+            "MD5": "cbfd7febe91877849117fff48d0b5969"
+          }
+        },
+        {
+          "id": "yalter.mousetweaks:mousetweaks:2.25.1@jar",
+          "name": "Mouse Tweaks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 76237,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/MouseTweaks-forge-mc1.20.1-2.25.1.jar",
+            "MD5": "ce4b5bbb9ef6a7905c458ab599ef4cb2"
+          }
+        },
+        {
+          "id": "com.bobmowzie:mowziesmobs:1.8.2@jar",
+          "name": "Mowzie's Mobs",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 36033850,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/mowziesmobs-1.8.2.jar",
+            "MD5": "d650da053314d7384a537db1f316d11f"
+          }
+        },
+        {
+          "id": "com.chaosthedude:naturescompass:1.20.1-1.12.0-forge@jar",
+          "name": "Nature's Compass",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 227495,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/NaturesCompass-1.20.1-1.12.0-forge.jar",
+            "MD5": "cd6c3480c519bc6d5f7532bc5c21820b"
+          }
+        },
+        {
+          "id": "net.irisshaders.iris:oculus:1.8.0@jar",
+          "name": "Oculus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2851119,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/oculus-mc1.20.1-1.8.0.jar",
+            "MD5": "1dd891634ac21591b5a692471f112572"
+          }
+        },
+        {
+          "id": "net.pastek:perspatium:1.20.1-1.2.0@jar",
+          "name": "Ad Astra: Per Spatium Et Tempus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 850989,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/perspatium-1.20.1-1.2.0.jar",
+            "MD5": "6a71f604cb8fb6cbaf39954a3b24671a"
+          }
+        },
+        {
+          "id": "dev.shadowsoffire:placebo:8.6.3@jar",
+          "name": "Placebo",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 282474,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/Placebo-1.20.1-8.6.3.jar",
+            "MD5": "13133ab9989e8474931cd7a86bd19cc5"
+          }
+        },
+        {
+          "id": "com.teamresourceful:resourcefulconfig:2.1.3@jar",
+          "name": "Resourcefulconfig",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 136923,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/resourcefulconfig-forge-1.20.1-2.1.3.jar",
+            "MD5": "947463b04c043937cd24506842f737a3"
+          }
+        },
+        {
+          "id": "com.teamresourceful:resourcefullib:2.1.29@jar",
+          "name": "Resourceful Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 432753,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/resourcefullib-forge-1.20.1-2.1.29.jar",
+            "MD5": "a040c6cc86f653fddf280ff3af9068f0"
+          }
+        },
+        {
+          "id": "dev.latvian.mods.rhino.mod:rhino:2001.2.3-build.10@jar",
+          "name": "Rhino",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1798244,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/rhino-forge-2001.2.3-build.10.jar",
+            "MD5": "59387620b0ef6becbff02c7c1636ad3e"
+          }
+        },
+        {
+          "id": "dev.tr7zw.skinlayers:skinlayers3d:1.11.1@jar",
+          "name": "3d-Skin-Layers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2163998,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/skinlayers3d-forge-1.11.1-mc1.20.1.jar",
+            "MD5": "d7173930d21f0f3bf240e1d08ba84a29"
+          }
+        },
+        {
+          "id": "com.possible_triangle:sliceanddice:3.6.0@jar",
+          "name": "Create Slice & Dice",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 588268,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/sliceanddice-forge-3.6.0.jar",
+            "MD5": "d32f1794294f473f0a63296cac72802d"
+          }
+        },
+        {
+          "id": "toni.sodiumextras:sodiumextras:1.0.6@jar",
+          "name": "Sodium Extras",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 438540,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/sodiumextras-forge-1.0.7-1.20.1.jar",
+            "MD5": "823adea3bcfd64dbdbaec46950cf4108"
+          }
+        },
+        {
+          "id": "toni.sodiumoptionsapi:sodiumoptionsapi:1.0.10@jar",
+          "name": "Sodium Options API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 443978,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/sodiumoptionsapi-forge-1.0.10-1.20.1.jar",
+            "MD5": "75807590ae2648ecdeb855705868ce59"
+          }
+        },
+        {
+          "id": "net.p3pp3rf1y:sophisticatedbackpacks:3.24.57.1908@jar",
+          "name": "Sophisticated Backpacks",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1129266,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/sophisticatedbackpacks-1.20.1-3.24.57.1908.jar",
+            "MD5": "a06ac129dcb6dd477e30efc13b583b16"
+          }
+        },
+        {
+          "id": "net.p3pp3rf1y:sophisticatedcore:1.3.54.2027@jar",
+          "name": "Sophisticated Core",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1606209,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/sophisticatedcore-1.20.1-1.3.54.2027.jar",
+            "MD5": "f78ca039b00eeea2235186787b9682c5"
+          }
+        },
+        {
+          "id": "com.redsmods:sound_physics_perfected:1.17.0-alpha@jar",
+          "name": "Sound Physics Perfected",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 430444,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/sound_physics_perfected-1.17.0-alpha+1.20.1-forge.jar",
+            "MD5": "f7071b00b74aab88a06074f33b489c64"
+          }
+        },
+        {
+          "id": "com.railwayteam:railways:1.7.2+forge-mc1.20.1@jar",
+          "name": "Create: Steam 'n' Rails",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 16819720,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/Steam_Rails-1.7.2+forge-mc1.20.1.jar",
+            "MD5": "ec91d63c97ff08beb324f34399f1bf1a"
+          }
+        },
+        {
+          "id": "dev.worldgen:tectonic:3.0.17@jar",
+          "name": "Tectonic",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 322575,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/tectonic-3.0.17-forge-1.20.1.jar",
+            "MD5": "9b621f402383c0d4243a9bf15cd022d2"
+          }
+        },
+        {
+          "id": "generated.forgemod:terralith:2.5.4@jar",
+          "name": "Terralith",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3156901,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/Terralith_1.20.x_v2.5.4.jar",
+            "MD5": "b143cfd648086c68d7f47a86b8994ee3"
+          }
+        },
+        {
+          "id": "com.tom.storagemod:toms_storage:1.7.1@jar",
+          "name": "Tom's Simple Storage Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 520148,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/toms_storage-1.20-1.7.1.jar",
+            "MD5": "9fac0628fc9767b1bc50dbae38851e11"
+          }
+        },
+        {
+          "id": "de.cristelknight999:t_and_t:1.10.2@jar",
+          "name": "Towns and Towers",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2864275,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/Towns-and-Towers-1.12-Fabric+Forge.jar",
+            "MD5": "237a2186d2482856f67c638c06489fb8"
+          }
+        },
+        {
+          "id": "de.maxhenkel.voicechat:voicechat:1.20.1-2.6.18@jar",
+          "name": "Simple Voice Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 4903916,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/voicechat-forge-1.20.1-2.6.18.jar",
+            "MD5": "5cc19d0f85fddcbcd94b61848013401c"
+          }
+        },
+        {
+          "id": "net.blay09.mods:waystones:14.1.20@jar",
+          "name": "Waystones",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 533738,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/waystones-forge-1.20.1-14.1.20.jar",
+            "MD5": "eb4dcdc36470b7fd858c39547ad1c7d2"
+          }
+        },
+        {
+          "id": "dev.isxander.yacl3.platform:yet_another_config_lib_v3:3.6.6+1.20.1-forge@jar",
+          "name": "YetAnotherConfigLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1105891,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/yet_another_config_lib_v3-3.6.6+1.20.1-forge.jar",
+            "MD5": "2437cb642e24726a83f864e345f24479"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:yungsapi:1.20-Forge-4.0.6@jar",
+          "name": "YUNG's API",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 370524,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/YungsApi-1.20-Forge-4.0.6.jar",
+            "MD5": "fe79f43dba8edbb8ede99f4e358e5b0c"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterdeserttemples:1.20-Forge-3.0.3@jar",
+          "name": "YUNG's Better Desert Temples",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 918012,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/YungsBetterDesertTemples-1.20-Forge-3.0.3.jar",
+            "MD5": "183e2c817e9094ce215c9e70c114825f"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterdungeons:1.20-Forge-4.0.4@jar",
+          "name": "YUNG's Better Dungeons",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 792381,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/YungsBetterDungeons-1.20-Forge-4.0.4.jar",
+            "MD5": "2de2f1be8f528ad139003bb5c73d49f3"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterendisland:1.20-Forge-2.0.6@jar",
+          "name": "YUNG's Better End Island",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 387111,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/YungsBetterEndIsland-1.20-Forge-2.0.6.jar",
+            "MD5": "7f5ed661e5478668a91ea199fba75fb3"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterjungletemples:1.20-Forge-2.0.5@jar",
+          "name": "YUNG's Better Jungle Temples",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 806652,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/YungsBetterJungleTemples-1.20-Forge-2.0.5.jar",
+            "MD5": "abf4f9ef692311aef1eccb98bcee8956"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:bettermineshafts:1.20-Forge-4.0.4@jar",
+          "name": "YUNG's Better Mineshafts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 492998,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/YungsBetterMineshafts-1.20-Forge-4.0.4.jar",
+            "MD5": "fe8d205c98cb02840d46646fb7cf5ab8"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterfortresses:1.20-Forge-2.0.6@jar",
+          "name": "YUNG's Better Nether Fortresses",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 619255,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/YungsBetterNetherFortresses-1.20-Forge-2.0.6.jar",
+            "MD5": "8f0011690923efb6e2d59514181f0bc9"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betteroceanmonuments:1.20-Forge-3.0.4@jar",
+          "name": "YUNG's Better Ocean Monuments",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1033262,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/YungsBetterOceanMonuments-1.20-Forge-3.0.4.jar",
+            "MD5": "467336218d681221ef8d875b226eb1bc"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterstrongholds:1.20-Forge-4.0.3@jar",
+          "name": "YUNG's Better Strongholds",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 473564,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/YungsBetterStrongholds-1.20-Forge-4.0.3.jar",
+            "MD5": "8c00ed5d2bab232040a1d4d0ef746ae6"
+          }
+        },
+        {
+          "id": "com.yungnickyoung.minecraft:betterwitchhuts:1.20-Forge-3.0.3@jar",
+          "name": "YUNG's Better Witch Huts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 179190,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/YungsBetterWitchHuts-1.20-Forge-3.0.3.jar",
+            "MD5": "cb6d73e271fdfb2e8698b7c6bd9df0d9"
+          }
+        },
+        {
+          "id": "MouseTweaks.cfg",
+          "name": "MouseTweaks.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 135,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/MouseTweaks.cfg",
+            "MD5": "ff577ca09e989c07c056c7cdff465be3",
+            "path": "config/MouseTweaks.cfg"
+          }
+        },
+        {
+          "id": "SoundPhysicsPerfected.json5",
+          "name": "SoundPhysicsPerfected.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1684,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/SoundPhysicsPerfected.json5",
+            "MD5": "a9a52ffaef69e710d36b3fbf97642609",
+            "path": "config/SoundPhysicsPerfected.json5"
+          }
+        },
+        {
+          "id": "ad_astra-client.jsonc",
+          "name": "ad_astra-client.jsonc",
+          "type": "File",
+          "artifact": {
+            "size": 493,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ad_astra-client.jsonc",
+            "MD5": "a75a504d944737d21969976e4d243b0f",
+            "path": "config/ad_astra-client.jsonc"
+          }
+        },
+        {
+          "id": "ad_astra.jsonc",
+          "name": "ad_astra.jsonc",
+          "type": "File",
+          "artifact": {
+            "size": 3039,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ad_astra.jsonc",
+            "MD5": "0b79631c51910ae6cc58c92c4a9b74bf",
+            "path": "config/ad_astra.jsonc"
+          }
+        },
+        {
+          "id": "ad_astra_giselle_addon.ver2.jsonc",
+          "name": "ad_astra_giselle_addon.ver2.jsonc",
+          "type": "File",
+          "artifact": {
+            "size": 4694,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ad_astra_giselle_addon.ver2.jsonc",
+            "MD5": "d4c84a919de5b6051c44e6fb02307247",
+            "path": "config/ad_astra_giselle_addon.ver2.jsonc"
+          }
+        },
+        {
+          "id": "ambientsounds-client.json",
+          "name": "ambientsounds-client.json",
+          "type": "File",
+          "artifact": {
+            "size": 4198,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ambientsounds-client.json",
+            "MD5": "419cbf98a364de484b408049debcb8db",
+            "path": "config/ambientsounds-client.json"
+          }
+        },
+        {
+          "id": "appleskin-client.toml",
+          "name": "appleskin-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1337,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/appleskin-client.toml",
+            "MD5": "231dc83013e53ea576f6b38629efb713",
+            "path": "config/appleskin-client.toml"
+          }
+        },
+        {
+          "id": "README.txt",
+          "name": "README.txt",
+          "type": "File",
+          "artifact": {
+            "size": 722,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/betterdeserttemples/README.txt",
+            "MD5": "058aefa47551a5e105df5613d6d24ea7",
+            "path": "config/betterdeserttemples/README.txt"
+          }
+        },
+        {
+          "id": "README.txt",
+          "name": "README.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1683,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/betterdeserttemples/forge-1_20/README.txt",
+            "MD5": "ca46ae3cbbc0d993e6c5f4b78e3abad4",
+            "path": "config/betterdeserttemples/forge-1_20/README.txt"
+          }
+        },
+        {
+          "id": "armorstands.json",
+          "name": "armorstands.json",
+          "type": "File",
+          "artifact": {
+            "size": 1104,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/betterdeserttemples/forge-1_20/armorstands.json",
+            "MD5": "c506f09995494850b0b7c9ceecc1eefa",
+            "path": "config/betterdeserttemples/forge-1_20/armorstands.json"
+          }
+        },
+        {
+          "id": "itemframes.json",
+          "name": "itemframes.json",
+          "type": "File",
+          "artifact": {
+            "size": 614,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/betterdeserttemples/forge-1_20/itemframes.json",
+            "MD5": "46c550611126fd5a182f5cc78a7c6e3d",
+            "path": "config/betterdeserttemples/forge-1_20/itemframes.json"
+          }
+        },
+        {
+          "id": "betterdeserttemples-forge-1_20.toml",
+          "name": "betterdeserttemples-forge-1_20.toml",
+          "type": "File",
+          "artifact": {
+            "size": 602,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/betterdeserttemples-forge-1_20.toml",
+            "MD5": "7494c921c17222b31a76d6910f708792",
+            "path": "config/betterdeserttemples-forge-1_20.toml"
+          }
+        },
+        {
+          "id": "betterdungeons-forge-1_20.toml",
+          "name": "betterdungeons-forge-1_20.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3417,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/betterdungeons-forge-1_20.toml",
+            "MD5": "a0b9917b40077abecbe385a7eeee05d8",
+            "path": "config/betterdungeons-forge-1_20.toml"
+          }
+        },
+        {
+          "id": "betterendisland-forge-1_20.toml",
+          "name": "betterendisland-forge-1_20.toml",
+          "type": "File",
+          "artifact": {
+            "size": 320,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/betterendisland-forge-1_20.toml",
+            "MD5": "2b42be1fa2eca620c418a19164117b1e",
+            "path": "config/betterendisland-forge-1_20.toml"
+          }
+        },
+        {
+          "id": "README.txt",
+          "name": "README.txt",
+          "type": "File",
+          "artifact": {
+            "size": 871,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/betterfortresses/README.txt",
+            "MD5": "eceef9412a301d8cac9d2c98b2a2256f",
+            "path": "config/betterfortresses/README.txt"
+          }
+        },
+        {
+          "id": "README.txt",
+          "name": "README.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1339,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/betterfortresses/forge-1_20/README.txt",
+            "MD5": "77f5c32923f20baf9ee380e7c1c24b1c",
+            "path": "config/betterfortresses/forge-1_20/README.txt"
+          }
+        },
+        {
+          "id": "itemframes.json",
+          "name": "itemframes.json",
+          "type": "File",
+          "artifact": {
+            "size": 901,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/betterfortresses/forge-1_20/itemframes.json",
+            "MD5": "71f0bdfaf4787907eceb809067c4a1c7",
+            "path": "config/betterfortresses/forge-1_20/itemframes.json"
+          }
+        },
+        {
+          "id": "betterfortresses-forge-1_20.toml",
+          "name": "betterfortresses-forge-1_20.toml",
+          "type": "File",
+          "artifact": {
+            "size": 456,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/betterfortresses-forge-1_20.toml",
+            "MD5": "93a2f8faf0e0ea4b9424d955e6f8da0c",
+            "path": "config/betterfortresses-forge-1_20.toml"
+          }
+        },
+        {
+          "id": "betterjungletemples-forge-1_20.toml",
+          "name": "betterjungletemples-forge-1_20.toml",
+          "type": "File",
+          "artifact": {
+            "size": 120,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/betterjungletemples-forge-1_20.toml",
+            "MD5": "cad14b088f94ef7fdadf566027ded0be",
+            "path": "config/betterjungletemples-forge-1_20.toml"
+          }
+        },
+        {
+          "id": "bettermineshafts-forge-1_20.toml",
+          "name": "bettermineshafts-forge-1_20.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3667,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/bettermineshafts-forge-1_20.toml",
+            "MD5": "2e7cdaaa1a127e35776e678089cfb7d2",
+            "path": "config/bettermineshafts-forge-1_20.toml"
+          }
+        },
+        {
+          "id": "betteroceanmonuments-forge-1_20.toml",
+          "name": "betteroceanmonuments-forge-1_20.toml",
+          "type": "File",
+          "artifact": {
+            "size": 448,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/betteroceanmonuments-forge-1_20.toml",
+            "MD5": "6c1500491f58e4f0d2fec47b77b70a39",
+            "path": "config/betteroceanmonuments-forge-1_20.toml"
+          }
+        },
+        {
+          "id": "README.txt",
+          "name": "README.txt",
+          "type": "File",
+          "artifact": {
+            "size": 707,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/betterstrongholds/README.txt",
+            "MD5": "9c87e3750c4f479deef3c9ae7c3fabb9",
+            "path": "config/betterstrongholds/README.txt"
+          }
+        },
+        {
+          "id": "README.txt",
+          "name": "README.txt",
+          "type": "File",
+          "artifact": {
+            "size": 2830,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/betterstrongholds/forge-1_20/README.txt",
+            "MD5": "38d8610721769459e29aa78954bca2d7",
+            "path": "config/betterstrongholds/forge-1_20/README.txt"
+          }
+        },
+        {
+          "id": "armorstands.json",
+          "name": "armorstands.json",
+          "type": "File",
+          "artifact": {
+            "size": 1131,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/betterstrongholds/forge-1_20/armorstands.json",
+            "MD5": "34d6a5066d00f6a2ce3e2ac9e1fd45d0",
+            "path": "config/betterstrongholds/forge-1_20/armorstands.json"
+          }
+        },
+        {
+          "id": "itemframes.json",
+          "name": "itemframes.json",
+          "type": "File",
+          "artifact": {
+            "size": 680,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/betterstrongholds/forge-1_20/itemframes.json",
+            "MD5": "aae75de2316c8bc9d35f05d28c4ec3b7",
+            "path": "config/betterstrongholds/forge-1_20/itemframes.json"
+          }
+        },
+        {
+          "id": "ores.json",
+          "name": "ores.json",
+          "type": "File",
+          "artifact": {
+            "size": 346,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/betterstrongholds/forge-1_20/ores.json",
+            "MD5": "c5e714af5de12ceae9fcce03febba619",
+            "path": "config/betterstrongholds/forge-1_20/ores.json"
+          }
+        },
+        {
+          "id": "rareblocks.json",
+          "name": "rareblocks.json",
+          "type": "File",
+          "artifact": {
+            "size": 238,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/betterstrongholds/forge-1_20/rareblocks.json",
+            "MD5": "2a55bed19468d219696b649b3cada77e",
+            "path": "config/betterstrongholds/forge-1_20/rareblocks.json"
+          }
+        },
+        {
+          "id": "betterstrongholds-forge-1_20.toml",
+          "name": "betterstrongholds-forge-1_20.toml",
+          "type": "File",
+          "artifact": {
+            "size": 793,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/betterstrongholds-forge-1_20.toml",
+            "MD5": "b23cf8f9c836815eedf147c0d81ce3c4",
+            "path": "config/betterstrongholds-forge-1_20.toml"
+          }
+        },
+        {
+          "id": "betterwitchhuts-forge-1_20.toml",
+          "name": "betterwitchhuts-forge-1_20.toml",
+          "type": "File",
+          "artifact": {
+            "size": 428,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/betterwitchhuts-forge-1_20.toml",
+            "MD5": "ef7fc6bc7b3a2661c55e5f37cc299571",
+            "path": "config/betterwitchhuts-forge-1_20.toml"
+          }
+        },
+        {
+          "id": "canary.properties",
+          "name": "canary.properties",
+          "type": "File",
+          "artifact": {
+            "size": 422,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/canary.properties",
+            "MD5": "5e84ee15acacbd2745a782e9fd878605",
+            "path": "config/canary.properties"
+          }
+        },
+        {
+          "id": "cataclysm-client.toml",
+          "name": "cataclysm-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 507,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/cataclysm-client.toml",
+            "MD5": "1f3b479666ce3326fc7b676efe7f92a4",
+            "path": "config/cataclysm-client.toml"
+          }
+        },
+        {
+          "id": "cataclysm-common.toml",
+          "name": "cataclysm-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 25304,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/cataclysm-common.toml",
+            "MD5": "38467792ce3c8dcd4d885ccf7c27db20",
+            "path": "config/cataclysm-common.toml"
+          }
+        },
+        {
+          "id": "connector.json",
+          "name": "connector.json",
+          "type": "File",
+          "artifact": {
+            "size": 144,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/connector.json",
+            "MD5": "e625d3c4a748b81b7f8521b27f7d2365",
+            "path": "config/connector.json"
+          }
+        },
+        {
+          "id": "copycats-client.toml",
+          "name": "copycats-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 332,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/copycats-client.toml",
+            "MD5": "b41242701e161afc592764dc94e57a11",
+            "path": "config/copycats-client.toml"
+          }
+        },
+        {
+          "id": "copycats-common.toml",
+          "name": "copycats-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2092,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/copycats-common.toml",
+            "MD5": "54f53b9a444d116c5e3965a521fa71d7",
+            "path": "config/copycats-common.toml"
+          }
+        },
+        {
+          "id": "create-client.toml",
+          "name": "create-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 4264,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/create-client.toml",
+            "MD5": "ab39ff8313deea3816310d557619ae54",
+            "path": "config/create-client.toml"
+          }
+        },
+        {
+          "id": "create-common.toml",
+          "name": "create-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 148,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/create-common.toml",
+            "MD5": "b4921f5f493e86417f451cad5fba8c5e",
+            "path": "config/create-common.toml"
+          }
+        },
+        {
+          "id": "create_connected-common.toml",
+          "name": "create_connected-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1688,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/create_connected-common.toml",
+            "MD5": "bbd127f7f7f4c5d83bf130ba76d5b644",
+            "path": "config/create_connected-common.toml"
+          }
+        },
+        {
+          "id": "createaddition-common.toml",
+          "name": "createaddition-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 4296,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/createaddition-common.toml",
+            "MD5": "8a4c6f7b38377f51b10cf31a56c864aa",
+            "path": "config/createaddition-common.toml"
+          }
+        },
+        {
+          "id": "client.toml",
+          "name": "client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/createestrogen/client.toml",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "config/createestrogen/client.toml"
+          }
+        },
+        {
+          "id": "common.toml",
+          "name": "common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/createestrogen/common.toml",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "config/createestrogen/common.toml"
+          }
+        },
+        {
+          "id": "server.toml",
+          "name": "server.toml",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/createestrogen/server.toml",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "config/createestrogen/server.toml"
+          }
+        },
+        {
+          "id": "minecraftED.json5",
+          "name": "minecraftED.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1476,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/cristellib/minecraftED.json5",
+            "MD5": "e8605aa11b4296e023504703e592bd41",
+            "path": "config/cristellib/minecraftED.json5"
+          }
+        },
+        {
+          "id": "minecraftP.json5",
+          "name": "minecraftP.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1752,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/cristellib/minecraftP.json5",
+            "MD5": "1d8b9b72253a97231ff416174c2eb646",
+            "path": "config/cristellib/minecraftP.json5"
+          }
+        },
+        {
+          "id": "curios-client.toml",
+          "name": "curios-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 683,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/curios-client.toml",
+            "MD5": "4101d9b9029ca0b9f97f0575391acf7a",
+            "path": "config/curios-client.toml"
+          }
+        },
+        {
+          "id": "curios-common.toml",
+          "name": "curios-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 156,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/curios-common.toml",
+            "MD5": "c565a4d0c7b8411062ff46734a8df539",
+            "path": "config/curios-common.toml"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 6097,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/defaultoptions/options.txt",
+            "MD5": "c0eb842915d2256521ae3b03bc70ccbb",
+            "path": "config/defaultoptions/options.txt"
+          }
+        },
+        {
+          "id": "defaultoptions-common.toml",
+          "name": "defaultoptions-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 375,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/defaultoptions-common.toml",
+            "MD5": "4b4e1f79877f0e6f571d7b1b6f7ca59a",
+            "path": "config/defaultoptions-common.toml"
+          }
+        },
+        {
+          "id": "dynamic_fps.json",
+          "name": "dynamic_fps.json",
+          "type": "File",
+          "artifact": {
+            "size": 3,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/dynamic_fps.json",
+            "MD5": "8a80554c91d9fca8acb82f023de02f11",
+            "path": "config/dynamic_fps.json"
+          }
+        },
+        {
+          "id": "embeddium-fingerprint.json",
+          "name": "embeddium-fingerprint.json",
+          "type": "File",
+          "artifact": {
+            "size": 427,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/embeddium-fingerprint.json",
+            "MD5": "ddaa1dc54ac88e984e4990f6b2b39995",
+            "path": "config/embeddium-fingerprint.json"
+          }
+        },
+        {
+          "id": "embeddium-mixins.properties",
+          "name": "embeddium-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 269,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/embeddium-mixins.properties",
+            "MD5": "a9176524f816153a7967217b53bb75a1",
+            "path": "config/embeddium-mixins.properties"
+          }
+        },
+        {
+          "id": "embeddium-options.json",
+          "name": "embeddium-options.json",
+          "type": "File",
+          "artifact": {
+            "size": 852,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/embeddium-options.json",
+            "MD5": "c0a96a9199ece4278654cf6e1fb2584c",
+            "path": "config/embeddium-options.json"
+          }
+        },
+        {
+          "id": "emi.css",
+          "name": "emi.css",
+          "type": "File",
+          "artifact": {
+            "size": 10190,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/emi.css",
+            "MD5": "cb8e7d983fb8a62ea86e9e6e35a2530d",
+            "path": "config/emi.css"
+          }
+        },
+        {
+          "id": "entity_model_features.json",
+          "name": "entity_model_features.json",
+          "type": "File",
+          "artifact": {
+            "size": 1242,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/entity_model_features.json",
+            "MD5": "4fda5fe12ed9a719914d946960e33103",
+            "path": "config/entity_model_features.json"
+          }
+        },
+        {
+          "id": "entity_texture_features.json",
+          "name": "entity_texture_features.json",
+          "type": "File",
+          "artifact": {
+            "size": 1421,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/entity_texture_features.json",
+            "MD5": "0c487b43d5f6178f8888d0337c72ecf8",
+            "path": "config/entity_texture_features.json"
+          }
+        },
+        {
+          "id": "client.toml",
+          "name": "client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2159,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/estrogen/client.toml",
+            "MD5": "dd2905227a17a41d16e707073297fd19",
+            "path": "config/estrogen/client.toml"
+          }
+        },
+        {
+          "id": "common.toml",
+          "name": "common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 730,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/estrogen/common.toml",
+            "MD5": "eb004d3a6c3f13dcae7164e857813001",
+            "path": "config/estrogen/common.toml"
+          }
+        },
+        {
+          "id": "server.toml",
+          "name": "server.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1488,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/estrogen/server.toml",
+            "MD5": "9145c212c42685049dac32f6a7c43d1f",
+            "path": "config/estrogen/server.toml"
+          }
+        },
+        {
+          "id": "etf_warnings.json",
+          "name": "etf_warnings.json",
+          "type": "File",
+          "artifact": {
+            "size": 28,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/etf_warnings.json",
+            "MD5": "b49b5603d2df29fa132f89ec91974572",
+            "path": "config/etf_warnings.json"
+          }
+        },
+        {
+          "id": "explorerscompass-client.toml",
+          "name": "explorerscompass-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 490,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/explorerscompass-client.toml",
+            "MD5": "4f07448b84937e8a907558534b66f0b6",
+            "path": "config/explorerscompass-client.toml"
+          }
+        },
+        {
+          "id": "explorerscompass-common.toml",
+          "name": "explorerscompass-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2026,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/explorerscompass-common.toml",
+            "MD5": "f67c4509add14140c2e1db8282c00287",
+            "path": "config/explorerscompass-common.toml"
+          }
+        },
+        {
+          "id": "indigo-renderer.properties",
+          "name": "indigo-renderer.properties",
+          "type": "File",
+          "artifact": {
+            "size": 281,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fabric/indigo-renderer.properties",
+            "MD5": "8baec084b67f39b38add31932a4798d4",
+            "path": "config/fabric/indigo-renderer.properties"
+          }
+        },
+        {
+          "id": "iniciativa_logo.png",
+          "name": "iniciativa_logo.png",
+          "type": "File",
+          "artifact": {
+            "size": 185298,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/assets/iniciativa_logo.png",
+            "MD5": "23db56e8551795b89e160b9d56fe28f9",
+            "path": "config/fancymenu/assets/iniciativa_logo.png"
+          }
+        },
+        {
+          "id": "custom_gui_screens.txt",
+          "name": "custom_gui_screens.txt",
+          "type": "File",
+          "artifact": {
+            "size": 51,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/custom_gui_screens.txt",
+            "MD5": "106e52948415f0879c53304f50783b28",
+            "path": "config/fancymenu/custom_gui_screens.txt"
+          }
+        },
+        {
+          "id": "customizablemenus.txt",
+          "name": "customizablemenus.txt",
+          "type": "File",
+          "artifact": {
+            "size": 76,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/customizablemenus.txt",
+            "MD5": "8cd335741f1acd023a5203836fb9b944",
+            "path": "config/fancymenu/customizablemenus.txt"
+          }
+        },
+        {
+          "id": "title_screen_layout.txt",
+          "name": "title_screen_layout.txt",
+          "type": "File",
+          "artifact": {
+            "size": 50049,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/customization/title_screen_layout.txt",
+            "MD5": "f5575a35c532d32ef5ae6fedd7a7e7c0",
+            "path": "config/fancymenu/customization/title_screen_layout.txt"
+          }
+        },
+        {
+          "id": "element_layer_control.lewidget",
+          "name": "element_layer_control.lewidget",
+          "type": "File",
+          "artifact": {
+            "size": 197,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
+            "MD5": "70546b71ee503f0bf790bfbd1a1b8c2d",
+            "path": "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
+          }
+        },
+        {
+          "id": "legacy_checklist.txt",
+          "name": "legacy_checklist.txt",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/legacy_checklist.txt",
+            "MD5": "bc03e01c4f1bf1e24e9b86591baa512b",
+            "path": "config/fancymenu/legacy_checklist.txt"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 4399,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/options.txt",
+            "MD5": "bbf58ab289630a4c3f1d54f35be42baa",
+            "path": "config/fancymenu/options.txt"
+          }
+        },
+        {
+          "id": "panorama_0.png",
+          "name": "panorama_0.png",
+          "type": "File",
+          "artifact": {
+            "size": 103978,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/panoramas/glacio/panorama/panorama_0.png",
+            "MD5": "a87ff61b9eae17fbc032affac6b01f5e",
+            "path": "config/fancymenu/panoramas/glacio/panorama/panorama_0.png"
+          }
+        },
+        {
+          "id": "panorama_1.png",
+          "name": "panorama_1.png",
+          "type": "File",
+          "artifact": {
+            "size": 139956,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/panoramas/glacio/panorama/panorama_1.png",
+            "MD5": "2bd9306117122dd744a2cb18e483f066",
+            "path": "config/fancymenu/panoramas/glacio/panorama/panorama_1.png"
+          }
+        },
+        {
+          "id": "panorama_2.png",
+          "name": "panorama_2.png",
+          "type": "File",
+          "artifact": {
+            "size": 147707,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/panoramas/glacio/panorama/panorama_2.png",
+            "MD5": "54524ea34ab0ec65bfabc8470abaa8f6",
+            "path": "config/fancymenu/panoramas/glacio/panorama/panorama_2.png"
+          }
+        },
+        {
+          "id": "panorama_3.png",
+          "name": "panorama_3.png",
+          "type": "File",
+          "artifact": {
+            "size": 119111,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/panoramas/glacio/panorama/panorama_3.png",
+            "MD5": "931682bae8e1f08829f68bd134422ad1",
+            "path": "config/fancymenu/panoramas/glacio/panorama/panorama_3.png"
+          }
+        },
+        {
+          "id": "panorama_4.png",
+          "name": "panorama_4.png",
+          "type": "File",
+          "artifact": {
+            "size": 16630,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/panoramas/glacio/panorama/panorama_4.png",
+            "MD5": "878c5771fc80ca53607b5d20365111e5",
+            "path": "config/fancymenu/panoramas/glacio/panorama/panorama_4.png"
+          }
+        },
+        {
+          "id": "panorama_5.png",
+          "name": "panorama_5.png",
+          "type": "File",
+          "artifact": {
+            "size": 35267,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/panoramas/glacio/panorama/panorama_5.png",
+            "MD5": "5888fc99d4920e6c850631e71ff564f4",
+            "path": "config/fancymenu/panoramas/glacio/panorama/panorama_5.png"
+          }
+        },
+        {
+          "id": "properties.txt",
+          "name": "properties.txt",
+          "type": "File",
+          "artifact": {
+            "size": 114,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/panoramas/glacio/properties.txt",
+            "MD5": "8dd50f0d6f8ccc4b51e2eeee6ea6ec44",
+            "path": "config/fancymenu/panoramas/glacio/properties.txt"
+          }
+        },
+        {
+          "id": "panorama_0.png",
+          "name": "panorama_0.png",
+          "type": "File",
+          "artifact": {
+            "size": 247406,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/panoramas/luna/panorama/panorama_0.png",
+            "MD5": "607261bdec15f539f7256440a706bad1",
+            "path": "config/fancymenu/panoramas/luna/panorama/panorama_0.png"
+          }
+        },
+        {
+          "id": "panorama_1.png",
+          "name": "panorama_1.png",
+          "type": "File",
+          "artifact": {
+            "size": 218089,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/panoramas/luna/panorama/panorama_1.png",
+            "MD5": "d545a659c09bd0715473f7d6978be92d",
+            "path": "config/fancymenu/panoramas/luna/panorama/panorama_1.png"
+          }
+        },
+        {
+          "id": "panorama_2.png",
+          "name": "panorama_2.png",
+          "type": "File",
+          "artifact": {
+            "size": 251709,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/panoramas/luna/panorama/panorama_2.png",
+            "MD5": "5e077aac87e900f011a66dc6fb2dde48",
+            "path": "config/fancymenu/panoramas/luna/panorama/panorama_2.png"
+          }
+        },
+        {
+          "id": "panorama_3.png",
+          "name": "panorama_3.png",
+          "type": "File",
+          "artifact": {
+            "size": 236137,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/panoramas/luna/panorama/panorama_3.png",
+            "MD5": "469254e2c699c44913b88556a47f6bba",
+            "path": "config/fancymenu/panoramas/luna/panorama/panorama_3.png"
+          }
+        },
+        {
+          "id": "panorama_4.png",
+          "name": "panorama_4.png",
+          "type": "File",
+          "artifact": {
+            "size": 20229,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/panoramas/luna/panorama/panorama_4.png",
+            "MD5": "1230ca9d23ee4a32ed8a130e445e7cb4",
+            "path": "config/fancymenu/panoramas/luna/panorama/panorama_4.png"
+          }
+        },
+        {
+          "id": "panorama_5.png",
+          "name": "panorama_5.png",
+          "type": "File",
+          "artifact": {
+            "size": 270472,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/panoramas/luna/panorama/panorama_5.png",
+            "MD5": "845123e4a151fe8efc82c70a04f75ee5",
+            "path": "config/fancymenu/panoramas/luna/panorama/panorama_5.png"
+          }
+        },
+        {
+          "id": "properties.txt",
+          "name": "properties.txt",
+          "type": "File",
+          "artifact": {
+            "size": 112,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/panoramas/luna/properties.txt",
+            "MD5": "cbff2e3934520338b24f253e719c5be0",
+            "path": "config/fancymenu/panoramas/luna/properties.txt"
+          }
+        },
+        {
+          "id": "panorama_0.png",
+          "name": "panorama_0.png",
+          "type": "File",
+          "artifact": {
+            "size": 230284,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/panoramas/marte/panorama/panorama_0.png",
+            "MD5": "0c9b0bba58c55f40b3c606a66f3a4db3",
+            "path": "config/fancymenu/panoramas/marte/panorama/panorama_0.png"
+          }
+        },
+        {
+          "id": "panorama_1.png",
+          "name": "panorama_1.png",
+          "type": "File",
+          "artifact": {
+            "size": 269112,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/panoramas/marte/panorama/panorama_1.png",
+            "MD5": "4e2ce78129a1b9ee81341ba04f81fe35",
+            "path": "config/fancymenu/panoramas/marte/panorama/panorama_1.png"
+          }
+        },
+        {
+          "id": "panorama_2.png",
+          "name": "panorama_2.png",
+          "type": "File",
+          "artifact": {
+            "size": 219582,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/panoramas/marte/panorama/panorama_2.png",
+            "MD5": "dc01ab16233dff7417569b561df6859e",
+            "path": "config/fancymenu/panoramas/marte/panorama/panorama_2.png"
+          }
+        },
+        {
+          "id": "panorama_3.png",
+          "name": "panorama_3.png",
+          "type": "File",
+          "artifact": {
+            "size": 243363,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/panoramas/marte/panorama/panorama_3.png",
+            "MD5": "793054fb00e098cf41c684986b198408",
+            "path": "config/fancymenu/panoramas/marte/panorama/panorama_3.png"
+          }
+        },
+        {
+          "id": "panorama_4.png",
+          "name": "panorama_4.png",
+          "type": "File",
+          "artifact": {
+            "size": 13419,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/panoramas/marte/panorama/panorama_4.png",
+            "MD5": "826fbb7c03da71f491723a12b4a4afa6",
+            "path": "config/fancymenu/panoramas/marte/panorama/panorama_4.png"
+          }
+        },
+        {
+          "id": "panorama_5.png",
+          "name": "panorama_5.png",
+          "type": "File",
+          "artifact": {
+            "size": 78352,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/panoramas/marte/panorama/panorama_5.png",
+            "MD5": "7792b8da34e20400091b5980268a09f5",
+            "path": "config/fancymenu/panoramas/marte/panorama/panorama_5.png"
+          }
+        },
+        {
+          "id": "properties.txt",
+          "name": "properties.txt",
+          "type": "File",
+          "artifact": {
+            "size": 113,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/panoramas/marte/properties.txt",
+            "MD5": "f2bb2cb2c60b635e6b7aa50028f6002e",
+            "path": "config/fancymenu/panoramas/marte/properties.txt"
+          }
+        },
+        {
+          "id": "panorama_0.png",
+          "name": "panorama_0.png",
+          "type": "File",
+          "artifact": {
+            "size": 221624,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/panoramas/puesto/panorama/panorama_0.png",
+            "MD5": "2b6b89b1652e2c5736aa2fec54f9a7fa",
+            "path": "config/fancymenu/panoramas/puesto/panorama/panorama_0.png"
+          }
+        },
+        {
+          "id": "panorama_1.png",
+          "name": "panorama_1.png",
+          "type": "File",
+          "artifact": {
+            "size": 174276,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/panoramas/puesto/panorama/panorama_1.png",
+            "MD5": "5bf03a4bb57a810f6f067f102618a590",
+            "path": "config/fancymenu/panoramas/puesto/panorama/panorama_1.png"
+          }
+        },
+        {
+          "id": "panorama_2.png",
+          "name": "panorama_2.png",
+          "type": "File",
+          "artifact": {
+            "size": 184085,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/panoramas/puesto/panorama/panorama_2.png",
+            "MD5": "216adb09979252050c22e47415646f1c",
+            "path": "config/fancymenu/panoramas/puesto/panorama/panorama_2.png"
+          }
+        },
+        {
+          "id": "panorama_3.png",
+          "name": "panorama_3.png",
+          "type": "File",
+          "artifact": {
+            "size": 200501,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/panoramas/puesto/panorama/panorama_3.png",
+            "MD5": "6ceb06ebb83ff7cfbe37aa1ba6bd10eb",
+            "path": "config/fancymenu/panoramas/puesto/panorama/panorama_3.png"
+          }
+        },
+        {
+          "id": "panorama_4.png",
+          "name": "panorama_4.png",
+          "type": "File",
+          "artifact": {
+            "size": 12408,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/panoramas/puesto/panorama/panorama_4.png",
+            "MD5": "9266998624e826990bf7b3685954b0db",
+            "path": "config/fancymenu/panoramas/puesto/panorama/panorama_4.png"
+          }
+        },
+        {
+          "id": "panorama_5.png",
+          "name": "panorama_5.png",
+          "type": "File",
+          "artifact": {
+            "size": 342065,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/panoramas/puesto/panorama/panorama_5.png",
+            "MD5": "0d57da9a106c7838e86c0378a7bddff4",
+            "path": "config/fancymenu/panoramas/puesto/panorama/panorama_5.png"
+          }
+        },
+        {
+          "id": "properties.txt",
+          "name": "properties.txt",
+          "type": "File",
+          "artifact": {
+            "size": 123,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/panoramas/puesto/properties.txt",
+            "MD5": "ffa9fc338412e1b8572f81f9c81305d2",
+            "path": "config/fancymenu/panoramas/puesto/properties.txt"
+          }
+        },
+        {
+          "id": "panorama_0.png",
+          "name": "panorama_0.png",
+          "type": "File",
+          "artifact": {
+            "size": 158468,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/panoramas/venus/panorama/panorama_0.png",
+            "MD5": "0240ca97479ab64f40377c6442c09d9a",
+            "path": "config/fancymenu/panoramas/venus/panorama/panorama_0.png"
+          }
+        },
+        {
+          "id": "panorama_1.png",
+          "name": "panorama_1.png",
+          "type": "File",
+          "artifact": {
+            "size": 169498,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/panoramas/venus/panorama/panorama_1.png",
+            "MD5": "d6e9a8522375bdae28842771293f182f",
+            "path": "config/fancymenu/panoramas/venus/panorama/panorama_1.png"
+          }
+        },
+        {
+          "id": "panorama_2.png",
+          "name": "panorama_2.png",
+          "type": "File",
+          "artifact": {
+            "size": 168924,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/panoramas/venus/panorama/panorama_2.png",
+            "MD5": "0634327b85155618fbfc9c86d3f92622",
+            "path": "config/fancymenu/panoramas/venus/panorama/panorama_2.png"
+          }
+        },
+        {
+          "id": "panorama_3.png",
+          "name": "panorama_3.png",
+          "type": "File",
+          "artifact": {
+            "size": 172263,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/panoramas/venus/panorama/panorama_3.png",
+            "MD5": "d9be827f3d5fc85da9f244c75fb806ee",
+            "path": "config/fancymenu/panoramas/venus/panorama/panorama_3.png"
+          }
+        },
+        {
+          "id": "panorama_4.png",
+          "name": "panorama_4.png",
+          "type": "File",
+          "artifact": {
+            "size": 27460,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/panoramas/venus/panorama/panorama_4.png",
+            "MD5": "7eb3575d7faa019e6d0014f12f78439d",
+            "path": "config/fancymenu/panoramas/venus/panorama/panorama_4.png"
+          }
+        },
+        {
+          "id": "panorama_5.png",
+          "name": "panorama_5.png",
+          "type": "File",
+          "artifact": {
+            "size": 74723,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/panoramas/venus/panorama/panorama_5.png",
+            "MD5": "7b57a55fbcdaca355bb2b5aad6c2a705",
+            "path": "config/fancymenu/panoramas/venus/panorama/panorama_5.png"
+          }
+        },
+        {
+          "id": "properties.txt",
+          "name": "properties.txt",
+          "type": "File",
+          "artifact": {
+            "size": 113,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/panoramas/venus/properties.txt",
+            "MD5": "99b45d1ca25f7ea0e5ae0c2e1fecfd9a",
+            "path": "config/fancymenu/panoramas/venus/properties.txt"
+          }
+        },
+        {
+          "id": "cherry_blossom.json",
+          "name": "cherry_blossom.json",
+          "type": "File",
+          "artifact": {
+            "size": 9349,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/ui_themes/cherry_blossom.json",
+            "MD5": "90e358ee1c6bbd1d17bbcdad0a504f3d",
+            "path": "config/fancymenu/ui_themes/cherry_blossom.json"
+          }
+        },
+        {
+          "id": "cozy_campfire.json",
+          "name": "cozy_campfire.json",
+          "type": "File",
+          "artifact": {
+            "size": 9347,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/ui_themes/cozy_campfire.json",
+            "MD5": "02b0cd78a482dbd7ec793e123f4c007b",
+            "path": "config/fancymenu/ui_themes/cozy_campfire.json"
+          }
+        },
+        {
+          "id": "dark.json",
+          "name": "dark.json",
+          "type": "File",
+          "artifact": {
+            "size": 9329,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/ui_themes/dark.json",
+            "MD5": "cbf30e731636c918d598f1ad9b0ea371",
+            "path": "config/fancymenu/ui_themes/dark.json"
+          }
+        },
+        {
+          "id": "dark_high_contrast.json",
+          "name": "dark_high_contrast.json",
+          "type": "File",
+          "artifact": {
+            "size": 9359,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/ui_themes/dark_high_contrast.json",
+            "MD5": "4b532a7a5c5ecd839e55a3c083c8bca3",
+            "path": "config/fancymenu/ui_themes/dark_high_contrast.json"
+          }
+        },
+        {
+          "id": "light.json",
+          "name": "light.json",
+          "type": "File",
+          "artifact": {
+            "size": 9331,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/ui_themes/light.json",
+            "MD5": "f3980d6eed1064c36d794d7b1030fd06",
+            "path": "config/fancymenu/ui_themes/light.json"
+          }
+        },
+        {
+          "id": "light_high_contrast.json",
+          "name": "light_high_contrast.json",
+          "type": "File",
+          "artifact": {
+            "size": 9361,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/ui_themes/light_high_contrast.json",
+            "MD5": "700ff9cd0e95ac2234e0494af729226a",
+            "path": "config/fancymenu/ui_themes/light_high_contrast.json"
+          }
+        },
+        {
+          "id": "pumpkin_soup.json",
+          "name": "pumpkin_soup.json",
+          "type": "File",
+          "artifact": {
+            "size": 9345,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/ui_themes/pumpkin_soup.json",
+            "MD5": "d322c4bde872420ddeb2eaa124d0f16a",
+            "path": "config/fancymenu/ui_themes/pumpkin_soup.json"
+          }
+        },
+        {
+          "id": "purple_void.json",
+          "name": "purple_void.json",
+          "type": "File",
+          "artifact": {
+            "size": 9343,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/ui_themes/purple_void.json",
+            "MD5": "79df3b7ab7a74d55e3f5bb70cd996dea",
+            "path": "config/fancymenu/ui_themes/purple_void.json"
+          }
+        },
+        {
+          "id": "spooky_season.json",
+          "name": "spooky_season.json",
+          "type": "File",
+          "artifact": {
+            "size": 9347,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/ui_themes/spooky_season.json",
+            "MD5": "c45cc6e6bd9c4a296227e764dcf1e953",
+            "path": "config/fancymenu/ui_themes/spooky_season.json"
+          }
+        },
+        {
+          "id": "user_variables.db",
+          "name": "user_variables.db",
+          "type": "File",
+          "artifact": {
+            "size": 23,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fancymenu/user_variables.db",
+            "MD5": "458e4f3f673e3fea22fb92bf76fcf912",
+            "path": "config/fancymenu/user_variables.db"
+          }
+        },
+        {
+          "id": "fastsuite.cfg",
+          "name": "fastsuite.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 894,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fastsuite.cfg",
+            "MD5": "93892cbe25861f0c420f1eb6cac431d9",
+            "path": "config/fastsuite.cfg"
+          }
+        },
+        {
+          "id": "ferritecore-mixin.toml",
+          "name": "ferritecore-mixin.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1493,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ferritecore-mixin.toml",
+            "MD5": "fa651d9da306dd7e47ee5136e72f72f2",
+            "path": "config/ferritecore-mixin.toml"
+          }
+        },
+        {
+          "id": "flywheel-client.toml",
+          "name": "flywheel-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 609,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/flywheel-client.toml",
+            "MD5": "09e1310ee1043230f10325d3f00764f6",
+            "path": "config/flywheel-client.toml"
+          }
+        },
+        {
+          "id": "fml.toml",
+          "name": "fml.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1118,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/fml.toml",
+            "MD5": "8db99420e94dd35db79a6a8a7b801696",
+            "path": "config/fml.toml"
+          }
+        },
+        {
+          "id": "forge-client.toml",
+          "name": "forge-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1602,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/forge-client.toml",
+            "MD5": "975ed82390b8039c41cc82181a13a9e4",
+            "path": "config/forge-client.toml"
+          }
+        },
+        {
+          "id": "chapter_groups.snbt",
+          "name": "chapter_groups.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 178,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/chapter_groups.snbt",
+            "MD5": "00821e8f3fdbc8951140be62aaa79cf2",
+            "path": "config/ftbquests/quests/chapter_groups.snbt"
+          }
+        },
+        {
+          "id": "almacen.snbt",
+          "name": "almacen.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 3169,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/chapters/almacen.snbt",
+            "MD5": "d851d42ab89b507ad339544c12a4f0ca",
+            "path": "config/ftbquests/quests/chapters/almacen.snbt"
+          }
+        },
+        {
+          "id": "anomalias.snbt",
+          "name": "anomalias.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 5645,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/chapters/anomalias.snbt",
+            "MD5": "abfbed0e5b98f2166fb300799a9974f2",
+            "path": "config/ftbquests/quests/chapters/anomalias.snbt"
+          }
+        },
+        {
+          "id": "conexion.snbt",
+          "name": "conexion.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 2716,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/chapters/conexion.snbt",
+            "MD5": "63b3dc92a66da044ca476c5d1a6d60b3",
+            "path": "config/ftbquests/quests/chapters/conexion.snbt"
+          }
+        },
+        {
+          "id": "corriente.snbt",
+          "name": "corriente.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 2879,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/chapters/corriente.snbt",
+            "MD5": "a6b0994ac95bd48eef5f7284c8c9fff8",
+            "path": "config/ftbquests/quests/chapters/corriente.snbt"
+          }
+        },
+        {
+          "id": "equipo.snbt",
+          "name": "equipo.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 3718,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/chapters/equipo.snbt",
+            "MD5": "d6ad1eb1faba4cb2789a752200cab325",
+            "path": "config/ftbquests/quests/chapters/equipo.snbt"
+          }
+        },
+        {
+          "id": "glacio.snbt",
+          "name": "glacio.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 5640,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/chapters/glacio.snbt",
+            "MD5": "2e40bd5c0724524b90d49df4633c592a",
+            "path": "config/ftbquests/quests/chapters/glacio.snbt"
+          }
+        },
+        {
+          "id": "luna.snbt",
+          "name": "luna.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 6141,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/chapters/luna.snbt",
+            "MD5": "aaf6e7093acd6c3da33fa8930ca6a093",
+            "path": "config/ftbquests/quests/chapters/luna.snbt"
+          }
+        },
+        {
+          "id": "marte.snbt",
+          "name": "marte.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 4491,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/chapters/marte.snbt",
+            "MD5": "004a2d9220eeae4880566a09b37d405b",
+            "path": "config/ftbquests/quests/chapters/marte.snbt"
+          }
+        },
+        {
+          "id": "mercurio.snbt",
+          "name": "mercurio.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 2934,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/chapters/mercurio.snbt",
+            "MD5": "f725a0f135ab2ed630a4438cc19a77f6",
+            "path": "config/ftbquests/quests/chapters/mercurio.snbt"
+          }
+        },
+        {
+          "id": "tierra.snbt",
+          "name": "tierra.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 7496,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/chapters/tierra.snbt",
+            "MD5": "7fce8c667846edc3853a932ba054cc20",
+            "path": "config/ftbquests/quests/chapters/tierra.snbt"
+          }
+        },
+        {
+          "id": "venus.snbt",
+          "name": "venus.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 4289,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/chapters/venus.snbt",
+            "MD5": "bf3a73a84a013f31791e656360e56cde",
+            "path": "config/ftbquests/quests/chapters/venus.snbt"
+          }
+        },
+        {
+          "id": "data.snbt",
+          "name": "data.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 529,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/data.snbt",
+            "MD5": "e5ae1e19ab55e9b4eb3ae142cb225406",
+            "path": "config/ftbquests/quests/data.snbt"
+          }
+        },
+        {
+          "id": "iniciativa_1.snbt",
+          "name": "iniciativa_1.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 1010,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/reward_tables/iniciativa_1.snbt",
+            "MD5": "d4ad969beb60e2194c954832d0921faa",
+            "path": "config/ftbquests/quests/reward_tables/iniciativa_1.snbt"
+          }
+        },
+        {
+          "id": "iniciativa_2.snbt",
+          "name": "iniciativa_2.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 1009,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/reward_tables/iniciativa_2.snbt",
+            "MD5": "b3c6e7a215f366682823524dfbbd729d",
+            "path": "config/ftbquests/quests/reward_tables/iniciativa_2.snbt"
+          }
+        },
+        {
+          "id": "iniciativa_3.snbt",
+          "name": "iniciativa_3.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 1020,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/reward_tables/iniciativa_3.snbt",
+            "MD5": "ce73eb59b3bfab44faf405413fb622b0",
+            "path": "config/ftbquests/quests/reward_tables/iniciativa_3.snbt"
+          }
+        },
+        {
+          "id": "iniciativa_4.snbt",
+          "name": "iniciativa_4.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 1034,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/reward_tables/iniciativa_4.snbt",
+            "MD5": "220395a237bb5bb9e7f423420e4d62fa",
+            "path": "config/ftbquests/quests/reward_tables/iniciativa_4.snbt"
+          }
+        },
+        {
+          "id": "iniciativa_5.snbt",
+          "name": "iniciativa_5.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 1035,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/reward_tables/iniciativa_5.snbt",
+            "MD5": "5ed9158554791c6ebc6014fcc439d13b",
+            "path": "config/ftbquests/quests/reward_tables/iniciativa_5.snbt"
+          }
+        },
+        {
+          "id": "iniciativa_6.snbt",
+          "name": "iniciativa_6.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 967,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/reward_tables/iniciativa_6.snbt",
+            "MD5": "7b87a27c20403f70f33cf7a0e74798d7",
+            "path": "config/ftbquests/quests/reward_tables/iniciativa_6.snbt"
+          }
+        },
+        {
+          "id": "iniciativa_b1.snbt",
+          "name": "iniciativa_b1.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 884,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/reward_tables/iniciativa_b1.snbt",
+            "MD5": "e6416582d6c96f18a93c92d8919f27dd",
+            "path": "config/ftbquests/quests/reward_tables/iniciativa_b1.snbt"
+          }
+        },
+        {
+          "id": "iniciativa_b2.snbt",
+          "name": "iniciativa_b2.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 867,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/reward_tables/iniciativa_b2.snbt",
+            "MD5": "7a16980b423ebecc45ccea0cdb717b61",
+            "path": "config/ftbquests/quests/reward_tables/iniciativa_b2.snbt"
+          }
+        },
+        {
+          "id": "iniciativa_b3.snbt",
+          "name": "iniciativa_b3.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 882,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/reward_tables/iniciativa_b3.snbt",
+            "MD5": "d7c552395be82c759d70d9fe1d2e7a7f",
+            "path": "config/ftbquests/quests/reward_tables/iniciativa_b3.snbt"
+          }
+        },
+        {
+          "id": "iniciativa_b4.snbt",
+          "name": "iniciativa_b4.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 874,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/reward_tables/iniciativa_b4.snbt",
+            "MD5": "9d7ba55047eaf2974002b51b24521f66",
+            "path": "config/ftbquests/quests/reward_tables/iniciativa_b4.snbt"
+          }
+        },
+        {
+          "id": "iniciativa_b5.snbt",
+          "name": "iniciativa_b5.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 894,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/reward_tables/iniciativa_b5.snbt",
+            "MD5": "2eaa51eb3886cde3ada5e09fd0e5a830",
+            "path": "config/ftbquests/quests/reward_tables/iniciativa_b5.snbt"
+          }
+        },
+        {
+          "id": "ftbxmodcompat.snbt",
+          "name": "ftbxmodcompat.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 508,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbxmodcompat.snbt",
+            "MD5": "0153132fcd7e5ac08760043252ff8240",
+            "path": "config/ftbxmodcompat.snbt"
+          }
+        },
+        {
+          "id": "immediatelyfast.json",
+          "name": "immediatelyfast.json",
+          "type": "File",
+          "artifact": {
+            "size": 1060,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/immediatelyfast.json",
+            "MD5": "7b2d05a9b2f2745055edf3c8d1d0b155",
+            "path": "config/immediatelyfast.json"
+          }
+        },
+        {
+          "id": "hide-blocks.json",
+          "name": "hide-blocks.json",
+          "type": "File",
+          "artifact": {
+            "size": 191,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/jade/hide-blocks.json",
+            "MD5": "da56a1383649dd1ebbbf41d9cfddb0da",
+            "path": "config/jade/hide-blocks.json"
+          }
+        },
+        {
+          "id": "hide-entities.json",
+          "name": "hide-entities.json",
+          "type": "File",
+          "artifact": {
+            "size": 325,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/jade/hide-entities.json",
+            "MD5": "7b674db14cfdc978fa9786641eec8df6",
+            "path": "config/jade/hide-entities.json"
+          }
+        },
+        {
+          "id": "jade.json",
+          "name": "jade.json",
+          "type": "File",
+          "artifact": {
+            "size": 974,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/jade/jade.json",
+            "MD5": "bfdbc8df70932e88399bd6c039163be0",
+            "path": "config/jade/jade.json"
+          }
+        },
+        {
+          "id": "plugins.json",
+          "name": "plugins.json",
+          "type": "File",
+          "artifact": {
+            "size": 1795,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/jade/plugins.json",
+            "MD5": "06aa8099355a481a92fa8d6a0d292862",
+            "path": "config/jade/plugins.json"
+          }
+        },
+        {
+          "id": "sort-order.json",
+          "name": "sort-order.json",
+          "type": "File",
+          "artifact": {
+            "size": 1593,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/jade/sort-order.json",
+            "MD5": "fd65338a3e5e036305e5fbfcaa179927",
+            "path": "config/jade/sort-order.json"
+          }
+        },
+        {
+          "id": "blacklist.cfg",
+          "name": "blacklist.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/jei/blacklist.cfg",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "config/jei/blacklist.cfg"
+          }
+        },
+        {
+          "id": "ingredient-list-mod-sort-order.ini",
+          "name": "ingredient-list-mod-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 371,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/jei/ingredient-list-mod-sort-order.ini",
+            "MD5": "a53886abef0a3de01c5c6dcc5e15da96",
+            "path": "config/jei/ingredient-list-mod-sort-order.ini"
+          }
+        },
+        {
+          "id": "ingredient-list-type-sort-order.ini",
+          "name": "ingredient-list-type-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 72,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/jei/ingredient-list-type-sort-order.ini",
+            "MD5": "eab2da17ea7ba386787fac40f85ed93b",
+            "path": "config/jei/ingredient-list-type-sort-order.ini"
+          }
+        },
+        {
+          "id": "jei-client.ini",
+          "name": "jei-client.ini",
+          "type": "File",
+          "artifact": {
+            "size": 8398,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/jei/jei-client.ini",
+            "MD5": "4249a38ddda3ed74b1ca950a8d345f3f",
+            "path": "config/jei/jei-client.ini"
+          }
+        },
+        {
+          "id": "jei-colors.ini",
+          "name": "jei-colors.ini",
+          "type": "File",
+          "artifact": {
+            "size": 1330,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/jei/jei-colors.ini",
+            "MD5": "af367fbcbb607dddcdac7ff58ce40537",
+            "path": "config/jei/jei-colors.ini"
+          }
+        },
+        {
+          "id": "jei-debug.ini",
+          "name": "jei-debug.ini",
+          "type": "File",
+          "artifact": {
+            "size": 886,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/jei/jei-debug.ini",
+            "MD5": "298d876ba059f2c6dd2fc205584f6a8e",
+            "path": "config/jei/jei-debug.ini"
+          }
+        },
+        {
+          "id": "jei-mod-id-format.ini",
+          "name": "jei-mod-id-format.ini",
+          "type": "File",
+          "artifact": {
+            "size": 452,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/jei/jei-mod-id-format.ini",
+            "MD5": "364098057fabac71c5119e23a1cde587",
+            "path": "config/jei/jei-mod-id-format.ini"
+          }
+        },
+        {
+          "id": "recipe-category-sort-order.ini",
+          "name": "recipe-category-sort-order.ini",
+          "type": "File",
+          "artifact": {
+            "size": 1248,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/jei/recipe-category-sort-order.ini",
+            "MD5": "0d6e0d33a114510983aa40e546a66404",
+            "path": "config/jei/recipe-category-sort-order.ini"
+          }
+        },
+        {
+          "id": "lookupHistory.ini",
+          "name": "lookupHistory.ini",
+          "type": "File",
+          "artifact": {
+            "size": 736,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/jei/world/local/aaa/lookupHistory.ini",
+            "MD5": "baea4686930e80a2ef92611ebb24515d",
+            "path": "config/jei/world/local/aaa/lookupHistory.ini"
+          }
+        },
+        {
+          "id": "lookupHistory.ini",
+          "name": "lookupHistory.ini",
+          "type": "File",
+          "artifact": {
+            "size": 244,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/jei/world/server/Minecraft_Server_5ef5924c/lookupHistory.ini",
+            "MD5": "31a043ba686f732be435363e8f3e881f",
+            "path": "config/jei/world/server/Minecraft_Server_5ef5924c/lookupHistory.ini"
+          }
+        },
+        {
+          "id": "kittyconfig.json5",
+          "name": "kittyconfig.json5",
+          "type": "File",
+          "artifact": {
+            "size": 567,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/kittyconfig.json5",
+            "MD5": "b3d3d9e2a5ddb0244423fdef0979fd1c",
+            "path": "config/kittyconfig.json5"
+          }
+        },
+        {
+          "id": "de_de.local",
+          "name": "de_de.local",
+          "type": "File",
+          "artifact": {
+            "size": 369,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/konkrete/locals/de_de.local",
+            "MD5": "3aac3df2519057d2305f894c37771e30",
+            "path": "config/konkrete/locals/de_de.local"
+          }
+        },
+        {
+          "id": "en_us.local",
+          "name": "en_us.local",
+          "type": "File",
+          "artifact": {
+            "size": 426,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/konkrete/locals/en_us.local",
+            "MD5": "56c7ccaa193ba73c0d5c50aff28bb807",
+            "path": "config/konkrete/locals/en_us.local"
+          }
+        },
+        {
+          "id": "pl_pl.local",
+          "name": "pl_pl.local",
+          "type": "File",
+          "artifact": {
+            "size": 313,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/konkrete/locals/pl_pl.local",
+            "MD5": "c1f5aa5c2d2ac414f75f0ec3cab3b9c8",
+            "path": "config/konkrete/locals/pl_pl.local"
+          }
+        },
+        {
+          "id": "pt_br.local",
+          "name": "pt_br.local",
+          "type": "File",
+          "artifact": {
+            "size": 322,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/konkrete/locals/pt_br.local",
+            "MD5": "2d055da094c115b94f0e4373a2e06ebe",
+            "path": "config/konkrete/locals/pt_br.local"
+          }
+        },
+        {
+          "id": "lithostitched.json",
+          "name": "lithostitched.json",
+          "type": "File",
+          "artifact": {
+            "size": 284,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/lithostitched.json",
+            "MD5": "345e5fd8f4228a78675c761850e85ba9",
+            "path": "config/lithostitched.json"
+          }
+        },
+        {
+          "id": "modernfix-common.toml",
+          "name": "modernfix-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 104,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/modernfix-common.toml",
+            "MD5": "1422faa756ad426d0f5f9cf97ef21451",
+            "path": "config/modernfix-common.toml"
+          }
+        },
+        {
+          "id": "modernfix-mixins.properties",
+          "name": "modernfix-mixins.properties",
+          "type": "File",
+          "artifact": {
+            "size": 6484,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/modernfix-mixins.properties",
+            "MD5": "70fb676b8402e83609f2f6e0e8840a86",
+            "path": "config/modernfix-mixins.properties"
+          }
+        },
+        {
+          "id": "mowziesmobs-client.toml",
+          "name": "mowziesmobs-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 965,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/mowziesmobs-client.toml",
+            "MD5": "f3f961ff8286620216cf187eda77f290",
+            "path": "config/mowziesmobs-client.toml"
+          }
+        },
+        {
+          "id": "mowziesmobs-common.toml",
+          "name": "mowziesmobs-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 35158,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/mowziesmobs-common.toml",
+            "MD5": "6d4d11f18816e438cbb9ca0d05f706b2",
+            "path": "config/mowziesmobs-common.toml"
+          }
+        },
+        {
+          "id": "naturescompass-client.toml",
+          "name": "naturescompass-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 419,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/naturescompass-client.toml",
+            "MD5": "8b1cd5b945c35f04ce1ea666c54d2fba",
+            "path": "config/naturescompass-client.toml"
+          }
+        },
+        {
+          "id": "naturescompass-common.toml",
+          "name": "naturescompass-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2097,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/naturescompass-common.toml",
+            "MD5": "0efe0ce5f35111885d79e71cda8de386",
+            "path": "config/naturescompass-common.toml"
+          }
+        },
+        {
+          "id": "oculus.properties",
+          "name": "oculus.properties",
+          "type": "File",
+          "artifact": {
+            "size": 265,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/oculus.properties",
+            "MD5": "f17212be39a01e619f674c9f52407bfe",
+            "path": "config/oculus.properties"
+          }
+        },
+        {
+          "id": "ponder-client.toml",
+          "name": "ponder-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 599,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ponder-client.toml",
+            "MD5": "1a06166427d7f947bbbd22b09aa2a8df",
+            "path": "config/ponder-client.toml"
+          }
+        },
+        {
+          "id": "railways-client.toml",
+          "name": "railways-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1910,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/railways-client.toml",
+            "MD5": "19f979cdfee2e075941461b7cea0f80f",
+            "path": "config/railways-client.toml"
+          }
+        },
+        {
+          "id": "railways-common.toml",
+          "name": "railways-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 328,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/railways-common.toml",
+            "MD5": "ab92d8a16803093c3155f31141d547ba",
+            "path": "config/railways-common.toml"
+          }
+        },
+        {
+          "id": "resourceful-config-web.json",
+          "name": "resourceful-config-web.json",
+          "type": "File",
+          "artifact": {
+            "size": 196,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/resourceful-config-web.json",
+            "MD5": "bc9ac87fa411b02eb52641cb62aa8584",
+            "path": "config/resourceful-config-web.json"
+          }
+        },
+        {
+          "id": "sidebar_buttons.json",
+          "name": "sidebar_buttons.json",
+          "type": "File",
+          "artifact": {
+            "size": 192,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/sidebar_buttons.json",
+            "MD5": "50226dcf1b68c34a0daaed60ed176f55",
+            "path": "config/sidebar_buttons.json"
+          }
+        },
+        {
+          "id": "skinlayers.json",
+          "name": "skinlayers.json",
+          "type": "File",
+          "artifact": {
+            "size": 497,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/skinlayers.json",
+            "MD5": "04d6f743e89a6fba20ddef26e3fbef9a",
+            "path": "config/skinlayers.json"
+          }
+        },
+        {
+          "id": "sliceanddice-client.toml",
+          "name": "sliceanddice-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 29,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/sliceanddice-client.toml",
+            "MD5": "e46b7bf6ad65fa8d46274e94b051982d",
+            "path": "config/sliceanddice-client.toml"
+          }
+        },
+        {
+          "id": "sliceanddice-common.toml",
+          "name": "sliceanddice-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 404,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/sliceanddice-common.toml",
+            "MD5": "f4f8d840ef4333b9e5ae4bf6f2d488f0",
+            "path": "config/sliceanddice-common.toml"
+          }
+        },
+        {
+          "id": "sodiumextras-client.toml",
+          "name": "sodiumextras-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 4835,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/sodiumextras-client.toml",
+            "MD5": "9088fe3334b60e7e08d1f485d2adb587",
+            "path": "config/sodiumextras-client.toml"
+          }
+        },
+        {
+          "id": "sophisticatedbackpacks-common.toml",
+          "name": "sophisticatedbackpacks-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 116,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/sophisticatedbackpacks-common.toml",
+            "MD5": "111ceedce24044b002f50efca5134d18",
+            "path": "config/sophisticatedbackpacks-common.toml"
+          }
+        },
+        {
+          "id": "sophisticatedcore-client.toml",
+          "name": "sophisticatedcore-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 467,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/sophisticatedcore-client.toml",
+            "MD5": "fd9e0fc36f2dafa293fce43f553687a8",
+            "path": "config/sophisticatedcore-client.toml"
+          }
+        },
+        {
+          "id": "sophisticatedcore-common.toml",
+          "name": "sophisticatedcore-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3189,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/sophisticatedcore-common.toml",
+            "MD5": "149efc6ec29a74015cde43916a6b39e9",
+            "path": "config/sophisticatedcore-common.toml"
+          }
+        },
+        {
+          "id": "tectonic.json",
+          "name": "tectonic.json",
+          "type": "File",
+          "artifact": {
+            "size": 1267,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/tectonic.json",
+            "MD5": "8077b29730a09ef4d3b9fba0ae228349",
+            "path": "config/tectonic.json"
+          }
+        },
+        {
+          "id": "toms_storage-common.toml",
+          "name": "toms_storage-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 896,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/toms_storage-common.toml",
+            "MD5": "7f27782d9fff7fd5861ab7e637ef0fd7",
+            "path": "config/toms_storage-common.toml"
+          }
+        },
+        {
+          "id": "structure_enable_or_disable_new.json5",
+          "name": "structure_enable_or_disable_new.json5",
+          "type": "File",
+          "artifact": {
+            "size": 3088,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/towns_and_towers/structure_enable_or_disable_new.json5",
+            "MD5": "ecc5bd16196f2444973f484b12dc5c05",
+            "path": "config/towns_and_towers/structure_enable_or_disable_new.json5"
+          }
+        },
+        {
+          "id": "structure_rarity_new.json5",
+          "name": "structure_rarity_new.json5",
+          "type": "File",
+          "artifact": {
+            "size": 1581,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/towns_and_towers/structure_rarity_new.json5",
+            "MD5": "c6a035471eec8cacfae8998dcd343d34",
+            "path": "config/towns_and_towers/structure_rarity_new.json5"
+          }
+        },
+        {
+          "id": "transition.json",
+          "name": "transition.json",
+          "type": "File",
+          "artifact": {
+            "size": 62,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/transition.json",
+            "MD5": "939cbb1d75f242d47e2aa1a9d536a3e7",
+            "path": "config/transition.json"
+          }
+        },
+        {
+          "id": "trender.json",
+          "name": "trender.json",
+          "type": "File",
+          "artifact": {
+            "size": 44,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/trender.json",
+            "MD5": "57d19d218711f08f8d7ce8c69f21d59f",
+            "path": "config/trender.json"
+          }
+        },
+        {
+          "id": "category-volumes.properties",
+          "name": "category-volumes.properties",
+          "type": "File",
+          "artifact": {
+            "size": 44,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/voicechat/category-volumes.properties",
+            "MD5": "b111608f2ef12c6aca40e9fd258517a2",
+            "path": "config/voicechat/category-volumes.properties"
+          }
+        },
+        {
+          "id": "player-volumes.properties",
+          "name": "player-volumes.properties",
+          "type": "File",
+          "artifact": {
+            "size": 42,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/voicechat/player-volumes.properties",
+            "MD5": "dd08e98b101cd17c341023fa1a9b30e5",
+            "path": "config/voicechat/player-volumes.properties"
+          }
+        },
+        {
+          "id": "translations.properties",
+          "name": "translations.properties",
+          "type": "File",
+          "artifact": {
+            "size": 1168,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/voicechat/translations.properties",
+            "MD5": "acd70e3e0973ba6d8200c0ebf8b25bc0",
+            "path": "config/voicechat/translations.properties"
+          }
+        },
+        {
+          "id": "username-cache.json",
+          "name": "username-cache.json",
+          "type": "File",
+          "artifact": {
+            "size": 2,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/voicechat/username-cache.json",
+            "MD5": "99914b932bd37a50b983c5e7c90ae93b",
+            "path": "config/voicechat/username-cache.json"
+          }
+        },
+        {
+          "id": "voicechat-client.properties",
+          "name": "voicechat-client.properties",
+          "type": "File",
+          "artifact": {
+            "size": 4958,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/voicechat/voicechat-client.properties",
+            "MD5": "9133e52ea2c03c0a174589092c10560c",
+            "path": "config/voicechat/voicechat-client.properties"
+          }
+        },
+        {
+          "id": "voicechat-server.properties",
+          "name": "voicechat-server.properties",
+          "type": "File",
+          "artifact": {
+            "size": 2774,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/voicechat/voicechat-server.properties",
+            "MD5": "a1a13fec33f861b7e7199f74780cc948",
+            "path": "config/voicechat/voicechat-server.properties"
+          }
+        },
+        {
+          "id": "voicechat-client.toml",
+          "name": "voicechat-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 91,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/voicechat-client.toml",
+            "MD5": "7703edf084379ff0f1ca1f9c359e5099",
+            "path": "config/voicechat-client.toml"
+          }
+        },
+        {
+          "id": "waystones-common.toml",
+          "name": "waystones-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 6846,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/waystones-common.toml",
+            "MD5": "6c660dd3c39fa04f11ebaf8fb6145354",
+            "path": "config/waystones-common.toml"
+          }
+        },
+        {
+          "id": "yacl.json5",
+          "name": "yacl.json5",
+          "type": "File",
+          "artifact": {
+            "size": 35,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/yacl.json5",
+            "MD5": "81d542abb72c4750c7218e0d975e3368",
+            "path": "config/yacl.json5"
+          }
+        },
+        {
+          "id": "ftblibrary-client.snbt",
+          "name": "ftblibrary-client.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 153,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/defaultconfigs/ftblibrary/ftblibrary-client.snbt",
+            "MD5": "23a8652336860773b0750c976b010bee",
+            "path": "defaultconfigs/ftblibrary/ftblibrary-client.snbt"
+          }
+        },
+        {
+          "id": "client-config.snbt",
+          "name": "client-config.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 159,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/defaultconfigs/ftbquests/client-config.snbt",
+            "MD5": "08213c3efbbc4e6bbad9e66396bee2e6",
+            "path": "defaultconfigs/ftbquests/client-config.snbt"
+          }
+        },
+        {
+          "id": "ftbxmodcompat.snbt",
+          "name": "ftbxmodcompat.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 150,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/defaultconfigs/ftbxmodcompat/ftbxmodcompat.snbt",
+            "MD5": "78bf31333c86bd2ca827c3d9abab58bf",
+            "path": "defaultconfigs/ftbxmodcompat/ftbxmodcompat.snbt"
+          }
+        },
+        {
+          "id": "browser_audio_settings.json",
+          "name": "browser_audio_settings.json",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/fancymenu_data/browser_audio_settings.json",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "fancymenu_data/browser_audio_settings.json"
+          }
+        },
+        {
+          "id": "browser_video_settings.json",
+          "name": "browser_video_settings.json",
+          "type": "File",
+          "artifact": {
+            "size": 0,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/fancymenu_data/browser_video_settings.json",
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e",
+            "path": "fancymenu_data/browser_video_settings.json"
+          }
+        },
+        {
+          "id": "buddy_leveling_MDUxZDEwYjItOGY5Yi00Nzk3LTk5M2UtZmU5MjkxM2VkNmI3LTE3ODE3NDEyMjI5OTI.json",
+          "name": "buddy_leveling_MDUxZDEwYjItOGY5Yi00Nzk3LTk5M2UtZmU5MjkxM2VkNmI3LTE3ODE3NDEyMjI5OTI.json",
+          "type": "File",
+          "artifact": {
+            "size": 1619,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/fancymenu_data/buddy/buddy_leveling_MDUxZDEwYjItOGY5Yi00Nzk3LTk5M2UtZmU5MjkxM2VkNmI3LTE3ODE3NDEyMjI5OTI.json",
+            "MD5": "e04a398b8ea5086f2c2d1287cdf72ffa",
+            "path": "fancymenu_data/buddy/buddy_leveling_MDUxZDEwYjItOGY5Yi00Nzk3LTk5M2UtZmU5MjkxM2VkNmI3LTE3ODE3NDEyMjI5OTI.json"
+          }
+        },
+        {
+          "id": "buddy_save_MDUxZDEwYjItOGY5Yi00Nzk3LTk5M2UtZmU5MjkxM2VkNmI3LTE3ODE3NDEyMjI5OTI.json",
+          "name": "buddy_save_MDUxZDEwYjItOGY5Yi00Nzk3LTk5M2UtZmU5MjkxM2VkNmI3LTE3ODE3NDEyMjI5OTI.json",
+          "type": "File",
+          "artifact": {
+            "size": 380,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/fancymenu_data/buddy/buddy_save_MDUxZDEwYjItOGY5Yi00Nzk3LTk5M2UtZmU5MjkxM2VkNmI3LTE3ODE3NDEyMjI5OTI.json",
+            "MD5": "f2a9f0114e148ce5741af4744ea82d73",
+            "path": "fancymenu_data/buddy/buddy_save_MDUxZDEwYjItOGY5Yi00Nzk3LTk5M2UtZmU5MjkxM2VkNmI3LTE3ODE3NDEyMjI5OTI.json"
+          }
+        },
+        {
+          "id": "last_world.fmdata",
+          "name": "last_world.fmdata",
+          "type": "File",
+          "artifact": {
+            "size": 157,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/fancymenu_data/last_world.fmdata",
+            "MD5": "f6b767cef5a9963c5975a7312ac64bf9",
+            "path": "fancymenu_data/last_world.fmdata"
+          }
+        },
+        {
+          "id": "README.txt",
+          "name": "README.txt",
+          "type": "File",
+          "artifact": {
+            "size": 1203,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/kubejs/README.txt",
+            "MD5": "9b7dd698e2035090afd6f76f2d493cc6",
+            "path": "kubejs/README.txt"
+          }
+        },
+        {
+          "id": "example_block.png",
+          "name": "example_block.png",
+          "type": "File",
+          "artifact": {
+            "size": 247,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/kubejs/assets/kubejs/textures/block/example_block.png",
+            "MD5": "4f2cf24a9f5a4c9ded2bc7c9a792355c",
+            "path": "kubejs/assets/kubejs/textures/block/example_block.png"
+          }
+        },
+        {
+          "id": "example_item.png",
+          "name": "example_item.png",
+          "type": "File",
+          "artifact": {
+            "size": 372,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/kubejs/assets/kubejs/textures/item/example_item.png",
+            "MD5": "d948c51230a1fbd8b7b27b7d0fa0dce6",
+            "path": "kubejs/assets/kubejs/textures/item/example_item.png"
+          }
+        },
+        {
+          "id": "example.js",
+          "name": "example.js",
+          "type": "File",
+          "artifact": {
+            "size": 126,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/kubejs/client_scripts/example.js",
+            "MD5": "979c62225b318d6d57499921bc47b62d",
+            "path": "kubejs/client_scripts/example.js"
+          }
+        },
+        {
+          "id": "client.properties",
+          "name": "client.properties",
+          "type": "File",
+          "artifact": {
+            "size": 359,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/kubejs/config/client.properties",
+            "MD5": "563c5d51eff604b2a9a31710183ccf0f",
+            "path": "kubejs/config/client.properties"
+          }
+        },
+        {
+          "id": "common.properties",
+          "name": "common.properties",
+          "type": "File",
+          "artifact": {
+            "size": 329,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/kubejs/config/common.properties",
+            "MD5": "ed81a0ee12c7eb2801fb9a31da7dbc43",
+            "path": "kubejs/config/common.properties"
+          }
+        },
+        {
+          "id": "frosted_prison_biomes.json",
+          "name": "frosted_prison_biomes.json",
+          "type": "File",
+          "artifact": {
+            "size": 111,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/kubejs/data/cataclysm/tags/worldgen/biome/has_structure/frosted_prison_biomes.json",
+            "MD5": "5fc5a40f8d8343b5ac1d794e1deb6aa3",
+            "path": "kubejs/data/cataclysm/tags/worldgen/biome/has_structure/frosted_prison_biomes.json"
+          }
+        },
+        {
+          "id": "example.js",
+          "name": "example.js",
+          "type": "File",
+          "artifact": {
+            "size": 126,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/kubejs/server_scripts/example.js",
+            "MD5": "96f1e20e0fe5dc7f2aed643bfa3f9a3f",
+            "path": "kubejs/server_scripts/example.js"
+          }
+        },
+        {
+          "id": "iniciativa_loot.js",
+          "name": "iniciativa_loot.js",
+          "type": "File",
+          "artifact": {
+            "size": 6122,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/kubejs/server_scripts/iniciativa_loot.js",
+            "MD5": "43f44ddf39b271d365743552c06ef9ce",
+            "path": "kubejs/server_scripts/iniciativa_loot.js"
+          }
+        },
+        {
+          "id": "example.js",
+          "name": "example.js",
+          "type": "File",
+          "artifact": {
+            "size": 127,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/kubejs/startup_scripts/example.js",
+            "MD5": "ac40b56827e466149303bb91778b90e4",
+            "path": "kubejs/startup_scripts/example.js"
+          }
+        },
+        {
+          "id": "options.txt",
+          "name": "options.txt",
+          "type": "File",
+          "artifact": {
+            "size": 7682,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/options.txt",
+            "MD5": "b3b192c89b29d58ab294df145ec8ade9",
+            "path": "options.txt"
+          }
+        },
+        {
+          "id": "fa-player-extension.pw.toml",
+          "name": "fa-player-extension.pw.toml",
+          "type": "File",
+          "artifact": {
+            "size": 917,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/resourcepacks/.index/fa-player-extension.pw.toml",
+            "MD5": "37097699e1b3440dc0d5b7d36ab22fd3",
+            "path": "resourcepacks/.index/fa-player-extension.pw.toml"
+          }
+        },
+        {
+          "id": "fresh-animations.pw.toml",
+          "name": "fresh-animations.pw.toml",
+          "type": "File",
+          "artifact": {
+            "size": 633,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/resourcepacks/.index/fresh-animations.pw.toml",
+            "MD5": "f25fd8849ccf7fad5ec5cfbe4efa7756",
+            "path": "resourcepacks/.index/fresh-animations.pw.toml"
+          }
+        },
+        {
+          "id": "FA+Player-v1.1.zip",
+          "name": "FA+Player-v1.1.zip",
+          "type": "File",
+          "artifact": {
+            "size": 110203,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/resourcepacks/FA+Player-v1.1.zip",
+            "MD5": "8b7d38c1f46a1152e240cb91a95abf1a",
+            "path": "resourcepacks/FA+Player-v1.1.zip"
+          }
+        },
+        {
+          "id": "FreshAnimations_v1.10.5.zip",
+          "name": "FreshAnimations_v1.10.5.zip",
+          "type": "File",
+          "artifact": {
+            "size": 645816,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/resourcepacks/FreshAnimations_v1.10.5.zip",
+            "MD5": "1173945176e7428dd373f5194338ef34",
+            "path": "resourcepacks/FreshAnimations_v1.10.5.zip"
+          }
+        },
+        {
+          "id": "splashes.txt",
+          "name": "splashes.txt",
+          "type": "File",
+          "artifact": {
+            "size": 861,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/resourcepacks/Iniciativa%20Ad%20Astra/assets/minecraft/texts/splashes.txt",
+            "MD5": "9a8a088051ffed058deb5c0fe8be00ab",
+            "path": "resourcepacks/Iniciativa Ad Astra/assets/minecraft/texts/splashes.txt"
+          }
+        },
+        {
+          "id": "panorama_0.png",
+          "name": "panorama_0.png",
+          "type": "File",
+          "artifact": {
+            "size": 247406,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/resourcepacks/Iniciativa%20Ad%20Astra/assets/minecraft/textures/gui/title/background/panorama_0.png",
+            "MD5": "607261bdec15f539f7256440a706bad1",
+            "path": "resourcepacks/Iniciativa Ad Astra/assets/minecraft/textures/gui/title/background/panorama_0.png"
+          }
+        },
+        {
+          "id": "panorama_1.png",
+          "name": "panorama_1.png",
+          "type": "File",
+          "artifact": {
+            "size": 218089,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/resourcepacks/Iniciativa%20Ad%20Astra/assets/minecraft/textures/gui/title/background/panorama_1.png",
+            "MD5": "d545a659c09bd0715473f7d6978be92d",
+            "path": "resourcepacks/Iniciativa Ad Astra/assets/minecraft/textures/gui/title/background/panorama_1.png"
+          }
+        },
+        {
+          "id": "panorama_2.png",
+          "name": "panorama_2.png",
+          "type": "File",
+          "artifact": {
+            "size": 251709,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/resourcepacks/Iniciativa%20Ad%20Astra/assets/minecraft/textures/gui/title/background/panorama_2.png",
+            "MD5": "5e077aac87e900f011a66dc6fb2dde48",
+            "path": "resourcepacks/Iniciativa Ad Astra/assets/minecraft/textures/gui/title/background/panorama_2.png"
+          }
+        },
+        {
+          "id": "panorama_3.png",
+          "name": "panorama_3.png",
+          "type": "File",
+          "artifact": {
+            "size": 236137,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/resourcepacks/Iniciativa%20Ad%20Astra/assets/minecraft/textures/gui/title/background/panorama_3.png",
+            "MD5": "469254e2c699c44913b88556a47f6bba",
+            "path": "resourcepacks/Iniciativa Ad Astra/assets/minecraft/textures/gui/title/background/panorama_3.png"
+          }
+        },
+        {
+          "id": "panorama_4.png",
+          "name": "panorama_4.png",
+          "type": "File",
+          "artifact": {
+            "size": 20229,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/resourcepacks/Iniciativa%20Ad%20Astra/assets/minecraft/textures/gui/title/background/panorama_4.png",
+            "MD5": "1230ca9d23ee4a32ed8a130e445e7cb4",
+            "path": "resourcepacks/Iniciativa Ad Astra/assets/minecraft/textures/gui/title/background/panorama_4.png"
+          }
+        },
+        {
+          "id": "panorama_5.png",
+          "name": "panorama_5.png",
+          "type": "File",
+          "artifact": {
+            "size": 270472,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/resourcepacks/Iniciativa%20Ad%20Astra/assets/minecraft/textures/gui/title/background/panorama_5.png",
+            "MD5": "845123e4a151fe8efc82c70a04f75ee5",
+            "path": "resourcepacks/Iniciativa Ad Astra/assets/minecraft/textures/gui/title/background/panorama_5.png"
+          }
+        },
+        {
+          "id": "pack.mcmeta",
+          "name": "pack.mcmeta",
+          "type": "File",
+          "artifact": {
+            "size": 145,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/resourcepacks/Iniciativa%20Ad%20Astra/pack.mcmeta",
+            "MD5": "e623bd2db6fbad093dd6e77d1c87db8f",
+            "path": "resourcepacks/Iniciativa Ad Astra/pack.mcmeta"
+          }
+        },
+        {
+          "id": "pack.png",
+          "name": "pack.png",
+          "type": "File",
+          "artifact": {
+            "size": 8970,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/resourcepacks/Iniciativa%20Ad%20Astra/pack.png",
+            "MD5": "98d047d5688fc514f8c6f8801c733aa0",
+            "path": "resourcepacks/Iniciativa Ad Astra/pack.png"
+          }
+        }
+      ]
+    }
+  ]
+}

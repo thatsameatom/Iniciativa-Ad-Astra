@@ -1,0 +1,150 @@
+{
+	default_hide_dependency_lines: false
+	filename: "marte"
+	group: "6A00000000000001"
+	icon: "ad_astra:tier_2_rocket"
+	subtitle: ["Polvo rojo, y huellas que no deberían existir."]
+	id: "73000000000000C0"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Bitácora 040. El desh lunar pasa por el compresor. Cada chapa es un kilo menos que arrastrar fuera de un pozo gravitatorio."
+			]
+			dependencies: [ "720000000000000B" ]
+			id: "7300000000000001"
+			rewards: [
+				{ id: "7300000000000201", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ id: "7300000000000101", type: "item", item: "ad_astra:desh_plate", count: 6L, consume_items: false }
+			]
+			title: "Chapas de Desh"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Bloques de desh para el fuselaje del segundo cohete. Ligereza donde antes hubo peso muerto."
+			]
+			dependencies: [ "7300000000000001" ]
+			id: "7300000000000002"
+			rewards: [
+				{ id: "7300000000000202", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ id: "7300000000000102", type: "item", item: "ad_astra:desh_block", count: 6L, consume_items: false }
+			]
+			title: "Estructura de Desh"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Más empuje, menos masa. El motor de desh y sus depósitos son lo que pone Marte al alcance."
+			]
+			dependencies: [ "7300000000000001" ]
+			id: "7300000000000003"
+			rewards: [
+				{ id: "7300000000000203", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ id: "7300000000000103", type: "item", item: "ad_astra:desh_engine", count: 1L, consume_items: false }
+				{ id: "7300000000000104", type: "item", item: "ad_astra:desh_tank", count: 2L, consume_items: false }
+			]
+			title: "Propulsión de Desh"
+			x: -3.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Bitácora 044. El segundo cohete pesa la mitad y llega el doble de lejos. Destino: Marte."
+			]
+			dependencies: [ "7300000000000002", "7300000000000003" ]
+			id: "7300000000000004"
+			rewards: [
+				{ id: "7300000000000204", type: "item", item: "ad_astra:fuel_bucket", count: 4 }
+				{ id: "7300000000000205", type: "xp", xp: 300 }
+			]
+			tasks: [
+				{ id: "7300000000000105", type: "item", item: "ad_astra:tier_2_rocket", count: 1L, consume_items: false }
+			]
+			title: "Cohete Tier 2"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Bitácora 047. Polvo rojo hasta el horizonte. Frío, seco, silencioso."
+				"Y aun así, algo aquí no encaja."
+			]
+			dependencies: [ "7300000000000004" ]
+			id: "7300000000000005"
+			rewards: [
+				{ id: "7300000000000206", type: "item", item: "ad_astra:desh_block", count: 4 }
+				{ id: "7300000000000207", type: "xp", xp: 350 }
+			]
+			tasks: [
+				{ id: "7300000000000106", type: "dimension", dimension: "ad_astra:mars" }
+			]
+			title: "El planeta rojo"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Marte es demasiado grande para recorrerlo a pie. Un róver cambia las reglas de la exploración."
+			]
+			dependencies: [ "7300000000000005" ]
+			id: "7300000000000007"
+			rewards: [
+				{ id: "7300000000000208", type: "xp", xp: 200 }
+			]
+			tasks: [
+				{ id: "7300000000000107", type: "item", item: "ad_astra:tier_1_rover", count: 1L, consume_items: false }
+			]
+			title: "Vehículo de superficie"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Bajo la corteza marciana duerme el ostrum, denso y resistente al calor. El siguiente salto lo exige."
+			]
+			dependencies: [ "7300000000000005" ]
+			id: "7300000000000006"
+			rewards: [
+				{ id: "7300000000000209", type: "xp", xp: 250 }
+			]
+			tasks: [
+				{ id: "7300000000000108", type: "item", item: "ad_astra:ostrum_ingot", count: 8L, consume_items: false }
+			]
+			title: "Ostrum marciano"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Bitácora 051. Encontramos una estructura. No natural: fabricada. Con el sello de la Iniciativa."
+				"Pero nuestros registros dicen que nadie llegó a Marte antes que nosotros."
+				"Alguien borró esta misión de los archivos. La pregunta es quién. Y por qué."
+			]
+			dependencies: [ "7300000000000007", "7300000000000006" ]
+			id: "730000000000000B"
+			rewards: [
+				{ id: "73000000000002A0", type: "loot", table_id: 8791026472627208195L }
+				{ id: "730000000000020A", type: "item", item: "ad_astra:ostrum_plate", count: 4 }
+				{ id: "730000000000020B", type: "xp", xp: 400 }
+			]
+			tasks: [
+				{ id: "7300000000000109", type: "checkmark" }
+			]
+			title: "Huellas anteriores"
+			x: 3.0d
+			y: 0.0d
+		}
+	]
+	title: "III · Marte — Huellas anteriores"
+}

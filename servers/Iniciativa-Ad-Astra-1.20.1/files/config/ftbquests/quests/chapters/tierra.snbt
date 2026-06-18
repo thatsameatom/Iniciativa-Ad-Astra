@@ -1,0 +1,222 @@
+{
+	default_hide_dependency_lines: false
+	filename: "tierra"
+	group: "6A00000000000001"
+	icon: "create:cogwheel"
+	subtitle: ["Reconstruir la cadena. Reabrir la ruta."]
+	id: "71000000000000C0"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Bitácora 001. La planta lleva años en silencio. Los condensadores conservan carga residual; el resto es óxido y polvo."
+				"Orden de la Iniciativa: restablecer la línea de producción. Empieza por lo único que nunca falla — la aleación de andesita."
+			]
+			dependencies: [ ]
+			id: "7100000000000001"
+			rewards: [
+				{ id: "7100000000000201", type: "item", item: "create:cogwheel", count: 8 }
+				{ id: "7100000000000202", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ id: "7100000000000101", type: "item", item: "create:andesite_alloy", count: 16L, consume_items: false }
+			]
+			title: "Reactivar la planta"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Ningún operario trabaja a ciegas. Las gafas leen la tensión de cada eje; la llave inglesa recoloca lo demás."
+			]
+			dependencies: [ "7100000000000001" ]
+			id: "7100000000000002"
+			rewards: [
+				{ id: "7100000000000203", type: "item", item: "create:shaft", count: 16 }
+				{ id: "7100000000000204", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ id: "7100000000000102", type: "item", item: "create:goggles", count: 1L, consume_items: false }
+				{ id: "7100000000000103", type: "item", item: "create:wrench", count: 1L, consume_items: false }
+			]
+			title: "Instrumentos de operario"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"La planta necesita fuerza viva. Una rueda hidráulica basta para despertar los primeros engranajes."
+				"No es elegante. Pero gira, y hoy la Iniciativa no pide más."
+			]
+			dependencies: [ "7100000000000002" ]
+			id: "7100000000000003"
+			rewards: [
+				{ id: "7100000000000205", type: "item", item: "create:large_cogwheel", count: 4 }
+			]
+			tasks: [
+				{ id: "7100000000000104", type: "item", item: "create:water_wheel", count: 1L, consume_items: false }
+			]
+			title: "La primera rotación"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"La prensa mecánica devuelve forma al metal: chapas y láminas que la cadena tragará después."
+			]
+			dependencies: [ "7100000000000003" ]
+			id: "7100000000000004"
+			rewards: [
+				{ id: "7100000000000206", type: "item", item: "create:iron_sheet", count: 16 }
+			]
+			tasks: [
+				{ id: "7100000000000105", type: "item", item: "create:mechanical_press", count: 1L, consume_items: false }
+			]
+			title: "Bajo presión"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Las ruedas trituradoras doblan el rendimiento de cada veta. Nada se desperdicia cuando no queda nadie para traer más."
+			]
+			dependencies: [ "7100000000000003" ]
+			id: "7100000000000005"
+			rewards: [
+				{ id: "7100000000000207", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ id: "7100000000000106", type: "item", item: "create:crushing_wheel", count: 2L, consume_items: false }
+			]
+			title: "Triturar la roca"
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Cobre y zinc fundidos en el corazón de un soplador. El latón es la frontera entre reparar y construir."
+			]
+			dependencies: [ "7100000000000004", "7100000000000005" ]
+			id: "7100000000000006"
+			rewards: [
+				{ id: "7100000000000208", type: "item", item: "create:brass_casing", count: 4 }
+			]
+			tasks: [
+				{ id: "7100000000000107", type: "item", item: "create:brass_ingot", count: 8L, consume_items: false }
+			]
+			title: "Latón"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Los componentes que la Iniciativa nunca llegó a automatizar del todo. A partir de aquí, la máquina empieza a pensar un poco por sí sola."
+			]
+			dependencies: [ "7100000000000006" ]
+			id: "7100000000000007"
+			rewards: [
+				{ id: "7100000000000209", type: "item", item: "create:mechanical_crafter", count: 4 }
+				{ id: "710000000000020A", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ id: "7100000000000108", type: "item", item: "create:precision_mechanism", count: 4L, consume_items: false }
+				{ id: "7100000000000109", type: "item", item: "create:electron_tube", count: 4L, consume_items: false }
+			]
+			title: "Mecanismos de precisión"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"La rotación hidráulica tiene techo. El vapor, no. Un motor de vapor y su mochila de cobre devuelven a la planta el pulso a plena potencia."
+			]
+			dependencies: [ "7100000000000007" ]
+			id: "7100000000000008"
+			rewards: [
+				{ id: "710000000000020B", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ id: "710000000000010A", type: "item", item: "create:steam_engine", count: 1L, consume_items: false }
+				{ id: "710000000000010B", type: "item", item: "create:copper_backtank", count: 1L, consume_items: false }
+			]
+			title: "El aliento del vapor"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"Bitácora 014. Aparecieron los viejos planos de la Iniciativa. No usaban hierro para alcanzar el cielo: usaban acero."
+				"Hierro y carbón, aleados en el Horno de Explosión Etriónico."
+			]
+			dependencies: [ "7100000000000007" ]
+			id: "7100000000000009"
+			rewards: [
+				{ id: "710000000000020C", type: "item", item: "ad_astra:steel_plate", count: 8 }
+			]
+			tasks: [
+				{ id: "710000000000010C", type: "item", item: "ad_astra:etrionic_blast_furnace", count: 1L, consume_items: false }
+				{ id: "710000000000010D", type: "item", item: "ad_astra:steel_ingot", count: 16L, consume_items: false }
+			]
+			title: "Acero"
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			description: [
+				"El compresor aplasta el acero en chapa, y la chapa en blindaje. Lo que sube al cielo no puede permitirse una sola grieta."
+			]
+			dependencies: [ "7100000000000009" ]
+			id: "710000000000000A"
+			rewards: [
+				{ id: "710000000000020D", type: "item", item: "ad_astra:steel_block", count: 6 }
+			]
+			tasks: [
+				{ id: "710000000000010E", type: "item", item: "ad_astra:compressor", count: 1L, consume_items: false }
+				{ id: "710000000000010F", type: "item", item: "ad_astra:steel_plate", count: 8L, consume_items: false }
+			]
+			title: "Compresión"
+			x: 4.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Bitácora 020. La cadena vuelve a estar viva. Ya no reparamos: construimos."
+				"La Mesa de la NASA es el umbral. Lo que se ensamble aquí no está pensado para quedarse en tierra."
+				"La primera baliza muerta está a 384.000 kilómetros. Empecemos por ahí."
+			]
+			dependencies: [ "710000000000000A", "7100000000000008" ]
+			id: "710000000000000B"
+			rewards: [
+				{ id: "710000000000020E", type: "item", item: "ad_astra:steel_ingot", count: 16 }
+				{ id: "710000000000020F", type: "xp", xp: 300 }
+				{ id: "7100000000000211", type: "loot", table_id: 8791026472627208193L }
+			]
+			tasks: [
+				{ id: "7100000000000110", type: "item", item: "ad_astra:nasa_workbench", count: 1L, consume_items: false }
+			]
+			title: "Mesa de la NASA"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"No nos dijeron por qué reactivaron la planta justo ahora."
+				"Solo que, una a una, las balizas de la Iniciativa dejaron de responder. La última en caer fue la más lejana. Nadie pronuncia su nombre en voz alta."
+			]
+			dependencies: [ ]
+			id: "710000000000000C"
+			rewards: [
+				{ id: "7100000000000210", type: "xp", xp: 25 }
+			]
+			tasks: [
+				{ id: "7100000000000111", type: "checkmark" }
+			]
+			title: "Bitácora: el silencio"
+			x: -6.0d
+			y: 2.0d
+		}
+	]
+	title: "I · Tierra — La Iniciativa"
+}

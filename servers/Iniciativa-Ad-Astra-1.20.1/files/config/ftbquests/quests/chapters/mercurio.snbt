@@ -1,0 +1,99 @@
+{
+	default_hide_dependency_lines: false
+	filename: "mercurio"
+	group: "6A00000000000001"
+	icon: "ad_astra:solar_panel"
+	subtitle: ["Cerca del Sol, cerca de la verdad."]
+	id: "75000000000000C0"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Bitácora 070. El mismo cohete que nos llevó a Venus sirve para Mercurio. Más cerca del Sol, más cerca de las respuestas."
+			]
+			dependencies: [ "740000000000000B" ]
+			id: "7500000000000001"
+			rewards: [
+				{ id: "7500000000000201", type: "xp", xp: 300 }
+			]
+			tasks: [
+				{ id: "7500000000000101", type: "dimension", dimension: "ad_astra:mercury" }
+			]
+			title: "Rumbo a Mercurio"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"A esta distancia del Sol la energía es casi obscena. Ocho paneles bastan para alimentar lo que viene."
+			]
+			dependencies: [ "7500000000000001" ]
+			id: "7500000000000002"
+			rewards: [
+				{ id: "7500000000000202", type: "xp", xp: 250 }
+			]
+			tasks: [
+				{ id: "7500000000000102", type: "item", item: "ad_astra:solar_panel", count: 8L, consume_items: false }
+			]
+			title: "Cosecha solar"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"El Energizador almacena lo que los paneles cosechan. El salto interestelar consumirá hasta la última gota."
+			]
+			dependencies: [ "7500000000000002" ]
+			id: "7500000000000003"
+			rewards: [
+				{ id: "7500000000000203", type: "xp", xp: 300 }
+			]
+			tasks: [
+				{ id: "7500000000000103", type: "item", item: "ad_astra:energizer", count: 1L, consume_items: false }
+			]
+			title: "Reserva de energía"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			description: [
+				"El cuarto cohete devorará calorite. Mercurio tiene de sobra; conviene no marcharse con las manos vacías."
+			]
+			dependencies: [ "7500000000000001" ]
+			id: "7500000000000004"
+			rewards: [
+				{ id: "7500000000000204", type: "xp", xp: 350 }
+			]
+			tasks: [
+				{ id: "7500000000000104", type: "item", item: "ad_astra:calorite_ingot", count: 16L, consume_items: false }
+			]
+			title: "Más calorite"
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Bitácora 074. En un servidor mercuriano hallamos la ruta completa a Proxima Centauri. La calculó la Iniciativa hace años."
+				"Junto a ella, una orden de cese firmada el mismo día en que Glacio dejó de responder."
+				"Alguien sabía. Alguien decidió que nadie volviera a hacer este viaje."
+				"Nosotros vamos a hacerlo."
+			]
+			dependencies: [ "7500000000000003", "7500000000000004" ]
+			id: "750000000000000B"
+			rewards: [
+				{ id: "75000000000002A0", type: "loot", table_id: 8791026472627208197L }
+				{ id: "7500000000000205", type: "item", item: "ad_astra:calorite_block", count: 4 }
+				{ id: "7500000000000206", type: "xp", xp: 500 }
+			]
+			tasks: [
+				{ id: "7500000000000105", type: "checkmark" }
+			]
+			title: "La ruta abandonada"
+			x: -1.5d
+			y: 0.0d
+		}
+	]
+	title: "V · Mercurio — La ruta abandonada"
+}

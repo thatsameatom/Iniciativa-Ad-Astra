@@ -1,0 +1,27 @@
+{
+	empty_weight: 0
+	filename: "iniciativa_b1"
+	hide_tooltip: false
+	icon: "minecraft:leather"
+	id: "7B00000000000001"
+	loot_crate: {
+		color: 11184810
+		glow: false
+		item_name: "Caja de superficie · 1"
+		string_id: "iniciativa_b1"
+	}
+	loot_size: 3
+	order_index: 0
+	rewards: [
+		{ count: 2, item: "sophisticatedbackpacks:upgrade_base", type: "item", weight: 12 }
+		{ count: 8, item: "minecraft:leather", type: "item", weight: 12 }
+		{ count: 6, item: "minecraft:iron_ingot", type: "item", weight: 12 }
+		{ count: 8, item: "minecraft:copper_ingot", type: "item", weight: 10 }
+		{ count: 4, item: "minecraft:gold_ingot", type: "item", weight: 8 }
+		{ count: 6, item: "create:andesite_alloy", type: "item", weight: 8 }
+		{ type: "xp", xp: 100, weight: 8 }
+		{ count: 2, item: "minecraft:diamond", type: "item", weight: 4 }
+	]
+	title: "Suministros de superficie · I"
+	use_title: true
+}

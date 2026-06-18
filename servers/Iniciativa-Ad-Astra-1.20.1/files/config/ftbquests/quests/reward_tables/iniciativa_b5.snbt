@@ -1,0 +1,27 @@
+{
+	empty_weight: 0
+	filename: "iniciativa_b5"
+	hide_tooltip: false
+	icon: "cataclysm:ancient_metal_ingot"
+	id: "7B00000000000005"
+	loot_crate: {
+		color: 4924476
+		glow: true
+		item_name: "Caja de anomalías"
+		string_id: "iniciativa_b5"
+	}
+	loot_size: 4
+	order_index: 0
+	rewards: [
+		{ count: 2, item: "cataclysm:ignitium_ingot", type: "item", weight: 10 }
+		{ count: 2, item: "cataclysm:cursium_ingot", type: "item", weight: 10 }
+		{ count: 2, item: "cataclysm:black_steel_ingot", type: "item", weight: 10 }
+		{ count: 1, item: "cataclysm:enderite_ingot", type: "item", weight: 8 }
+		{ count: 2, item: "cataclysm:witherite_ingot", type: "item", weight: 8 }
+		{ count: 4, item: "minecraft:diamond", type: "item", weight: 10 }
+		{ count: 2, item: "minecraft:netherite_scrap", type: "item", weight: 6 }
+		{ type: "xp", xp: 300, weight: 8 }
+	]
+	title: "Registro de anomalías"
+	use_title: true
+}

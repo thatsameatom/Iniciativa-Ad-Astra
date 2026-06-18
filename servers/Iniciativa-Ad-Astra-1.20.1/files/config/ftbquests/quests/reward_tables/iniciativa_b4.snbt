@@ -1,0 +1,27 @@
+{
+	empty_weight: 0
+	filename: "iniciativa_b4"
+	hide_tooltip: false
+	icon: "create:track_station"
+	id: "7B00000000000004"
+	loot_crate: {
+		color: 11184810
+		glow: false
+		item_name: "Caja de superficie · 4"
+		string_id: "iniciativa_b4"
+	}
+	loot_size: 4
+	order_index: 0
+	rewards: [
+		{ count: 16, item: "create:track", type: "item", weight: 14 }
+		{ count: 4, item: "create:railway_casing", type: "item", weight: 10 }
+		{ count: 12, item: "create:andesite_alloy", type: "item", weight: 10 }
+		{ count: 10, item: "minecraft:iron_ingot", type: "item", weight: 10 }
+		{ count: 1, item: "waystones:waystone", type: "item", weight: 6 }
+		{ count: 1, item: "railways:conductor_whistle", type: "item", weight: 5 }
+		{ type: "xp", xp: 250, weight: 8 }
+		{ count: 4, item: "minecraft:diamond", type: "item", weight: 4 }
+	]
+	title: "Suministros de superficie · IV"
+	use_title: true
+}

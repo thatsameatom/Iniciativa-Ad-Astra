@@ -1,0 +1,27 @@
+{
+	empty_weight: 0
+	filename: "iniciativa_b3"
+	hide_tooltip: false
+	icon: "createaddition:capacitor"
+	id: "7B00000000000003"
+	loot_crate: {
+		color: 11184810
+		glow: false
+		item_name: "Caja de superficie · 3"
+		string_id: "iniciativa_b3"
+	}
+	loot_size: 4
+	order_index: 0
+	rewards: [
+		{ count: 12, item: "minecraft:copper_ingot", type: "item", weight: 14 }
+		{ count: 2, item: "createaddition:capacitor", type: "item", weight: 10 }
+		{ count: 4, item: "create:electron_tube", type: "item", weight: 10 }
+		{ count: 6, item: "minecraft:gold_ingot", type: "item", weight: 10 }
+		{ count: 6, item: "create:brass_ingot", type: "item", weight: 8 }
+		{ count: 16, item: "minecraft:redstone", type: "item", weight: 8 }
+		{ type: "xp", xp: 200, weight: 8 }
+		{ count: 4, item: "minecraft:diamond", type: "item", weight: 4 }
+	]
+	title: "Suministros de superficie · III"
+	use_title: true
+}

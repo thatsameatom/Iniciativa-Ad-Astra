@@ -1,0 +1,29 @@
+{
+	empty_weight: 0
+	filename: "iniciativa_5"
+	hide_tooltip: false
+	icon: "ad_astra:energizer"
+	id: "7A00000000000005"
+	loot_crate: {
+		color: 16763904
+		glow: false
+		item_name: "Caja de suministros · V"
+		string_id: "iniciativa_5"
+	}
+	loot_size: 5
+	order_index: 0
+	rewards: [
+		{ count: 6, item: "ad_astra:calorite_ingot", type: "item", weight: 12 }
+		{ count: 4, item: "ad_astra:solar_panel", type: "item", weight: 10 }
+		{ count: 4, item: "ad_astra:calorite_plate", type: "item", weight: 9 }
+		{ count: 5, item: "ad_astra:fuel_bucket", type: "item", weight: 9 }
+		{ count: 2, item: "ad_astra:calorite_block", type: "item", weight: 7 }
+		{ type: "xp", xp: 300, weight: 8 }
+		{ count: 2, item: "ad_astra:etrionic_capacitor", type: "item", weight: 6 }
+		{ count: 1, item: "ad_astra:calorite_engine", type: "item", weight: 4 }
+		{ count: 6, item: "minecraft:diamond", type: "item", weight: 4 }
+		{ count: 1, item: "minecraft:netherite_ingot", type: "item", weight: 2 }
+	]
+	title: "Suministros de la Iniciativa · V"
+	use_title: true
+}

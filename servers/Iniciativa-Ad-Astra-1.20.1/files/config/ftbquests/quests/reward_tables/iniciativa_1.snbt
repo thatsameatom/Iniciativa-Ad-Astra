@@ -1,0 +1,29 @@
+{
+	empty_weight: 0
+	filename: "iniciativa_1"
+	hide_tooltip: false
+	icon: "create:brass_ingot"
+	id: "7A00000000000001"
+	loot_crate: {
+		color: 11184810
+		glow: false
+		item_name: "Caja de suministros · I"
+		string_id: "iniciativa_1"
+	}
+	loot_size: 4
+	order_index: 0
+	rewards: [
+		{ count: 8, item: "create:cogwheel", type: "item", weight: 14 }
+		{ count: 6, item: "minecraft:iron_ingot", type: "item", weight: 12 }
+		{ count: 6, item: "create:brass_ingot", type: "item", weight: 10 }
+		{ count: 2, item: "create:precision_mechanism", type: "item", weight: 8 }
+		{ count: 3, item: "create:electron_tube", type: "item", weight: 8 }
+		{ count: 4, item: "ad_astra:steel_ingot", type: "item", weight: 7 }
+		{ count: 2, item: "ad_astra:steel_plate", type: "item", weight: 6 }
+		{ type: "xp", xp: 100, weight: 6 }
+		{ count: 1, item: "ad_astra:fuel_bucket", type: "item", weight: 4 }
+		{ count: 2, item: "minecraft:diamond", type: "item", weight: 3 }
+	]
+	title: "Suministros de la Iniciativa · I"
+	use_title: true
+}
