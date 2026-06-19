@@ -1,10 +1,10 @@
 {
   "$schema": "file:///Users/piero/Desktop/Projects/AdAstraDistro/schemas/ServerMetaSchema.schema.json",
   "meta": {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "Iniciativa Ad Astra",
     "description": "Reconstruir la cadena. Reabrir la ruta a las estrellas.",
-    "icon": "How to set the server icon: https://github.com/dscalzi/Nebula#setting-the-server-icon",
+    "icon": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/pack_icon.png",
     "address": "localhost:25565",
     "mainServer": true,
     "autoconnect": false
