@@ -7,7 +7,7 @@
       "name": "Iniciativa Ad Astra",
       "description": "Reconstruir la cadena. Reabrir la ruta a las estrellas.",
       "icon": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/pack_icon.png",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.1",
       "mainServer": true,
@@ -668,16 +668,6 @@
             "size": 2939970,
             "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/cynosure-0.1.16-forge.jar",
             "MD5": "314101c4b94796ccbd572ffb4a851341"
-          }
-        },
-        {
-          "id": "net.blay09.mods:defaultoptions:18.0.4@jar",
-          "name": "Default Options",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 94684,
-            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/defaultoptions-forge-1.20.1-18.0.4.jar",
-            "MD5": "2a453bba939907b55d4d7e0c31e6d8ad"
           }
         },
         {
@@ -1784,28 +1774,6 @@
             "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/curios-common.toml",
             "MD5": "c565a4d0c7b8411062ff46734a8df539",
             "path": "config/curios-common.toml"
-          }
-        },
-        {
-          "id": "options.txt",
-          "name": "options.txt",
-          "type": "File",
-          "artifact": {
-            "size": 6097,
-            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/defaultoptions/options.txt",
-            "MD5": "c0eb842915d2256521ae3b03bc70ccbb",
-            "path": "config/defaultoptions/options.txt"
-          }
-        },
-        {
-          "id": "defaultoptions-common.toml",
-          "name": "defaultoptions-common.toml",
-          "type": "File",
-          "artifact": {
-            "size": 375,
-            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/defaultoptions-common.toml",
-            "MD5": "4b4e1f79877f0e6f571d7b1b6f7ca59a",
-            "path": "config/defaultoptions-common.toml"
           }
         },
         {
