@@ -7,11 +7,19 @@
       "name": "Iniciativa Ad Astra",
       "description": "Reconstruir la cadena. Reabrir la ruta a las estrellas.",
       "icon": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/pack_icon.png",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.1",
       "mainServer": true,
       "autoconnect": false,
+      "javaOptions": {
+        "supported": ">=17 <18",
+        "suggestedMajor": 17,
+        "ram": {
+          "recommended": 6144,
+          "minimum": 4096
+        }
+      },
       "modules": [
         {
           "id": "net.minecraftforge:lowcodelanguage:1.20.1-47.4.10",
