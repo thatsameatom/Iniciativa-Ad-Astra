@@ -11,10 +11,27 @@
 	quests: [
 		{
 			description: [
+				"La corriente necesita por dónde correr. La laminadora estira el cobre en alambre fino: el alma de cada cable de la Iniciativa."
+				"Sin trefilar, ni un solo electrón sale de la planta."
+			]
+			dependencies: [ "620000000000000B", "7100000000000007" ]
+			id: "6300000000000004"
+			rewards: [
+				{ id: "6300000000000208", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ id: "6300000000000107", type: "item", item: "createaddition:rolling_mill", count: 1L, consume_items: false }
+			]
+			title: "Trefilar el cobre"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			description: [
 				"Bitácora de superficie 12. La rotación movía la planta. La corriente la despierta de verdad."
 				"El alternador convierte giro en electricidad."
 			]
-			dependencies: [ "620000000000000B", "7100000000000007" ]
+			dependencies: [ "6300000000000004" ]
 			id: "6300000000000001"
 			rewards: [
 				{ id: "6300000000000201", type: "xp", xp: 100 }
@@ -23,7 +40,7 @@
 				{ id: "6300000000000101", type: "item", item: "createaddition:alternator", count: 1L, consume_items: false }
 			]
 			title: "Generar"
-			x: -6.0d
+			x: -4.5d
 			y: 0.0d
 		}
 		{
@@ -40,7 +57,7 @@
 				{ id: "6300000000000103", type: "item", item: "createaddition:copper_spool", count: 1L, consume_items: false }
 			]
 			title: "Tender el cable"
-			x: -4.5d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -56,7 +73,7 @@
 				{ id: "6300000000000104", type: "item", item: "createaddition:modular_accumulator", count: 1L, consume_items: false }
 			]
 			title: "Almacenar la carga"
-			x: -3.0d
+			x: -1.5d
 			y: -1.0d
 		}
 		{
@@ -72,7 +89,7 @@
 				{ id: "6300000000000105", type: "item", item: "createaddition:electric_motor", count: 1L, consume_items: false }
 			]
 			title: "Devolver el giro"
-			x: -3.0d
+			x: -1.5d
 			y: 1.0d
 		}
 		{
@@ -90,7 +107,7 @@
 				{ id: "6300000000000106", type: "item", item: "createaddition:tesla_coil", count: 1L, consume_items: false }
 			]
 			title: "La red despierta"
-			x: -1.5d
+			x: 0.0d
 			y: 0.0d
 		}
 	]

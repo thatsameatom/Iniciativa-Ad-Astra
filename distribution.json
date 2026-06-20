@@ -7,7 +7,7 @@
       "name": "Iniciativa Ad Astra",
       "description": "Reconstruir la cadena. Reabrir la ruta a las estrellas.",
       "icon": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/pack_icon.png",
-      "version": "1.0.7",
+      "version": "1.0.8",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.1",
       "mainServer": true,
@@ -2606,9 +2606,9 @@
           "name": "corriente.snbt",
           "type": "File",
           "artifact": {
-            "size": 2950,
+            "size": 3496,
             "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/chapters/corriente.snbt",
-            "MD5": "07c76a051659c3acd18b48d863022d87",
+            "MD5": "eb6465c25e7e5d8d8662a87c120a58b3",
             "path": "config/ftbquests/quests/chapters/corriente.snbt"
           }
         },
