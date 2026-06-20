@@ -11,7 +11,7 @@
 	quests: [
 		{
 			description: [
-				"Bitácora 07. Una bodega sin inventario es un agujero negro."
+				"Bitácora de superficie 07. Una bodega sin inventario es un agujero negro."
 				"El conector ata todos los cofres en una sola lista."
 			]
 			dependencies: [ "610000000000000B" ]
@@ -93,7 +93,7 @@
 		}
 		{
 			description: [
-				"Bitácora 11. El almacén ya no tiene paredes: lo llevas en el bolsillo."
+				"Bitácora de superficie 11. El almacén ya no tiene paredes: lo llevas en el bolsillo."
 				"La base respira sola."
 			]
 			dependencies: [ "6200000000000004", "6200000000000005" ]

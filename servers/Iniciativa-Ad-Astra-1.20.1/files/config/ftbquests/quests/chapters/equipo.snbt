@@ -125,7 +125,7 @@
 		}
 		{
 			description: [
-				"Bitácora 06. La mochila de un veterano es su historia: cada compartimento, una costumbre."
+				"Bitácora de superficie 06. La mochila de un veterano es su historia: cada compartimento, una costumbre."
 				"Ya estás listo para el campo de verdad."
 			]
 			dependencies: [ "6100000000000007", "6100000000000004" ]

@@ -11,7 +11,7 @@
 	quests: [
 		{
 			description: [
-				"Bitácora 12. La rotación movía la planta. La corriente la despierta de verdad."
+				"Bitácora de superficie 12. La rotación movía la planta. La corriente la despierta de verdad."
 				"El alternador convierte giro en electricidad."
 			]
 			dependencies: [ "620000000000000B", "7100000000000007" ]
@@ -77,7 +77,7 @@
 		}
 		{
 			description: [
-				"Bitácora 16. Alternador, acumulador y motor cierran el lazo. La bobina de Tesla es la chispa que lo corona."
+				"Bitácora de superficie 16. Alternador, acumulador y motor cierran el lazo. La bobina de Tesla es la chispa que lo corona."
 				"La planta entera, por fin, late en un mismo circuito vivo."
 			]
 			dependencies: [ "6300000000000003", "6300000000000005" ]

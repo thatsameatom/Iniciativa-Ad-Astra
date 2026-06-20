@@ -11,7 +11,7 @@
 	quests: [
 		{
 			description: [
-				"Bitácora 17. Riel a riel, el yacimiento vuelve a tocar la base."
+				"Bitácora de superficie 17. Riel a riel, el yacimiento vuelve a tocar la base."
 			]
 			dependencies: [ "630000000000000B" ]
 			id: "6400000000000001"
@@ -75,7 +75,7 @@
 		}
 		{
 			description: [
-				"Bitácora 21. Reactivamos los viejos relés de la Iniciativa. Saltan a la primera... pero hay algo más en la señal."
+				"Bitácora de superficie 21. Reactivamos los viejos relés de la Iniciativa. Saltan a la primera... pero hay algo más en la señal."
 				"Una frecuencia de fondo que no pusimos nosotros. La misma que, dicen, llega desde muy lejos."
 				"Apuntamos el dato y seguimos. Hay vías que tender."
 			]

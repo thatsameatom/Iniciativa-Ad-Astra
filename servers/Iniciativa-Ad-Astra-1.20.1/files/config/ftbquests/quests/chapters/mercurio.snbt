@@ -59,7 +59,7 @@
 		}
 		{
 			description: [
-				"El cuarto cohete devorará calorite. Mercurio tiene de sobra; conviene no marcharse con las manos vacías."
+				"El cuarto cohete devorará calorite, y ese metal solo lo escupe Venus. Asegúrate de no haber dejado el infierno con los depósitos a medias: el salto interestelar no perdona un viaje de vuelta a por más. Mercurio no regala metal — regala Sol."
 			]
 			dependencies: [ "7500000000000001" ]
 			id: "7500000000000004"
