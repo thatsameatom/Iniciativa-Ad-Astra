@@ -14,7 +14,7 @@
 				"Bitácora 12. La rotación movía la planta. La corriente la despierta de verdad."
 				"El alternador convierte giro en electricidad."
 			]
-			dependencies: [ "620000000000000B" ]
+			dependencies: [ "620000000000000B", "7100000000000007" ]
 			id: "6300000000000001"
 			rewards: [
 				{ id: "6300000000000201", type: "xp", xp: 100 }

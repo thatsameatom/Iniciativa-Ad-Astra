@@ -42,8 +42,8 @@
 				{ id: "7100000000000103", type: "item", item: "create:wrench", count: 1L, consume_items: false }
 			]
 			title: "Instrumentos de operario"
-			x: -1.5d
-			y: -1.0d
+			x: -3.0d
+			y: -1.5d
 		}
 		{
 			description: [
@@ -76,13 +76,13 @@
 			]
 			title: "Bajo presión"
 			x: -3.0d
-			y: -1.0d
+			y: 0.0d
 		}
 		{
 			description: [
-				"Las ruedas trituradoras doblan el rendimiento de cada veta. Nada se desperdicia cuando no queda nadie para traer más."
+				"Con el latón fluyendo y el ensamblador mecánico armado, salen las primeras ruedas trituradoras. Doblan el rendimiento de cada veta: nada se desperdicia cuando no queda nadie para traer más."
 			]
-			dependencies: [ "7100000000000003" ]
+			dependencies: [ "7100000000000007" ]
 			id: "7100000000000005"
 			rewards: [
 				{ id: "7100000000000207", type: "xp", xp: 100 }
@@ -91,14 +91,14 @@
 				{ id: "7100000000000106", type: "item", item: "create:crushing_wheel", count: 2L, consume_items: false }
 			]
 			title: "Triturar la roca"
-			x: -3.0d
-			y: 1.0d
+			x: 0.0d
+			y: 1.5d
 		}
 		{
 			description: [
 				"Cobre y zinc fundidos en el corazón de un soplador. El latón es la frontera entre reparar y construir."
 			]
-			dependencies: [ "7100000000000004", "7100000000000005" ]
+			dependencies: [ "7100000000000004" ]
 			id: "7100000000000006"
 			rewards: [
 				{ id: "7100000000000208", type: "item", item: "create:brass_casing", count: 4 }
@@ -107,7 +107,7 @@
 				{ id: "7100000000000107", type: "item", item: "create:brass_ingot", count: 8L, consume_items: false }
 			]
 			title: "Latón"
-			x: 0.0d
+			x: -1.5d
 			y: 0.0d
 		}
 		{
@@ -125,7 +125,7 @@
 				{ id: "7100000000000109", type: "item", item: "create:electron_tube", count: 4L, consume_items: false }
 			]
 			title: "Mecanismos de precisión"
-			x: 1.5d
+			x: 0.0d
 			y: 0.0d
 		}
 		{
@@ -142,7 +142,7 @@
 				{ id: "710000000000010B", type: "item", item: "create:copper_backtank", count: 1L, consume_items: false }
 			]
 			title: "El aliento del vapor"
-			x: 3.0d
+			x: 1.5d
 			y: -1.0d
 		}
 		{
@@ -160,7 +160,7 @@
 				{ id: "710000000000010D", type: "item", item: "ad_astra:steel_ingot", count: 16L, consume_items: false }
 			]
 			title: "Acero"
-			x: 3.0d
+			x: 1.5d
 			y: 1.0d
 		}
 		{
@@ -177,7 +177,7 @@
 				{ id: "710000000000010F", type: "item", item: "ad_astra:steel_plate", count: 8L, consume_items: false }
 			]
 			title: "Compresión"
-			x: 4.5d
+			x: 3.0d
 			y: 1.0d
 		}
 		{
@@ -197,7 +197,7 @@
 				{ id: "7100000000000110", type: "item", item: "ad_astra:nasa_workbench", count: 1L, consume_items: false }
 			]
 			title: "Mesa de la NASA"
-			x: 6.0d
+			x: 4.5d
 			y: 0.0d
 		}
 		{
