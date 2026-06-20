@@ -54,14 +54,32 @@
 				{ id: "6400000000000103", type: "item", item: "create:railway_casing", count: 2L, consume_items: false }
 			]
 			title: "Carcasa de tren"
-			x: -3.0d
+			x: -4.5d
 			y: 1.0d
 		}
 		{
 			description: [
-				"El silbato del conductor: la Iniciativa vuelve a tener trenes con dueño."
+				"Una vía sin cabina es una promesa sin tren. Los controles montan un puesto de mando sobre los bogies; el horario le dice a dónde ir."
+				"Con esto el convoy ya se conduce —y, si hace falta, se conduce solo."
 			]
 			dependencies: [ "6400000000000002", "6400000000000003" ]
+			id: "6400000000000004"
+			rewards: [
+				{ id: "6400000000000207", type: "xp", xp: 200 }
+			]
+			tasks: [
+				{ id: "6400000000000104", type: "item", item: "create:controls", count: 1L, consume_items: false }
+				{ id: "6400000000000107", type: "item", item: "create:schedule", count: 1L, consume_items: false }
+			]
+			title: "Cabina de mando"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Con la cabina lista, el silbato ata un conductor al volante: la Iniciativa vuelve a tener trenes que hacen su ruta solos."
+			]
+			dependencies: [ "6400000000000004" ]
 			id: "6400000000000005"
 			rewards: [
 				{ id: "6400000000000204", type: "xp", xp: 200 }
