@@ -7,7 +7,7 @@
       "name": "Iniciativa Ad Astra",
       "description": "Reconstruir la cadena. Reabrir la ruta a las estrellas.",
       "icon": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/pack_icon.png",
-      "version": "1.0.8",
+      "version": "1.0.9",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.1",
       "mainServer": true,
@@ -2639,9 +2639,9 @@
           "name": "luna.snbt",
           "type": "File",
           "artifact": {
-            "size": 7676,
+            "size": 7713,
             "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/chapters/luna.snbt",
-            "MD5": "f0160563ab44934347e1274aad6258e2",
+            "MD5": "83b1c589fcf0d50e5d9bd6c28a02c124",
             "path": "config/ftbquests/quests/chapters/luna.snbt"
           }
         },
@@ -2672,9 +2672,9 @@
           "name": "tierra.snbt",
           "type": "File",
           "artifact": {
-            "size": 7555,
+            "size": 8256,
             "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/chapters/tierra.snbt",
-            "MD5": "ae61a6258132a8a780783070b3112852",
+            "MD5": "8a36e3d26ca9d40a20f3807165e86dc4",
             "path": "config/ftbquests/quests/chapters/tierra.snbt"
           }
         },

@@ -150,7 +150,7 @@
 				"Bitácora 014. Aparecieron los viejos planos de la Iniciativa. No usaban hierro para alcanzar el cielo: usaban acero."
 				"Hierro y carbón, aleados en el Horno de Explosión Etriónico."
 			]
-			dependencies: [ "7100000000000007" ]
+			dependencies: [ "710000000000000D" ]
 			id: "7100000000000009"
 			rewards: [
 				{ id: "710000000000020C", type: "item", item: "ad_astra:steel_plate", count: 8 }
@@ -162,6 +162,23 @@
 			title: "Acero"
 			x: 1.5d
 			y: 1.0d
+		}
+		{
+			description: [
+				"Bitácora 013. Ninguna máquina de la Iniciativa respira sin energía: el Horno Etriónico funde con corriente, no con fuego."
+				"El generador de carbón es el primer latido — hierro, carbón y un horno común, sin una sola placa de acero de por medio. Pégalo cara con cara al horno y la corriente pasará sola. Recién entonces habrá acero."
+			]
+			dependencies: [ "7100000000000007" ]
+			id: "710000000000000D"
+			rewards: [
+				{ id: "7100000000000212", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ id: "7100000000000112", type: "item", item: "ad_astra:coal_generator", count: 1L, consume_items: false }
+			]
+			title: "El primer latido"
+			x: 0.5d
+			y: 2.0d
 		}
 		{
 			description: [

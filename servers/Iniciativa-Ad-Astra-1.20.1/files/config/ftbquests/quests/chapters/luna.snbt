@@ -29,8 +29,8 @@
 		}
 		{
 			description: [
-				"Ninguna máquina de la Iniciativa respira sin energía. El generador de carbón es el primer latido; el capacitor etriónico, la carga que se lleva a donde haga falta."
-				"Sin corriente, la refinería y el cargador de oxígeno no son más que chatarra cara."
+				"En Tierra bastaba pegar el generador a la máquina. Una base lunar es otra cosa: hay que repartir la corriente."
+				"El capacitor etriónico lleva la carga a donde haga falta; el cable de acero une el generador con la refinería y el cargador de oxígeno. Sin red, ambos no son más que chatarra cara."
 			]
 			dependencies: [ "7200000000000001" ]
 			id: "720000000000000A"
@@ -38,10 +38,10 @@
 				{ id: "72000000000002F0", type: "xp", xp: 150 }
 			]
 			tasks: [
-				{ id: "7200000000000120", type: "item", item: "ad_astra:coal_generator", count: 1L, consume_items: false }
-				{ id: "7200000000000121", type: "item", item: "ad_astra:etrionic_capacitor", count: 1L, consume_items: false }
+				{ id: "7200000000000120", type: "item", item: "ad_astra:etrionic_capacitor", count: 1L, consume_items: false }
+				{ id: "7200000000000121", type: "item", item: "ad_astra:steel_cable", count: 4L, consume_items: false }
 			]
-			title: "El primer latido"
+			title: "Tender la red"
 			x: -4.5d
 			y: 0.0d
 		}
