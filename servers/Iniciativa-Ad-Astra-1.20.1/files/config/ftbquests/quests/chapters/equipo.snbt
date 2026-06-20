@@ -62,7 +62,7 @@
 			description: [
 				"Lo que cae al suelo, vuelve. Nada se queda atrás en una mina."
 			]
-			dependencies: [ "6100000000000002" ]
+			dependencies: [ "6100000000000003" ]
 			id: "6100000000000004"
 			rewards: [
 				{ id: "6100000000000204", type: "xp", xp: 100 }
@@ -93,6 +93,22 @@
 		}
 		{
 			description: [
+				"Oro en el forro: más capacidad, y la antesala del equipo definitivo."
+			]
+			dependencies: [ "6100000000000005" ]
+			id: "6100000000000007"
+			rewards: [
+				{ id: "610000000000020C", type: "xp", xp: 125 }
+			]
+			tasks: [
+				{ id: "6100000000000108", type: "item", item: "sophisticatedbackpacks:gold_backpack", count: 1L, consume_items: false }
+			]
+			title: "Forro de oro"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
 				"Comer es perder tiempo. La mochila te alimenta mientras trabajas."
 			]
 			dependencies: [ "6100000000000005" ]
@@ -112,7 +128,7 @@
 				"Bitácora 06. La mochila de un veterano es su historia: cada compartimento, una costumbre."
 				"Ya estás listo para el campo de verdad."
 			]
-			dependencies: [ "6100000000000005", "6100000000000003", "6100000000000004" ]
+			dependencies: [ "6100000000000007", "6100000000000004" ]
 			id: "610000000000000B"
 			rewards: [
 				{ id: "6100000000000209", type: "xp", xp: 200 }

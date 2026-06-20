@@ -29,10 +29,47 @@
 		}
 		{
 			description: [
-				"El petróleo crudo no levanta nada. La refinería lo convierte en combustible de cohete: el primer aliento real del programa."
-				"El crudo brota de pozos en el fondo de los océanos de la Tierra: bombéalo con cubos y refínalo aquí."
+				"Ninguna máquina de la Iniciativa respira sin energía. El generador de carbón es el primer latido; el capacitor etriónico, la carga que se lleva a donde haga falta."
+				"Sin corriente, la refinería y el cargador de oxígeno no son más que chatarra cara."
 			]
 			dependencies: [ "7200000000000001" ]
+			id: "720000000000000A"
+			rewards: [
+				{ id: "72000000000002F0", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ id: "7200000000000120", type: "item", item: "ad_astra:coal_generator", count: 1L, consume_items: false }
+				{ id: "7200000000000121", type: "item", item: "ad_astra:etrionic_capacitor", count: 1L, consume_items: false }
+			]
+			title: "El primer latido"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Fuera de la Tierra, el aire se fabrica. El cargador de oxígeno lo extrae del agua; el traje y los tanques lo guardan para el viaje."
+				"Regla de la Iniciativa que nadie discute: no se despega con los tanques a medias."
+			]
+			dependencies: [ "720000000000000A" ]
+			id: "720000000000000C"
+			rewards: [
+				{ id: "72000000000002F1", type: "xp", xp: 150 }
+				{ id: "72000000000002F2", type: "item", item: "ad_astra:gas_tank", count: 2 }
+			]
+			tasks: [
+				{ id: "7200000000000122", type: "item", item: "ad_astra:oxygen_loader", count: 1L, consume_items: false }
+				{ id: "7200000000000123", type: "item", item: "ad_astra:gas_tank", count: 1L, consume_items: false }
+			]
+			title: "Aire para el vacío"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"El petróleo crudo no levanta nada. Con la refinería ya alimentada, el crudo se vuelve combustible de cohete: el primer aliento real del programa."
+				"El crudo brota de pozos en el fondo de los océanos de la Tierra: bombéalo con cubos y refínalo aquí."
+			]
+			dependencies: [ "720000000000000A" ]
 			id: "7200000000000002"
 			rewards: [
 				{ id: "7200000000000203", type: "xp", xp: 150 }
@@ -42,7 +79,7 @@
 				{ id: "7200000000000103", type: "item", item: "ad_astra:fuel_bucket", count: 1L, consume_items: false }
 			]
 			title: "Refinar combustible"
-			x: -4.5d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -59,8 +96,8 @@
 				{ id: "7200000000000105", type: "item", item: "ad_astra:rocket_fin", count: 4L, consume_items: false }
 			]
 			title: "Cono y aletas"
-			x: -3.0d
-			y: -1.0d
+			x: -4.5d
+			y: 1.5d
 		}
 		{
 			description: [
@@ -77,7 +114,7 @@
 			]
 			title: "Motor y depósitos"
 			x: -3.0d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			description: [
@@ -118,7 +155,7 @@
 				"Bitácora 030. Coordenadas fijadas. 384.000 kilómetros de nada por delante."
 				"Que conste en el registro: hoy la Iniciativa vuelve al espacio."
 			]
-			dependencies: [ "7200000000000006" ]
+			dependencies: [ "7200000000000006", "720000000000000C" ]
 			id: "7200000000000007"
 			rewards: [
 				{ id: "7200000000000209", type: "item", item: "ad_astra:steel_block", count: 4 }

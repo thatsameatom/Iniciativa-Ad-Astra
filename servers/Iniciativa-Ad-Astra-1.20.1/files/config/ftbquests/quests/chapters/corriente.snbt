@@ -77,8 +77,8 @@
 		}
 		{
 			description: [
-				"Bitácora 16. La misma corriente que mueve la planta alimenta el Energizador de la Iniciativa."
-				"El suelo y las estrellas, por fin, en el mismo circuito."
+				"Bitácora 16. Alternador, acumulador y motor cierran el lazo. La bobina de Tesla es la chispa que lo corona."
+				"La planta entera, por fin, late en un mismo circuito vivo."
 			]
 			dependencies: [ "6300000000000003", "6300000000000005" ]
 			id: "630000000000000B"
@@ -87,7 +87,7 @@
 				{ id: "6300000000000207", type: "loot", table_id: 8863084066665136131L }
 			]
 			tasks: [
-				{ id: "6300000000000106", type: "item", item: "ad_astra:energizer", count: 1L, consume_items: false }
+				{ id: "6300000000000106", type: "item", item: "createaddition:tesla_coil", count: 1L, consume_items: false }
 			]
 			title: "La red despierta"
 			x: -1.5d
