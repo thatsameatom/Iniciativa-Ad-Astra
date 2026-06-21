@@ -7,7 +7,7 @@
       "name": "Iniciativa Ad Astra",
       "description": "Reconstruir la cadena. Reabrir la ruta a las estrellas.",
       "icon": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/pack_icon.png",
-      "version": "1.0.11",
+      "version": "1.0.12",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.1",
       "mainServer": true,
@@ -1228,6 +1228,16 @@
             "size": 2864275,
             "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/Towns-and-Towers-1.12-Fabric+Forge.jar",
             "MD5": "237a2186d2482856f67c638c06489fb8"
+          }
+        },
+        {
+          "id": "dev.engine_room:vanillin:1.1.3@jar",
+          "name": "Vanillin",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1055068,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/vanillin-forge-1.20.1-1.1.3.jar",
+            "MD5": "f30485347ab8852e6ca01970aebe5371"
           }
         },
         {
