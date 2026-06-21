@@ -1,0 +1,295 @@
+{
+	default_hide_dependency_lines: false
+	filename: "cocina"
+	group: "6B00000000000001"
+	icon: "farmersdelight:cooking_pot"
+	subtitle: ["Ningún operario reconstruye una cadena industrial con el estómago vacío."]
+	id: "66000000000000C0"
+	images: [ ]
+	order_index: 11
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Bitácora de superficie 22. Los registros de la vieja Iniciativa hablan de comedores enteros, turnos de cocina, menús rotativos."
+				"Queda una tabla de cortar y un cuchillo. Hay que volver a empezar desde ahí."
+			]
+			dependencies: [ "7100000000000001" ]
+			id: "6600000000000001"
+			rewards: [
+				{ id: "6600000000000201", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ id: "6600000000000101", type: "item", item: "farmersdelight:cutting_board", count: 1L, consume_items: false }
+				{ id: "6600000000000102", type: "item", item: "farmersdelight:flint_knife", count: 1L, consume_items: false }
+			]
+			title: "Tabla y cuchillo"
+			x: -9.0d
+			y: -1.5d
+		}
+		{
+			description: [
+				"Antes del silencio, cada puesto de avanzada tenía su propio fogón. Cocina de a uno, lento, pero no necesita nada que no se encuentre al lado."
+			]
+			dependencies: [ "6600000000000001" ]
+			id: "6600000000000002"
+			rewards: [
+				{ id: "6600000000000202", type: "xp", xp: 50 }
+			]
+			tasks: [
+				{ id: "6600000000000103", type: "item", item: "farmersdelight:stove", count: 1L, consume_items: false }
+			]
+			title: "El fogón"
+			x: -9.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Las bitácoras mencionan ollas comunales en la base lunar, de antes de que dejara de responder. Una olla cocina para el turno entero, no para un operario solo."
+			]
+			dependencies: [ "6600000000000001" ]
+			id: "6600000000000003"
+			rewards: [
+				{ id: "6600000000000203", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ id: "6600000000000104", type: "item", item: "farmersdelight:cooking_pot", count: 1L, consume_items: false }
+			]
+			title: "La olla"
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Tierra fue la única base con suelo fértil de verdad. Tomate, repollo y cebolla: lo que la vieja Iniciativa mandaba en lata a Luna y Marte, donde no crece nada."
+			]
+			dependencies: [ "6600000000000001", "6600000000000002", "6600000000000003" ]
+			id: "6600000000000004"
+			rewards: [
+				{ id: "6600000000000204", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ id: "6600000000000105", type: "item", item: "farmersdelight:tomato_seeds", count: 1L, consume_items: false }
+				{ id: "6600000000000106", type: "item", item: "farmersdelight:cabbage_seeds", count: 1L, consume_items: false }
+				{ id: "6600000000000107", type: "item", item: "farmersdelight:onion", count: 1L, consume_items: false }
+			]
+			title: "Sembrar la huerta"
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Un arrozal necesita agua quieta — la misma costa donde se bombea petróleo del fondo del mar. Dos cosechas, un solo litoral."
+			]
+			dependencies: [ "6600000000000001", "6600000000000002", "6600000000000003" ]
+			id: "6600000000000005"
+			rewards: [
+				{ id: "6600000000000205", type: "xp", xp: 75 }
+			]
+			tasks: [
+				{ id: "6600000000000108", type: "item", item: "farmersdelight:rice", count: 1L, consume_items: false }
+			]
+			title: "El arrozal"
+			x: -7.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Cuando se cortaron los suministros, esto fue lo que comieron los operarios que quedaron varados en la planta."
+				"Una sopa caliente no es lujo: da Nutrición — cocinar y trabajar cuesta menos hambre por un rato."
+			]
+			dependencies: [ "6600000000000004", "6600000000000005" ]
+			id: "6600000000000006"
+			rewards: [
+				{ id: "6600000000000206", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ id: "6600000000000109", type: "item", item: "farmersdelight:vegetable_soup", count: 1L, consume_items: false }
+			]
+			title: "Comida de operario"
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"La ración estándar de los turnos largos de mina, según el registro del comedor de Tierra. Más ingredientes, más minutos sin sentir el hambre."
+			]
+			dependencies: [ "6600000000000006" ]
+			id: "6600000000000007"
+			rewards: [
+				{ id: "6600000000000207", type: "xp", xp: 125 }
+			]
+			tasks: [
+				{ id: "660000000000010A", type: "item", item: "farmersdelight:steak_and_potatoes", count: 1L, consume_items: false }
+			]
+			title: "Nutrición de campaña"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Las bitácoras registran un asado servido cada vez que una baliza volvía a responder. El primero de los cuatro banquetes de la Iniciativa."
+			]
+			dependencies: [ "6600000000000007" ]
+			id: "6600000000000008"
+			rewards: [
+				{ id: "6600000000000208", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ id: "660000000000010B", type: "item", item: "farmersdelight:roast_chicken", count: 1L, consume_items: false }
+			]
+			title: "El asado del operario"
+			x: -3.0d
+			y: -2.25d
+		}
+		{
+			description: [
+				"Receta de la última cosecha de otoño antes del silencio. Se sigue sirviendo igual: cocinada en la olla, repartida en cuenco."
+			]
+			dependencies: [ "6600000000000007" ]
+			id: "6600000000000009"
+			rewards: [
+				{ id: "6600000000000209", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ id: "660000000000010C", type: "item", item: "farmersdelight:stuffed_pumpkin", count: 1L, consume_items: false }
+			]
+			title: "Calabaza rellena"
+			x: -3.0d
+			y: -0.75d
+		}
+		{
+			description: [
+				"El registro de la planta dice que esto se servía la noche antes de cada lanzamiento. Miel de superficie, jamón ahumado: el banquete de las despedidas."
+			]
+			dependencies: [ "6600000000000007" ]
+			id: "660000000000000A"
+			rewards: [
+				{ id: "660000000000020A", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ id: "660000000000010D", type: "item", item: "farmersdelight:honey_glazed_ham", count: 1L, consume_items: false }
+			]
+			title: "Jamón glaseado"
+			x: -3.0d
+			y: 0.75d
+		}
+		{
+			description: [
+				"El favorito de los equipos de Glacio, según los diarios encontrados en sus cofres. Algo caliente para el peor frío del sistema."
+			]
+			dependencies: [ "6600000000000007" ]
+			id: "660000000000000B"
+			rewards: [
+				{ id: "660000000000020B", type: "xp", xp: 100 }
+			]
+			tasks: [
+				{ id: "660000000000010E", type: "item", item: "farmersdelight:shepherds_pie", count: 1L, consume_items: false }
+			]
+			title: "Pastel del pastor"
+			x: -3.0d
+			y: 2.25d
+		}
+		{
+			description: [
+				"Cuatro banquetes, cuatro cuencos llenos — como en los días en que la red entera respondía. Antes de cazar una anomalía, ningún operario se sienta a la mesa con hambre."
+			]
+			dependencies: [ "6600000000000008", "6600000000000009", "660000000000000A", "660000000000000B" ]
+			id: "660000000000000C"
+			rewards: [
+				{ id: "660000000000020C", type: "xp", xp: 300 }
+			]
+			tasks: [
+				{ id: "660000000000010F", type: "item", item: "minecraft:bowl", count: 4L, consume_items: false }
+			]
+			title: "El banquete de la Iniciativa"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"La vieja Iniciativa nunca sacaba a nadie de la línea para que cocinara. La misma corriente que mueve la planta también mezcla la sopa."
+			]
+			dependencies: [ "660000000000000C" ]
+			id: "660000000000000D"
+			rewards: [
+				{ id: "660000000000020D", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ id: "6600000000000110", type: "item", item: "delightfulcreators:vegetable_soup_bucket", count: 1L, consume_items: false }
+			]
+			title: "Cocina industrial"
+			x: 0.0d
+			y: -2.25d
+		}
+		{
+			description: [
+				"Los mineros que trabajaron las forjas vivas del Nether sobrevivieron a base de esto. El traje de Venus necesita netherita, y la netherita no se consigue con hambre."
+			]
+			dependencies: [ "660000000000000C" ]
+			id: "660000000000000E"
+			rewards: [
+				{ id: "660000000000020E", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ id: "6600000000000111", type: "item", item: "nethersdelight:plate_of_stuffed_hoglin_ham", count: 1L, consume_items: false }
+			]
+			title: "Provisiones del Nether"
+			x: 0.0d
+			y: -0.75d
+		}
+		{
+			description: [
+				"El Guardián del Confín no deja muchas sobras, pero el expediente más oscuro de la Iniciativa registra que algo se cocinó con lo que quedó."
+			]
+			dependencies: [ "660000000000000C" ]
+			id: "660000000000000F"
+			rewards: [
+				{ id: "660000000000020F", type: "xp", xp: 200 }
+			]
+			tasks: [
+				{ id: "6600000000000112", type: "item", item: "ends_delight:dragon_leg_with_sauce", count: 1L, consume_items: false }
+			]
+			title: "El último banquete"
+			x: 0.0d
+			y: 0.75d
+		}
+		{
+			description: [
+				"Antes del silencio hubo huertos enteros de mango, durazno y piña — nadie volvió a cuidarlos cuando la red colapsó. Ahora crecen salvajes en biomas sin catalogar: hay que salir a buscarlos con el compás."
+			]
+			dependencies: [ "660000000000000C" ]
+			id: "6600000000000010"
+			rewards: [
+				{ id: "6600000000000210", type: "xp", xp: 150 }
+			]
+			tasks: [
+				{ id: "6600000000000113", type: "item", item: "fruitsdelight:mango", count: 1L, consume_items: false }
+				{ id: "6600000000000114", type: "item", item: "fruitsdelight:peach", count: 1L, consume_items: false }
+				{ id: "6600000000000115", type: "item", item: "fruitsdelight:pineapple", count: 1L, consume_items: false }
+			]
+			title: "Fruto de la exploración"
+			x: 0.0d
+			y: 2.25d
+		}
+		{
+			description: [
+				"Bitácora de superficie 23. La cocina ya no depende de un solo bioma, un solo mundo, una sola dimensión."
+				"Overworld, Nether y End alimentan por igual a quien reabra la ruta — como cuando la Iniciativa entera comía de la misma mesa. No quedan muchos, pero no pasan hambre."
+			]
+			dependencies: [ "660000000000000D", "660000000000000E", "660000000000000F", "6600000000000010" ]
+			id: "6600000000000011"
+			rewards: [
+				{ id: "6600000000000211", type: "xp", xp: 300 }
+				{ id: "6600000000000212", type: "loot", table_id: 8863084066665136134L }
+			]
+			tasks: [
+				{ id: "6600000000000116", type: "item", item: "farmersdelight:apple_cider", count: 4L, consume_items: false }
+			]
+			title: "Mesa de la Iniciativa"
+			x: 1.5d
+			y: 0.0d
+		}
+	]
+	title: "El Suelo · V — La cocina"
+}

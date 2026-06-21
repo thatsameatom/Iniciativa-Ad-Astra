@@ -7,7 +7,7 @@
       "name": "Iniciativa Ad Astra",
       "description": "Reconstruir la cadena. Reabrir la ruta a las estrellas.",
       "icon": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/pack_icon.png",
-      "version": "1.0.13",
+      "version": "1.0.15",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.1",
       "mainServer": true,
@@ -691,6 +691,16 @@
           }
         },
         {
+          "id": "net.flomik:delightfulcreators:1.2@jar",
+          "name": "Delightful Creators",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 357197,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/delightfulcreators-1.2.jar",
+            "MD5": "4b32fe27c9cb6f1551f89bdd8b8313a0"
+          }
+        },
+        {
           "id": "net.lostluma.dynamic_fps.impl:dynamic_fps:3.11.4@jar",
           "name": "Dynamic FPS",
           "type": "ForgeMod",
@@ -708,6 +718,16 @@
             "size": 1320675,
             "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/embeddium-0.3.31+mc1.20.1.jar",
             "MD5": "1dfb2ee49ce9ad5d484ff3eea0d628b7"
+          }
+        },
+        {
+          "id": "cn.foggyhillside:ends_delight:2.4@jar",
+          "name": "End's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 276849,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/ends_delight-1.20.1-2.4.jar",
+            "MD5": "cfd7e4b13bd87368237e7b14067591aa"
           }
         },
         {
@@ -798,6 +818,16 @@
             "size": 123034,
             "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/ferritecore-6.0.1-forge.jar",
             "MD5": "f52f538207a4829d7060550092ce2383"
+          }
+        },
+        {
+          "id": "dev.xkmc.fruitsdelight.init:fruitsdelight:1.1.2@jar",
+          "name": "Fruits Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1895306,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/fruitsdelight-1.1.2.jar",
+            "MD5": "92cf025ed9eab66bbaee204bc2414c5c"
           }
         },
         {
@@ -1038,6 +1068,16 @@
             "size": 227495,
             "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/NaturesCompass-1.20.1-1.12.0-forge.jar",
             "MD5": "cd6c3480c519bc6d5f7532bc5c21820b"
+          }
+        },
+        {
+          "id": "umpaz.nethersdelight:nethersdelight:1.20.1-4.0@jar",
+          "name": "Nether's Delight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 366047,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/nethersdelight-1.20.1-4.0.jar",
+            "MD5": "0d8e8162742fef314467ab1bdaac67b0"
           }
         },
         {
@@ -2701,6 +2741,17 @@
           }
         },
         {
+          "id": "cocina.snbt",
+          "name": "cocina.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 10154,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/chapters/cocina.snbt",
+            "MD5": "98a1cfb853844cf9f48ad06906ae5a41",
+            "path": "config/ftbquests/quests/chapters/cocina.snbt"
+          }
+        },
+        {
           "id": "conexion.snbt",
           "name": "conexion.snbt",
           "type": "File",
@@ -2929,6 +2980,17 @@
             "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/reward_tables/iniciativa_b5.snbt",
             "MD5": "2eaa51eb3886cde3ada5e09fd0e5a830",
             "path": "config/ftbquests/quests/reward_tables/iniciativa_b5.snbt"
+          }
+        },
+        {
+          "id": "iniciativa_b6.snbt",
+          "name": "iniciativa_b6.snbt",
+          "type": "File",
+          "artifact": {
+            "size": 911,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/reward_tables/iniciativa_b6.snbt",
+            "MD5": "6b89e25dc0490895afbc5fc33d54a0ac",
+            "path": "config/ftbquests/quests/reward_tables/iniciativa_b6.snbt"
           }
         },
         {

@@ -1,0 +1,27 @@
+{
+	empty_weight: 0
+	filename: "iniciativa_b6"
+	hide_tooltip: false
+	icon: "farmersdelight:honey_glazed_ham"
+	id: "7B00000000000006"
+	loot_crate: {
+		color: 11184810
+		glow: false
+		item_name: "Caja de superficie · 6"
+		string_id: "iniciativa_b6"
+	}
+	loot_size: 4
+	order_index: 0
+	rewards: [
+		{ count: 2, item: "sophisticatedbackpacks:upgrade_base", type: "item", weight: 10 }
+		{ count: 6, item: "minecraft:golden_carrot", type: "item", weight: 12 }
+		{ count: 4, item: "minecraft:honey_bottle", type: "item", weight: 10 }
+		{ count: 3, item: "farmersdelight:smoked_ham", type: "item", weight: 10 }
+		{ count: 6, item: "minecraft:gold_ingot", type: "item", weight: 8 }
+		{ type: "xp", xp: 200, weight: 8 }
+		{ count: 1, item: "minecraft:golden_apple", type: "item", weight: 4 }
+		{ count: 2, item: "minecraft:diamond", type: "item", weight: 4 }
+	]
+	title: "Suministros de superficie · VI"
+	use_title: true
+}
