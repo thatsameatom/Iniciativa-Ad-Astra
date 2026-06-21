@@ -23,7 +23,7 @@
 				{ id: "6100000000000101", type: "item", item: "sophisticatedbackpacks:backpack", count: 1L, consume_items: false }
 			]
 			title: "La mochila"
-			x: -6.0d
+			x: -7.5d
 			y: 0.0d
 		}
 		{
@@ -39,7 +39,7 @@
 				{ id: "6100000000000102", type: "item", item: "sophisticatedbackpacks:copper_backpack", count: 1L, consume_items: false }
 			]
 			title: "Forro de cobre"
-			x: -4.5d
+			x: -6.0d
 			y: 0.0d
 		}
 		{
@@ -55,8 +55,8 @@
 				{ id: "6100000000000103", type: "item", item: "sophisticatedbackpacks:pickup_upgrade", count: 1L, consume_items: false }
 			]
 			title: "Recolección"
-			x: -3.0d
-			y: -1.0d
+			x: -4.5d
+			y: -1.5d
 		}
 		{
 			description: [
@@ -72,7 +72,7 @@
 			]
 			title: "Imán de campo"
 			x: -3.0d
-			y: 1.0d
+			y: -1.5d
 		}
 		{
 			description: [
@@ -88,7 +88,7 @@
 				{ id: "6100000000000105", type: "item", item: "sophisticatedbackpacks:iron_backpack", count: 1L, consume_items: false }
 			]
 			title: "Acero a la espalda"
-			x: -1.5d
+			x: -4.5d
 			y: 0.0d
 		}
 		{
@@ -104,7 +104,7 @@
 				{ id: "6100000000000108", type: "item", item: "sophisticatedbackpacks:gold_backpack", count: 1L, consume_items: false }
 			]
 			title: "Forro de oro"
-			x: 0.0d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -120,8 +120,8 @@
 				{ id: "6100000000000106", type: "item", item: "sophisticatedbackpacks:feeding_upgrade", count: 1L, consume_items: false }
 			]
 			title: "Raciones"
-			x: 0.0d
-			y: -1.0d
+			x: -3.0d
+			y: 1.5d
 		}
 		{
 			description: [
@@ -138,7 +138,7 @@
 				{ id: "6100000000000107", type: "item", item: "sophisticatedbackpacks:diamond_backpack", count: 1L, consume_items: false }
 			]
 			title: "Equipo de operario"
-			x: 1.5d
+			x: -1.5d
 			y: 0.0d
 		}
 	]

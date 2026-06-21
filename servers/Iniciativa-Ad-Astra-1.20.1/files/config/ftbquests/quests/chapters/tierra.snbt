@@ -24,7 +24,7 @@
 				{ id: "7100000000000101", type: "item", item: "create:andesite_alloy", count: 16L, consume_items: false }
 			]
 			title: "Reactivar la planta"
-			x: -6.0d
+			x: -9.0d
 			y: 0.0d
 		}
 		{
@@ -42,7 +42,7 @@
 				{ id: "7100000000000103", type: "item", item: "create:wrench", count: 1L, consume_items: false }
 			]
 			title: "Instrumentos de operario"
-			x: -3.0d
+			x: -6.0d
 			y: -1.5d
 		}
 		{
@@ -59,7 +59,7 @@
 				{ id: "7100000000000104", type: "item", item: "create:water_wheel", count: 1L, consume_items: false }
 			]
 			title: "La primera rotación"
-			x: -4.5d
+			x: -7.5d
 			y: 0.0d
 		}
 		{
@@ -75,7 +75,7 @@
 				{ id: "7100000000000105", type: "item", item: "create:mechanical_press", count: 1L, consume_items: false }
 			]
 			title: "Bajo presión"
-			x: -3.0d
+			x: -6.0d
 			y: 0.0d
 		}
 		{
@@ -91,8 +91,8 @@
 				{ id: "7100000000000106", type: "item", item: "create:crushing_wheel", count: 2L, consume_items: false }
 			]
 			title: "Triturar la roca"
-			x: 0.0d
-			y: 1.5d
+			x: -1.5d
+			y: -1.5d
 		}
 		{
 			description: [
@@ -107,7 +107,7 @@
 				{ id: "7100000000000107", type: "item", item: "create:brass_ingot", count: 8L, consume_items: false }
 			]
 			title: "Latón"
-			x: -1.5d
+			x: -4.5d
 			y: 0.0d
 		}
 		{
@@ -125,7 +125,7 @@
 				{ id: "7100000000000109", type: "item", item: "create:electron_tube", count: 4L, consume_items: false }
 			]
 			title: "Mecanismos de precisión"
-			x: 0.0d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -142,8 +142,8 @@
 				{ id: "710000000000010B", type: "item", item: "create:copper_backtank", count: 1L, consume_items: false }
 			]
 			title: "El aliento del vapor"
-			x: 1.5d
-			y: -1.0d
+			x: -1.5d
+			y: 0.0d
 		}
 		{
 			description: [
@@ -160,8 +160,8 @@
 				{ id: "710000000000010D", type: "item", item: "ad_astra:steel_ingot", count: 16L, consume_items: false }
 			]
 			title: "Acero"
-			x: 1.5d
-			y: 1.0d
+			x: 0.0d
+			y: 1.5d
 		}
 		{
 			description: [
@@ -177,8 +177,8 @@
 				{ id: "7100000000000112", type: "item", item: "ad_astra:coal_generator", count: 1L, consume_items: false }
 			]
 			title: "El primer latido"
-			x: 0.5d
-			y: 2.0d
+			x: -1.5d
+			y: 1.5d
 		}
 		{
 			description: [
@@ -194,8 +194,8 @@
 				{ id: "710000000000010F", type: "item", item: "ad_astra:steel_plate", count: 8L, consume_items: false }
 			]
 			title: "Compresión"
-			x: 3.0d
-			y: 1.0d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
 			description: [
@@ -214,7 +214,7 @@
 				{ id: "7100000000000110", type: "item", item: "ad_astra:nasa_workbench", count: 1L, consume_items: false }
 			]
 			title: "Mesa de la NASA"
-			x: 4.5d
+			x: 3.0d
 			y: 0.0d
 		}
 		{
@@ -231,8 +231,8 @@
 				{ id: "7100000000000111", type: "checkmark" }
 			]
 			title: "Bitácora: el silencio"
-			x: -6.0d
-			y: 2.0d
+			x: -9.0d
+			y: -3.0d
 		}
 	]
 	title: "I · Tierra — La Iniciativa"

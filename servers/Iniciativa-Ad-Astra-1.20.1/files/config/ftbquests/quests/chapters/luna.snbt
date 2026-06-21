@@ -24,7 +24,7 @@
 				{ id: "7200000000000101", type: "item", item: "ad_astra:space_suit", count: 1L, consume_items: false }
 			]
 			title: "Presión y vacío"
-			x: -6.0d
+			x: -9.0d
 			y: 0.0d
 		}
 		{
@@ -42,7 +42,7 @@
 				{ id: "7200000000000121", type: "item", item: "ad_astra:steel_cable", count: 4L, consume_items: false }
 			]
 			title: "Tender la red"
-			x: -4.5d
+			x: -7.5d
 			y: 0.0d
 		}
 		{
@@ -61,7 +61,7 @@
 				{ id: "7200000000000123", type: "item", item: "ad_astra:gas_tank", count: 1L, consume_items: false }
 			]
 			title: "Aire para el vacío"
-			x: -3.0d
+			x: -6.0d
 			y: -1.5d
 		}
 		{
@@ -79,7 +79,7 @@
 				{ id: "7200000000000103", type: "item", item: "ad_astra:fuel_bucket", count: 1L, consume_items: false }
 			]
 			title: "Refinar combustible"
-			x: -3.0d
+			x: -6.0d
 			y: 0.0d
 		}
 		{
@@ -96,7 +96,7 @@
 				{ id: "7200000000000105", type: "item", item: "ad_astra:rocket_fin", count: 4L, consume_items: false }
 			]
 			title: "Cono y aletas"
-			x: -4.5d
+			x: -7.5d
 			y: 1.5d
 		}
 		{
@@ -113,7 +113,7 @@
 				{ id: "7200000000000107", type: "item", item: "ad_astra:steel_tank", count: 2L, consume_items: false }
 			]
 			title: "Motor y depósitos"
-			x: -3.0d
+			x: -6.0d
 			y: 1.5d
 		}
 		{
@@ -131,7 +131,7 @@
 				{ id: "7200000000000108", type: "item", item: "ad_astra:tier_1_rocket", count: 1L, consume_items: false }
 			]
 			title: "Cohete Tier 1"
-			x: -1.5d
+			x: -4.5d
 			y: 0.0d
 		}
 		{
@@ -147,7 +147,7 @@
 				{ id: "7200000000000109", type: "item", item: "ad_astra:launch_pad", count: 1L, consume_items: false }
 			]
 			title: "Plataforma de lanzamiento"
-			x: 0.0d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -165,7 +165,7 @@
 				{ id: "720000000000010A", type: "dimension", dimension: "ad_astra:moon" }
 			]
 			title: "Hacia la Luna"
-			x: 1.5d
+			x: -1.5d
 			y: 0.0d
 		}
 		{
@@ -181,8 +181,8 @@
 				{ id: "720000000000010B", type: "item", item: "ad_astra:desh_ingot", count: 8L, consume_items: false }
 			]
 			title: "Desh lunar"
-			x: 3.0d
-			y: 1.0d
+			x: 0.0d
+			y: 1.5d
 		}
 		{
 			description: [
@@ -197,8 +197,8 @@
 				{ id: "720000000000010C", type: "item", item: "ad_astra:oxygen_distributor", count: 1L, consume_items: false }
 			]
 			title: "Aire prestado"
-			x: 3.0d
-			y: -1.0d
+			x: 0.0d
+			y: -1.5d
 		}
 		{
 			description: [
@@ -217,7 +217,7 @@
 				{ id: "720000000000010D", type: "checkmark" }
 			]
 			title: "La baliza que no calla"
-			x: 4.5d
+			x: 1.5d
 			y: 0.0d
 		}
 	]

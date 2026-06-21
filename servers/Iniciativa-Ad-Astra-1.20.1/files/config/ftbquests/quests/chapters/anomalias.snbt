@@ -23,7 +23,7 @@
 				{ id: "6500000000000101", type: "checkmark" }
 			]
 			title: "El registro"
-			x: -6.0d
+			x: -7.5d
 			y: 0.0d
 		}
 		{
@@ -42,8 +42,8 @@
 				{ id: "6500000000000102", type: "advancement", advancement: "mowziesmobs:kill_frostmaw", criterion: "frostmaw" }
 			]
 			title: "AN-01 · Coloso de Hielo"
-			x: -4.0d
-			y: -2.0d
+			x: -4.5d
+			y: -3.75d
 		}
 		{
 			description: [
@@ -61,8 +61,8 @@
 				{ id: "6500000000000103", type: "advancement", advancement: "cataclysm:kill_leviathan", criterion: "ignis" }
 			]
 			title: "AN-02 · Leviatán"
-			x: -4.0d
-			y: 0.0d
+			x: -4.5d
+			y: -2.25d
 		}
 		{
 			description: [
@@ -80,8 +80,8 @@
 				{ id: "6500000000000104", type: "advancement", advancement: "cataclysm:kill_maledictus", criterion: "ignis" }
 			]
 			title: "AN-03 · Faraón Maldito"
-			x: -4.0d
-			y: 2.0d
+			x: -4.5d
+			y: -0.75d
 		}
 		{
 			description: [
@@ -99,8 +99,8 @@
 				{ id: "6500000000000105", type: "advancement", advancement: "cataclysm:kill_ignis", criterion: "ignis" }
 			]
 			title: "AN-04 · Forja Viva"
-			x: -2.0d
-			y: -1.0d
+			x: -4.5d
+			y: 0.75d
 		}
 		{
 			description: [
@@ -118,8 +118,8 @@
 				{ id: "6500000000000106", type: "advancement", advancement: "cataclysm:kill_monstrosity", criterion: "netheritemonstrosity" }
 			]
 			title: "AN-05 · Masa de Netherita"
-			x: -2.0d
-			y: 1.0d
+			x: -4.5d
+			y: 2.25d
 		}
 		{
 			description: [
@@ -137,8 +137,8 @@
 				{ id: "6500000000000107", type: "advancement", advancement: "cataclysm:kill_ender_guardian", criterion: "enderguardian" }
 			]
 			title: "AN-06 · Guardián del Confín"
-			x: 0.0d
-			y: 0.0d
+			x: -4.5d
+			y: 3.75d
 		}
 		{
 			description: [
@@ -159,7 +159,7 @@
 				{ id: "6500000000000108", type: "checkmark" }
 			]
 			title: "El registro completo"
-			x: 2.0d
+			x: -1.5d
 			y: 0.0d
 		}
 	]

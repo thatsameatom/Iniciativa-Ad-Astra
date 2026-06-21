@@ -23,7 +23,7 @@
 				{ id: "6300000000000107", type: "item", item: "createaddition:rolling_mill", count: 1L, consume_items: false }
 			]
 			title: "Trefilar el cobre"
-			x: -6.0d
+			x: -7.5d
 			y: 0.0d
 		}
 		{
@@ -40,7 +40,7 @@
 				{ id: "6300000000000101", type: "item", item: "createaddition:alternator", count: 1L, consume_items: false }
 			]
 			title: "Generar"
-			x: -4.5d
+			x: -6.0d
 			y: 0.0d
 		}
 		{
@@ -57,7 +57,7 @@
 				{ id: "6300000000000103", type: "item", item: "createaddition:copper_spool", count: 1L, consume_items: false }
 			]
 			title: "Tender el cable"
-			x: -3.0d
+			x: -4.5d
 			y: 0.0d
 		}
 		{
@@ -73,8 +73,8 @@
 				{ id: "6300000000000104", type: "item", item: "createaddition:modular_accumulator", count: 1L, consume_items: false }
 			]
 			title: "Almacenar la carga"
-			x: -1.5d
-			y: -1.0d
+			x: -3.0d
+			y: -1.5d
 		}
 		{
 			description: [
@@ -89,8 +89,8 @@
 				{ id: "6300000000000105", type: "item", item: "createaddition:electric_motor", count: 1L, consume_items: false }
 			]
 			title: "Devolver el giro"
-			x: -1.5d
-			y: 1.0d
+			x: -3.0d
+			y: 1.5d
 		}
 		{
 			description: [
@@ -107,7 +107,7 @@
 				{ id: "6300000000000106", type: "item", item: "createaddition:tesla_coil", count: 1L, consume_items: false }
 			]
 			title: "La red despierta"
-			x: 0.0d
+			x: -1.5d
 			y: 0.0d
 		}
 	]

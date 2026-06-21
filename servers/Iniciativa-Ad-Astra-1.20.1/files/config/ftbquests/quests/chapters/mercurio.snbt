@@ -39,7 +39,7 @@
 			]
 			title: "Cosecha solar"
 			x: -4.5d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			description: [
@@ -55,7 +55,7 @@
 			]
 			title: "Reserva de energía"
 			x: -3.0d
-			y: -1.0d
+			y: -1.5d
 		}
 		{
 			description: [
@@ -71,7 +71,7 @@
 			]
 			title: "Más calorite"
 			x: -4.5d
-			y: 1.0d
+			y: 1.5d
 		}
 		{
 			description: [

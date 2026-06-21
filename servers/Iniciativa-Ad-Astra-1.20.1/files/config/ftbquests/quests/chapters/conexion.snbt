@@ -22,7 +22,7 @@
 				{ id: "6400000000000101", type: "item", item: "create:track", count: 16L, consume_items: false }
 			]
 			title: "Tender vía"
-			x: -6.0d
+			x: -7.5d
 			y: 0.0d
 		}
 		{
@@ -38,7 +38,7 @@
 				{ id: "6400000000000102", type: "item", item: "create:track_station", count: 1L, consume_items: false }
 			]
 			title: "Estación"
-			x: -4.5d
+			x: -6.0d
 			y: 0.0d
 		}
 		{
@@ -54,8 +54,8 @@
 				{ id: "6400000000000103", type: "item", item: "create:railway_casing", count: 2L, consume_items: false }
 			]
 			title: "Carcasa de tren"
-			x: -4.5d
-			y: 1.0d
+			x: -6.0d
+			y: 1.5d
 		}
 		{
 			description: [
@@ -72,7 +72,7 @@
 				{ id: "6400000000000107", type: "item", item: "create:schedule", count: 1L, consume_items: false }
 			]
 			title: "Cabina de mando"
-			x: -3.0d
+			x: -4.5d
 			y: 0.0d
 		}
 		{
@@ -88,7 +88,7 @@
 				{ id: "6400000000000105", type: "item", item: "railways:conductor_whistle", count: 1L, consume_items: false }
 			]
 			title: "El maquinista"
-			x: -1.5d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -107,7 +107,7 @@
 				{ id: "6400000000000106", type: "item", item: "waystones:waystone", count: 2L, consume_items: false }
 			]
 			title: "Red de balizas"
-			x: 0.0d
+			x: -1.5d
 			y: 0.0d
 		}
 	]

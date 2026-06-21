@@ -7,7 +7,7 @@
       "name": "Iniciativa Ad Astra",
       "description": "Reconstruir la cadena. Reabrir la ruta a las estrellas.",
       "icon": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/pack_icon.png",
-      "version": "1.0.9",
+      "version": "1.0.10",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.1",
       "mainServer": true,
@@ -2573,9 +2573,9 @@
           "name": "almacen.snbt",
           "type": "File",
           "artifact": {
-            "size": 3197,
+            "size": 3198,
             "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/chapters/almacen.snbt",
-            "MD5": "bcd0f9cd3cbc08189951db80fd07ac9b",
+            "MD5": "2eb655ca4cdaa4b5026b46991b53eafc",
             "path": "config/ftbquests/quests/chapters/almacen.snbt"
           }
         },
@@ -2584,9 +2584,9 @@
           "name": "anomalias.snbt",
           "type": "File",
           "artifact": {
-            "size": 5645,
+            "size": 5654,
             "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/chapters/anomalias.snbt",
-            "MD5": "abfbed0e5b98f2166fb300799a9974f2",
+            "MD5": "175a898fc4803bf9f07fe4d422a2f2ff",
             "path": "config/ftbquests/quests/chapters/anomalias.snbt"
           }
         },
@@ -2595,9 +2595,9 @@
           "name": "conexion.snbt",
           "type": "File",
           "artifact": {
-            "size": 3452,
+            "size": 3453,
             "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/chapters/conexion.snbt",
-            "MD5": "397f8fc0d301407cd992b7a1c463f226",
+            "MD5": "a532baa7f3f3fd7661ad5609058f95cb",
             "path": "config/ftbquests/quests/chapters/conexion.snbt"
           }
         },
@@ -2606,9 +2606,9 @@
           "name": "corriente.snbt",
           "type": "File",
           "artifact": {
-            "size": 3496,
+            "size": 3497,
             "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/chapters/corriente.snbt",
-            "MD5": "eb6465c25e7e5d8d8662a87c120a58b3",
+            "MD5": "a7b680432dad0e27e89f6b030dec3afa",
             "path": "config/ftbquests/quests/chapters/corriente.snbt"
           }
         },
@@ -2617,9 +2617,9 @@
           "name": "equipo.snbt",
           "type": "File",
           "artifact": {
-            "size": 4144,
+            "size": 4147,
             "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/chapters/equipo.snbt",
-            "MD5": "67cc723769d04def4c1038de81a5114d",
+            "MD5": "f70553e10148010df07f9f5300b3aafd",
             "path": "config/ftbquests/quests/chapters/equipo.snbt"
           }
         },
@@ -2628,9 +2628,9 @@
           "name": "glacio.snbt",
           "type": "File",
           "artifact": {
-            "size": 5640,
+            "size": 5642,
             "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/chapters/glacio.snbt",
-            "MD5": "2e40bd5c0724524b90d49df4633c592a",
+            "MD5": "1e7ee58010727ad6678b9aea02a29d25",
             "path": "config/ftbquests/quests/chapters/glacio.snbt"
           }
         },
@@ -2639,9 +2639,9 @@
           "name": "luna.snbt",
           "type": "File",
           "artifact": {
-            "size": 7713,
+            "size": 7715,
             "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/chapters/luna.snbt",
-            "MD5": "83b1c589fcf0d50e5d9bd6c28a02c124",
+            "MD5": "62e434dbeb6e940aed9f34730fab3349",
             "path": "config/ftbquests/quests/chapters/luna.snbt"
           }
         },
@@ -2650,9 +2650,9 @@
           "name": "marte.snbt",
           "type": "File",
           "artifact": {
-            "size": 4491,
+            "size": 4494,
             "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/chapters/marte.snbt",
-            "MD5": "004a2d9220eeae4880566a09b37d405b",
+            "MD5": "410a185d01e31970f84656a9c2d8e349",
             "path": "config/ftbquests/quests/chapters/marte.snbt"
           }
         },
@@ -2663,7 +2663,7 @@
           "artifact": {
             "size": 3074,
             "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/chapters/mercurio.snbt",
-            "MD5": "030658bf6bd33562edc12a07772c6793",
+            "MD5": "e213508f1d25595d10c5a212138e8480",
             "path": "config/ftbquests/quests/chapters/mercurio.snbt"
           }
         },
@@ -2672,9 +2672,9 @@
           "name": "tierra.snbt",
           "type": "File",
           "artifact": {
-            "size": 8256,
+            "size": 8261,
             "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/chapters/tierra.snbt",
-            "MD5": "8a36e3d26ca9d40a20f3807165e86dc4",
+            "MD5": "c897dcc0b60e876cf127b3135fd37fc6",
             "path": "config/ftbquests/quests/chapters/tierra.snbt"
           }
         },
@@ -2683,9 +2683,9 @@
           "name": "venus.snbt",
           "type": "File",
           "artifact": {
-            "size": 4289,
+            "size": 4290,
             "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/ftbquests/quests/chapters/venus.snbt",
-            "MD5": "bf3a73a84a013f31791e656360e56cde",
+            "MD5": "332cb8d5d4b890d0caef83cfe623f9f0",
             "path": "config/ftbquests/quests/chapters/venus.snbt"
           }
         },

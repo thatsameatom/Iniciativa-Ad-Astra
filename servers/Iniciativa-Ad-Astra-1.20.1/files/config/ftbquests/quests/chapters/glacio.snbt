@@ -22,7 +22,7 @@
 				{ id: "7600000000000101", type: "item", item: "ad_astra:calorite_plate", count: 6L, consume_items: false }
 			]
 			title: "Chapas de Calorite"
-			x: -6.0d
+			x: -9.0d
 			y: 0.0d
 		}
 		{
@@ -40,7 +40,7 @@
 				{ id: "7600000000000104", type: "item", item: "ad_astra:calorite_tank", count: 2L, consume_items: false }
 			]
 			title: "Estructura de Calorite"
-			x: -4.5d
+			x: -7.5d
 			y: 0.0d
 		}
 		{
@@ -58,7 +58,7 @@
 				{ id: "7600000000000105", type: "item", item: "ad_astra:tier_4_rocket", count: 1L, consume_items: false }
 			]
 			title: "Cohete Tier 4"
-			x: -3.0d
+			x: -6.0d
 			y: 0.0d
 		}
 		{
@@ -76,7 +76,7 @@
 				{ id: "7600000000000106", type: "dimension", dimension: "ad_astra:glacio" }
 			]
 			title: "Salto a Proxima"
-			x: -1.5d
+			x: -4.5d
 			y: 0.0d
 		}
 		{
@@ -93,7 +93,7 @@
 				{ id: "7600000000000107", type: "checkmark" }
 			]
 			title: "Mundo helado"
-			x: 0.0d
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -110,7 +110,7 @@
 				{ id: "7600000000000108", type: "checkmark" }
 			]
 			title: "La baliza, de cerca"
-			x: 1.5d
+			x: -1.5d
 			y: 0.0d
 		}
 		{
@@ -133,7 +133,7 @@
 				{ id: "7600000000000109", type: "advancement", advancement: "cataclysm:kill_remnant", criterion: "ignis" }
 			]
 			title: "Lo que dejó de responder"
-			x: 4.5d
+			x: 1.5d
 			y: 0.0d
 		}
 		{
@@ -152,7 +152,7 @@
 				{ id: "760000000000010A", type: "checkmark" }
 			]
 			title: "La prisión helada"
-			x: 3.0d
+			x: 0.0d
 			y: 0.0d
 		}
 	]
