@@ -7,7 +7,7 @@
       "name": "Iniciativa Ad Astra",
       "description": "Reconstruir la cadena. Reabrir la ruta a las estrellas.",
       "icon": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/pack_icon.png",
-      "version": "1.0.10",
+      "version": "1.0.11",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.1",
       "mainServer": true,
@@ -451,6 +451,16 @@
           }
         },
         {
+          "id": "alternate.current:alternate_current:1.7.0@jar",
+          "name": "Alternate Current",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 36703,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/alternate_current-mc1.20-1.7.0.jar",
+            "MD5": "43d4d8efddfa77a80aa7b1ae1a04ab48"
+          }
+        },
+        {
           "id": "team.creative:ambientsounds:6.3.8@jar",
           "name": "AmbientSounds",
           "type": "ForgeMod",
@@ -651,6 +661,16 @@
           }
         },
         {
+          "id": "dev.isxander:culllessleaves:1.20.1-1.0.5@jar",
+          "name": "Cull Less Leaves Reforged",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 22474,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/CullLessLeaves-Reforged-1.20.1-1.0.5.jar",
+            "MD5": "a675b07bb3fbe0d6a8d9559190133fd3"
+          }
+        },
+        {
           "id": "top.theillusivec4:curios:5.14.1+1.20.1@jar",
           "name": "Curios API",
           "type": "ForgeMod",
@@ -708,6 +728,16 @@
             "size": 944851,
             "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/entity_texture_features_1.20.1-forge-7.1.jar",
             "MD5": "bb8a57f4e9965654c344854fb45dd540"
+          }
+        },
+        {
+          "id": "dev.tr7zw:entityculling:1.10.5@jar",
+          "name": "EntityCulling",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1590221,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/entityculling-forge-1.10.5-mc1.20.1.jar",
+            "MD5": "f54a5baa0a9613d13ad0e781d245338b"
           }
         },
         {
@@ -811,6 +841,26 @@
           }
         },
         {
+          "id": "bl4ckscor3.mod:getittogetherdrops:1.3@jar",
+          "name": "Get It Together, Drops!",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7863,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/getittogetherdrops-forge-1.20-1.3.jar",
+            "MD5": "48b718676addc7770ac9a9bf63a84633"
+          }
+        },
+        {
+          "id": "com.gpumemleakfix:gpumemleakfix:1.20.1-1.8@jar",
+          "name": "Gpu memory leak fix",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 7997,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/gpumemleakfix-1.20.1-1.8.jar",
+            "MD5": "e5028e9da74761f26c00c546c8ebdc4d"
+          }
+        },
+        {
           "id": "net.raphimc:immediatelyfast:1.5.4+1.20.4@jar",
           "name": "ImmediatelyFast",
           "type": "ForgeMod",
@@ -861,6 +911,16 @@
           }
         },
         {
+          "id": "me.steinborn.krypton.mod.shared:krypton:0.2.3@jar",
+          "name": "Krypton Reforged",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 206758,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/KryptonReforged-0.2.3.jar",
+            "MD5": "5b6b46d86a9a3858c766182a4cb9c3f1"
+          }
+        },
+        {
           "id": "dev.latvian.mods:kubejs:2001.6.5-build.26@jar",
           "name": "KubeJS",
           "type": "ForgeMod",
@@ -898,6 +958,16 @@
             "size": 476347,
             "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/lithostitched-forge-1.20.1-1.4.11.jar",
             "MD5": "3c596bbc1b5f769f22be751e9c21a6c8"
+          }
+        },
+        {
+          "id": "mod.azure:logbegone:1.0.8@jar",
+          "name": "Log Begone",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 58508,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/Log-Begone-Forge-1.20.1-1.0.8.jar",
+            "MD5": "694cfbc14ffff6166786fbaf05b1382e"
           }
         },
         {
@@ -1041,6 +1111,16 @@
           }
         },
         {
+          "id": "com.abdelaziz:smoothboot:0.0.4@jar",
+          "name": "Smooth Boot (Reloaded)",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 41044,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/smoothboot(reloaded)-mc1.20.1-0.0.4.jar",
+            "MD5": "c8cd5ae14d99796fd92c95a353e96211"
+          }
+        },
+        {
           "id": "toni.sodiumextras:sodiumextras:1.0.6@jar",
           "name": "Sodium Extras",
           "type": "ForgeMod",
@@ -1088,6 +1168,16 @@
             "size": 430444,
             "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/sound_physics_perfected-1.17.0-alpha+1.20.1-forge.jar",
             "MD5": "f7071b00b74aab88a06074f33b489c64"
+          }
+        },
+        {
+          "id": "ca.spottedleaf:starlight:1.1.2+forge.1cda73c@jar",
+          "name": "Starlight",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 110583,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/starlight-1.1.2+forge.1cda73c.jar",
+            "MD5": "da99a054428fb62342b6767b993c4c8d"
           }
         },
         {
