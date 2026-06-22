@@ -7,7 +7,7 @@
       "name": "Iniciativa Ad Astra",
       "description": "Reconstruir la cadena. Reabrir la ruta a las estrellas.",
       "icon": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/pack_icon.png",
-      "version": "1.0.19",
+      "version": "1.0.20",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.1",
       "mainServer": true,
@@ -551,6 +551,16 @@
           }
         },
         {
+          "id": "com.illusivesoulworks:comforts:6.4.0+1.20.1@jar",
+          "name": "Comforts",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 382083,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/comforts-forge-6.4.0+1.20.1.jar",
+            "MD5": "a88fcc168de1a0f9b2ae4e7cbe8a8408"
+          }
+        },
+        {
           "id": "com.copycatsplus:copycats:3.0.7+mc.1.20.1-forge@jar",
           "name": "Create: Copycats+",
           "type": "ForgeMod",
@@ -911,6 +921,26 @@
           }
         },
         {
+          "id": "com.anthonyhilyard:highlighter:1.1.9@jar",
+          "name": "Highlighter",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 29438,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/Highlighter-1.20.1-forge-1.1.9.jar",
+            "MD5": "650eec32fdb7c58c30c4d9aa911073d5"
+          }
+        },
+        {
+          "id": "com.anthonyhilyard:iceberg:1.1.25@jar",
+          "name": "Iceberg",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 134551,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/Iceberg-1.20.1-forge-1.1.25.jar",
+            "MD5": "cda8af806d0de012f5c7012ea51c155f"
+          }
+        },
+        {
           "id": "net.raphimc:immediatelyfast:1.5.4+1.20.4@jar",
           "name": "ImmediatelyFast",
           "type": "ForgeMod",
@@ -928,6 +958,16 @@
             "size": 552486,
             "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/Jade-1.20.1-Forge-11.13.2.jar",
             "MD5": "7c349670f77fd64b9e9854c4a8d82fcc"
+          }
+        },
+        {
+          "id": "io.github.jamalam360:jamlib:1.3.6+1.20.1-patch.1@jar",
+          "name": "JamLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 191607,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/jamlib-forge-1.3.6+1.20.1-patch.1.jar",
+            "MD5": "3c90551eeb21e75201b3625dd7964448"
           }
         },
         {
@@ -1131,6 +1171,16 @@
           }
         },
         {
+          "id": "fuzs.puzzleslib.impl:puzzleslib:8.1.33@jar",
+          "name": "Puzzles Lib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1342987,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/PuzzlesLib-v8.1.33-1.20.1-Forge.jar",
+            "MD5": "19f23e3040eaadc7c30ae38f5a3dec68"
+          }
+        },
+        {
           "id": "com.teamresourceful:resourcefulconfig:2.1.3@jar",
           "name": "Resourcefulconfig",
           "type": "ForgeMod",
@@ -1158,6 +1208,16 @@
             "size": 1798244,
             "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/rhino-forge-2001.2.3-build.10.jar",
             "MD5": "59387620b0ef6becbff02c7c1636ad3e"
+          }
+        },
+        {
+          "id": "io.github.jamalam360:rightclickharvest:4.6.1+1.20.1@jar",
+          "name": "Right Click Harvest",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 288408,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/rightclickharvest-forge-4.6.1+1.20.1.jar",
+            "MD5": "67a2061b0afbc0b52df53e65dd44f81d"
           }
         },
         {
