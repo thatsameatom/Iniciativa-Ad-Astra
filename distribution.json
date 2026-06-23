@@ -7,7 +7,7 @@
       "name": "Iniciativa Ad Astra",
       "description": "Reconstruir la cadena. Reabrir la ruta a las estrellas.",
       "icon": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/pack_icon.png",
-      "version": "1.0.22",
+      "version": "1.0.23",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.1",
       "mainServer": true,
@@ -3716,6 +3716,16 @@
             "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/waystones-common.toml",
             "MD5": "6c660dd3c39fa04f11ebaf8fb6145354",
             "path": "config/waystones-common.toml"
+          }
+        },
+        {
+          "id": "default.cfg",
+          "name": "default.cfg",
+          "type": "File",
+          "artifact": {
+            "size": 3660,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/files/config/xaero/minimap/profiles/default.cfg",
+            "path": "config/xaero/minimap/profiles/default.cfg"
           }
         },
         {

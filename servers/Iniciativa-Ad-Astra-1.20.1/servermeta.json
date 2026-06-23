@@ -1,7 +1,7 @@
 {
   "$schema": "file:///Users/piero/Desktop/Projects/AdAstraDistro/schemas/ServerMetaSchema.schema.json",
   "meta": {
-    "version": "1.0.22",
+    "version": "1.0.23",
     "name": "Iniciativa Ad Astra",
     "description": "Reconstruir la cadena. Reabrir la ruta a las estrellas.",
     "icon": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/pack_icon.png",
@@ -23,7 +23,7 @@
   "untrackedFiles": [
     {
       "appliesTo": ["files"],
-      "patterns": ["options.txt", "config/embeddium-options.json"]
+      "patterns": ["options.txt", "config/embeddium-options.json", "config/xaero/minimap/profiles/default.cfg"]
     }
   ]
 }
