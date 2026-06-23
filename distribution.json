@@ -7,7 +7,7 @@
       "name": "Iniciativa Ad Astra",
       "description": "Reconstruir la cadena. Reabrir la ruta a las estrellas.",
       "icon": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/pack_icon.png",
-      "version": "1.0.24",
+      "version": "1.0.25",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.1",
       "mainServer": true,
@@ -1121,6 +1121,16 @@
           }
         },
         {
+          "id": "net.mehvahdjukaar:moonlight:1.20-2.16.34@jar",
+          "name": "Moonlight Library",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1419416,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/moonlight-1.20-2.16.34-forge.jar",
+            "MD5": "f80a05d17e669e9a5f40cf68821601ed"
+          }
+        },
+        {
           "id": "yalter.mousetweaks:mousetweaks:2.25.1@jar",
           "name": "Mouse Tweaks",
           "type": "ForgeMod",
@@ -1328,6 +1338,16 @@
             "size": 16819720,
             "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/Steam_Rails-1.7.2+forge-mc1.20.1.jar",
             "MD5": "ec91d63c97ff08beb324f34399f1bf1a"
+          }
+        },
+        {
+          "id": "net.mehvahdjukaar:supplementaries:1.20-3.1.43-forge@jar",
+          "name": "Supplementaries",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 13667742,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/supplementaries-1.20-3.1.43-forge.jar",
+            "MD5": "31e94bb39e718edf97d49d8c67ac941a"
           }
         },
         {
