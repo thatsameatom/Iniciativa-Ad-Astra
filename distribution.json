@@ -7,7 +7,7 @@
       "name": "Iniciativa Ad Astra",
       "description": "Reconstruir la cadena. Reabrir la ruta a las estrellas.",
       "icon": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/pack_icon.png",
-      "version": "1.0.23",
+      "version": "1.0.24",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.1",
       "mainServer": true,
@@ -531,16 +531,6 @@
           }
         },
         {
-          "id": "dev.boxadactle:boxlib:11.3.2@jar",
-          "name": "BoxLib",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 272648,
-            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/Boxlib-forge-11.3.2.jar",
-            "MD5": "9e9e4bd942ce5f6a22882fec191e5692"
-          }
-        },
-        {
           "id": "com.abdelaziz:canary:0.3.3@jar",
           "name": "Canary",
           "type": "ForgeMod",
@@ -578,16 +568,6 @@
             "size": 382083,
             "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/comforts-forge-6.4.0+1.20.1.jar",
             "MD5": "a88fcc168de1a0f9b2ae4e7cbe8a8408"
-          }
-        },
-        {
-          "id": "dev.boxadactle:coordinatesdisplay:9.2.1@jar",
-          "name": "Coordinates Display",
-          "type": "ForgeMod",
-          "artifact": {
-            "size": 500780,
-            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/CoordinatesDisplay-forge-9.2.1.jar",
-            "MD5": "7269ec475ded8cbb167e65f41262540a"
           }
         },
         {
@@ -978,6 +958,16 @@
             "size": 538992,
             "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/ImmediatelyFast-Forge-1.5.4+1.20.4.jar",
             "MD5": "8fb21bb328cc322c6d9749eff087509f"
+          }
+        },
+        {
+          "id": "cc.cassian:immersiveoverlays:1.7.2+1.20.1@jar",
+          "name": "Immersive Overlays",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 939806,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/immersiveoverlays-1.7.2+1.20.1-forge.jar",
+            "MD5": "f5def0c5c0fd25b4bd16df958e4309dc"
           }
         },
         {
