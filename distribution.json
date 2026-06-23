@@ -7,7 +7,7 @@
       "name": "Iniciativa Ad Astra",
       "description": "Reconstruir la cadena. Reabrir la ruta a las estrellas.",
       "icon": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/pack_icon.png",
-      "version": "1.0.21",
+      "version": "1.0.22",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.1",
       "mainServer": true,
@@ -531,6 +531,16 @@
           }
         },
         {
+          "id": "dev.boxadactle:boxlib:11.3.2@jar",
+          "name": "BoxLib",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 272648,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/Boxlib-forge-11.3.2.jar",
+            "MD5": "9e9e4bd942ce5f6a22882fec191e5692"
+          }
+        },
+        {
           "id": "com.abdelaziz:canary:0.3.3@jar",
           "name": "Canary",
           "type": "ForgeMod",
@@ -568,6 +578,16 @@
             "size": 382083,
             "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/comforts-forge-6.4.0+1.20.1.jar",
             "MD5": "a88fcc168de1a0f9b2ae4e7cbe8a8408"
+          }
+        },
+        {
+          "id": "dev.boxadactle:coordinatesdisplay:9.2.1@jar",
+          "name": "Coordinates Display",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 500780,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/CoordinatesDisplay-forge-9.2.1.jar",
+            "MD5": "7269ec475ded8cbb167e65f41262540a"
           }
         },
         {
@@ -1388,6 +1408,16 @@
             "size": 533738,
             "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/waystones-forge-1.20.1-14.1.20.jar",
             "MD5": "eb4dcdc36470b7fd858c39547ad1c7d2"
+          }
+        },
+        {
+          "id": "xaero.minimap:xaerominimap:26.1.0@jar",
+          "name": "Xaero's Minimap",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2147158,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/xaerominimap-forge-1.20.1-26.1.0.jar",
+            "MD5": "35779121a4073ba1097db4e5042d61e3"
           }
         },
         {
