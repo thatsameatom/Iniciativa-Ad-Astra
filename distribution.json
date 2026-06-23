@@ -7,7 +7,7 @@
       "name": "Iniciativa Ad Astra",
       "description": "Reconstruir la cadena. Reabrir la ruta a las estrellas.",
       "icon": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/pack_icon.png",
-      "version": "1.0.20",
+      "version": "1.0.21",
       "address": "localhost:25565",
       "minecraftVersion": "1.20.1",
       "mainServer": true,
@@ -468,6 +468,16 @@
             "size": 53429226,
             "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/AmbientSounds_FORGE_v6.3.8_mc1.20.1.jar",
             "MD5": "dec1c8595667b063e9274d32b32efa5d"
+          }
+        },
+        {
+          "id": "com.starfish_studios:another_furniture:1.20.1-3.0.4@jar",
+          "name": "Another Furniture",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2463633,
+            "url": "https://thatsameatom.github.io/Iniciativa-Ad-Astra/servers/Iniciativa-Ad-Astra-1.20.1/forgemods/required/another_furniture-forge-1.20.1-3.0.4.jar",
+            "MD5": "cc1fc7aaac4322d79446e3b5243cfe70"
           }
         },
         {
